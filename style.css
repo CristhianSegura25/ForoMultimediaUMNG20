@@ -6,9 +6,17 @@
 body{
 	margin:auto;
 	background-color: rgb(40,40,40);
-	justify-content: space-between;
+	align-items: center;
+	text-align: center;
 
 }
 .logo20login{
-
+	width:35%;
+	height:35%;
+}
+.IngresoDatos{
+	padding-top: 180px;
+}
+.botoneslogin{
+	padding-top: 90px;
 }
