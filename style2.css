@@ -1,1 +1,17 @@
+body{
+    background-image: url(https://fondosmil.com/fondo/9728.jpg);
 
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Barra_de_Tareas{
+    background-color: rgb(35, 90,217);
+
+}
+
+.Barra_de_Tareas{
+    display: flex;
+}
