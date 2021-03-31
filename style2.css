@@ -12,14 +12,19 @@ body{
 }
 
 .Zona_Botones{
+    margin: auto;
+    margin-top: 75px;
+    margin-right: 100px;
+    margin-left: 50px;
+    text-align: center;
     width: 320px;
-    height: 800px;
-    background-color: red;
+    height: 825px;
+    /* background-color: red; */
 }
 
 .Barra_de_Tareas{
     background-color: rgb(35, 90,217);
-
+    height: 50px;
 }
 
 .Barra_de_Tareas{
