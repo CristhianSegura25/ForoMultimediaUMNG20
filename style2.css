@@ -7,6 +7,16 @@ body{
     background-attachment: fixed;
 }
 
+.Container{
+    display: flex;
+}
+
+.Zona_Botones{
+    width: 320px;
+    height: 800px;
+    background-color: red;
+}
+
 .Barra_de_Tareas{
     background-color: rgb(35, 90,217);
 
