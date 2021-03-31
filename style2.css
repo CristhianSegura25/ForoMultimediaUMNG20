@@ -23,10 +23,44 @@ body{
 }
 
 .Barra_de_Tareas{
+    display: flex;
     background-color: rgb(35, 90,217);
     height: 50px;
 }
 
-.Barra_de_Tareas{
-    display: flex;
+.Inicio{
+    width: 150px;
+    text-align: center;
+    font-size: large;
+    padding-top: 20px;
+    background-color: green;
+}
+
+.Acerca_de_Nosotros{
+    text-align: center;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-left: 25px;
+    width: 300px;
+    height: 40px;
+    background-color: rgb(58, 127, 243);
+}
+
+.Acerca_de_la_Carerra{
+    text-align: center;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-left: 25px;
+    width: 300px;
+    height: 40px;
+    background-color: rgb(58, 127, 243);
+}
+
+.Zona_Horaria{
+    margin-left: 910px;
+    width: 150px;
+    text-align: center;
+    font-size: large;
+    padding-top: 20px;
+    background-color: rgb(58, 127, 243);
 }
