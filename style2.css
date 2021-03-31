@@ -5,10 +5,15 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    font-family: Tahoma Regular;
 }
 
 .Container{
     display: flex;
+}
+
+.logoicono{
+    height: 20%;
 }
 
 .Zona_Botones{
@@ -33,29 +38,35 @@ body{
     text-align: center;
     font-size: large;
     padding-top: 20px;
-    background-color: green;
+    background-color: rgb(26,143,26);
 }
-
-.Acerca_de_Nosotros{
+.Inicio:hover{
+    width: 150px;
     text-align: center;
-    padding-left: 5px;
-    margin-top: 5px;
-    margin-left: 25px;
-    width: 300px;
-    height: 40px;
-    background-color: rgb(58, 127, 243);
+    font-size: large;
+    padding-top: 20px;
+    background-color: rgb(40,167,40);
+    color:black;
 }
 
-.Acerca_de_la_Carerra{
+.Acerca{
+    
+    margin-left: 25px;
+    padding-top: 15px;
+    width: 300px;
+    background-color: rgb(58, 127, 243);
     text-align: center;
-    padding-left: 5px;
-    margin-top: 5px;
-    margin-left: 25px;
-    width: 300px;
-    height: 40px;
-    background-color: rgb(58, 127, 243);
+    align-items: center;
 }
-
+.Acerca:hover{
+    
+    margin-left: 25px;
+    padding-top: 15px;
+    width: 300px;
+    background-color: rgb(91,151,250);
+    text-align: center;
+    align-items: center;
+}
 .Zona_Horaria{
     margin-left: 910px;
     width: 150px;
@@ -63,4 +74,12 @@ body{
     font-size: large;
     padding-top: 20px;
     background-color: rgb(58, 127, 243);
+}
+.Zona_Horaria:hover{
+    margin-left: 910px;
+    width: 150px;
+    text-align: center;
+    font-size: large;
+    padding-top: 20px;
+    background-color: rgb(91,151,250);
 }
