@@ -1,0 +1,90 @@
+body{
+    background-image: url(https://fondosmil.com/fondo/9728.jpg);
+
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Tahoma Regular;
+}
+
+footer{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(35, 90,217);
+}
+
+.Container{
+    display: flex;
+}
+
+.logoicono{
+    height: 20%;
+}
+
+.Zona_Botones{
+    margin: auto;
+    margin-top: 75px;
+    margin-right: 100px;
+    margin-left: 50px;
+    text-align: center;
+    width: 320px;
+    height: 825px;
+    /* background-color: red; */
+}
+
+.Inicio{
+    width: 150px;
+    text-align: center;
+    font-size: large;
+    padding-top: 20px;
+    background-color: rgb(26,143,26);
+}
+.Inicio:hover{
+    width: 150px;
+    text-align: center;
+    font-size: large;
+    padding-top: 20px;
+    background-color: rgb(40,167,40);
+    color:black;
+}
+
+.Acerca{
+    
+    margin-left: 25px;
+    padding-top: 15px;
+    width: 300px;
+    background-color: rgb(58, 127, 243);
+    text-align: center;
+    align-items: center;
+}
+.Acerca:hover{
+    
+    margin-left: 25px;
+    padding-top: 15px;
+    width: 300px;
+    background-color: rgb(91,151,250);
+    text-align: center;
+    align-items: center;
+}
+.Zona_Horaria{
+    margin-left: 940px;
+    width: 150px;
+    text-align: center;
+    font-size: large;
+    padding-top: 20px;
+    background-color: rgb(58, 127, 243);
+}
+.Zona_Horaria:hover{
+    margin-left: 910px;
+    width: 150px;
+    text-align: center;
+    font-size: large;
+    padding-top: 20px;
+    background-color: rgb(91,151,250);
+}
+
