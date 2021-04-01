@@ -78,20 +78,30 @@ footer{
 .Container_Programacion{
     width: 95%;
     height: 90%;
+    border-radius: 5px;
     position: absolute;
     top: 2%;
-    left: 2%;
+    right: 2%;
     background-color: rgb(255, 255, 255);
     border:1px solid rgb(0, 0, 0);
 
     
 }
 .Barra_Superior{
+    display: flex;
     width: 100%;
     height: 20px;
     position: absolute;
     top: 0;
     background-color: rgb(35, 90,217);
+    border-top: 2px solid rgba(91, 151, 250, 1);
+}
+.boton_cerrar{
+    position: absolute;
+    top: 5%;
+    right: 3px;
+    width: 1;
+    height: 85%;
 }
 .HeaderProgramacion{
 	display: flex;
@@ -150,4 +160,44 @@ footer{
 	height: 50px;
 	width: 50px;
 	border:2px solid rgb(44,44,42);
+}
+
+.Semi_Circulo{
+    width: 25px; 
+    height: 50px; 
+    border: 2px solid rgb(0, 0, 0); 
+    background: #5cb85c;
+    -moz-border-radius: 100px 0 0 100px;
+    -webkit-border-radius: 100px 0 0 100px;
+    border-radius: 100px 0 0 100px;
+}
+
+.Circulo_1{
+    position: absolute;
+    left: 1.5%;
+    top: 20%;
+}
+
+.Circulo_2{
+    position: absolute;
+    left: 1.5%;
+    top: 35%;
+}
+
+.Circulo_3{
+    position: absolute;
+    left: 1.5%;
+    top: 50%;
+}
+
+.Circulo_4{
+    position: absolute;
+    left: 1.5%;
+    top: 65%;
+}
+
+.Circulo_5{
+    position: absolute;
+    left: 1.5%;
+    top: 80%;
 }
