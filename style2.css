@@ -8,6 +8,16 @@ body{
     font-family: Tahoma Regular;
 }
 
+footer{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(35, 90,217);
+}
+
 .Container{
     display: flex;
 }
@@ -24,13 +34,7 @@ body{
     text-align: center;
     width: 320px;
     height: 825px;
-    /* background-color: red; */
-}
-
-.Barra_de_Tareas{
-    display: flex;
-    background-color: rgb(35, 90,217);
-    height: 50px;
+    background-color: red;
 }
 
 .Inicio{
@@ -68,7 +72,7 @@ body{
     align-items: center;
 }
 .Zona_Horaria{
-    margin-left: 910px;
+    margin-left: 940px;
     width: 150px;
     text-align: center;
     font-size: large;
