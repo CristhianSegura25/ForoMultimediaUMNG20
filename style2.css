@@ -44,6 +44,7 @@ footer{
     padding-top: 20px;
     background-color: rgb(26,143,26);
 }
+
 .Inicio:hover{
     width: 150px;
     text-align: center;
@@ -71,17 +72,23 @@ footer{
     text-align: center;
     align-items: center;
 }
+
 .Zona_Horaria{
-    margin-left: 940px;
+    position: absolute;
+    right: 0;
     width: 150px;
+    height: 100%;
     text-align: center;
     font-size: large;
     padding-top: 20px;
     background-color: rgb(58, 127, 243);
 }
+
 .Zona_Horaria:hover{
-    margin-left: 910px;
+    position: absolute;
+    right: 0;
     width: 150px;
+    height: 100%;
     text-align: center;
     font-size: large;
     padding-top: 20px;
