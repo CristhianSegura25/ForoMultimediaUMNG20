@@ -63,7 +63,7 @@ footer{
     position: absolute;
     right: 0;
     width: 150px;
-    height: 100%;
+    height: 30px;
     text-align: center;
     font-size: large;
     padding-top: 20px;
@@ -73,7 +73,7 @@ footer{
    position: absolute;
     right: 0;
     width: 150px;
-    height: 100%;
+    height: 30px;
     text-align: center;
     font-size: large;
     padding-top: 20px;
@@ -88,7 +88,7 @@ footer{
     right: 2%;
     background-color: rgb(255, 255, 255);
     border:1px solid rgb(0, 0, 0);
-    font-family: Courier New;
+    font-family: Inconsolata Regular;
 }
 .Barra_Superior{
     display: flex;
@@ -120,19 +120,27 @@ footer{
 	width: 10%;
 }
 .logoheader2{
-	width: 100%;
-	height: 100%;
+	padding-top: 5%;
+	width: 90%;
+	height: 90%;
 }
 .logo20añosiconoheader{
 }
 .compilar{
 	padding-top: 15px;
 	position: absolute;
-	text-decoration: none;
 	right: 52%;
 	border:2px solid rgb(44,44,42);
 	height: 35px;
 	width: 150px;
+}
+.letracompilar1{
+	padding-left: 2%;
+	text-decoration: none;
+	color:rgb(59,132,55);
+}
+.letracompilar2{
+	text-decoration: none;
 	color:white;
 }
 .recuadro1{
@@ -144,6 +152,10 @@ footer{
 	height: 35px;
 	width: 50px;
 	border:2px solid rgb(44,44,42);
+}
+.letrarecuadro1{
+	text-decoration: none;
+	color:rgb(59,132,55);
 }
 .recuadro2{
 	position: absolute;
@@ -169,7 +181,7 @@ footer{
     width: 25px; 
     height: 50px; 
     border: 2px solid rgb(0, 0, 0); 
-    background: #5cb85c;
+    background: rgb(53,53,53);
     -moz-border-radius: 100px 0 0 100px;
     -webkit-border-radius: 100px 0 0 100px;
     border-radius: 100px 0 0 100px;
@@ -222,6 +234,7 @@ footer{
     border-left: 3px solid rgb(81, 81, 81);
     border-right: 3px solid rgb(81, 81, 81);
     background-color: rgb(53, 53, 53);
+    color:#45c0d0;
 }
 
 .Zona_Central{
@@ -250,7 +263,7 @@ footer{
     top: 0;
     right:0;
     background-color: rgb(61, 61, 61);
-    font-weight: bolder;
+    font-weight: bold;
     font-size:x-large;
     align-items: center;
     text-align: left;
@@ -260,7 +273,7 @@ footer{
 
 .header2zonaderecha{
 	width: 100%;
-    height: 7%;
+    height: 4.5%;
     position: absolute;
     top: 10%;
     right:0;
@@ -269,10 +282,27 @@ footer{
     font-size:large;
     align-items: center;
     text-align: left;
-    padding-top:7%;
-    color:rgb(149,149,149);
+    padding-top:4%;
+    color:rgb(120,120,120);
+}
+.header2letra1{
+	position: absolute;
+	left:5%;
+}
+.header2letra2{
+	position: absolute;
+	right:10%;
 }
 
 .contenidozonaderecha{
-
+	background-color: rgb(0, 0, 0);
+	width:93%;
+    height: 82%;
+    position: absolute;
+   	bottom: 0;
+    right:0;
+    background-color: rgb(53, 53, 53);
+    border-left: 12px solid rgb(81,81,81); 
+    border-right:12px solid rgb(81,81,81); 
+    border-bottom: 12px solid rgb(81,81,81); 
 }
