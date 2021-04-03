@@ -193,6 +193,16 @@ footer{
     border-radius: 100px 0 0 100px;
 }
 
+.Semi_Circulo2{
+    width: 25px; 
+    height: 50px; 
+    border: 2px solid rgb(0, 0, 0);
+    background: rgb(53,53,53);
+    -moz-border-radius: 0 100px 100px 0;
+    -webkit-border-radius: 0 100px 100px 0;
+    border-radius: 0 100px 100px 0;
+}
+
 .Circulo_1{
     position: absolute;
     left: 1.5%;
@@ -222,6 +232,30 @@ footer{
     left: 1.5%;
     top: 80%;
 }
+.Circulo2_1{
+    position: absolute;
+    top: 3.1%;
+}
+
+.Circulo2_2{
+    position: absolute;
+    top: 23.4%;
+}
+
+.Circulo2_3{
+    position: absolute;
+    top: 43.4%;
+}
+
+.Circulo2_4{
+    position: absolute;
+    top: 63.6%;
+}
+
+.Circulo2_5{
+    position: absolute;
+    top: 83.8%;
+}
 .Barra_Lateral_Izquierda{
   	width: 10%;
     height: 82.7%;
@@ -240,7 +274,13 @@ footer{
     border-left: 3px solid rgb(81, 81, 81);
     border-right: 3px solid rgb(81, 81, 81);
     background-color: rgb(53, 53, 53);
+}
+.contador{
+    font-size: xx-small;
     color:#45c0d0;
+    position: absolute;
+    left:-18%;
+    text-align: center;
 }
 
 .Zona_Central{
@@ -311,4 +351,43 @@ footer{
     border-left: 12px solid rgb(81,81,81); 
     border-right:12px solid rgb(81,81,81); 
     border-bottom: 12px solid rgb(81,81,81); 
+}
+.pag_animacion{
+    font-size: medium;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    text-decoration: none;
+}
+
+.pag_cortos_guiones{
+    font-size: medium;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    text-decoration: none;
+}
+
+.pag_modelado{
+    font-size: medium;
+    position: absolute;
+    top: 46%;
+    left: 20%;
+    text-decoration: none;
+}
+
+.pag_programacion{
+    font-size: medium;
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    text-decoration: none;
+}
+
+.pag_render{
+    font-size: medium;
+    position: absolute;
+    top: 86%;
+    left: 20%;
+    text-decoration: none;
 }
