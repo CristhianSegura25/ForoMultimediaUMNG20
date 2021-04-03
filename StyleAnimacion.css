@@ -343,35 +343,45 @@ footer{
 }
 
 .pag_animacion{
-    font-size: 15px;
+    text-decoration:none;
+    font-size: 80%;
+    color:rgb(255, 255, 255);
     position: absolute;
     top: 14%;
     left: 20%;
 }
 
 .pag_cortos_guiones{
-    font-size: 15px;
+    text-decoration:none;
+    font-size: 80%;
+    color:rgb(255, 255, 255);
     position: absolute;
     top: 30%;
     left: 20%;
 }
 
 .pag_modelado{
-    font-size: 15px;
+    text-decoration:none;
+    font-size: 80%;
+    color:rgb(255, 255, 255);
     position: absolute;
     top: 48%;
     left: 20%;
 }
 
 .pag_programacion{
-    font-size: 15px;
+    text-decoration:none;
+    font-size: 80%;
+    color:rgb(255, 255, 255);
     position: absolute;
     top: 64%;
     left: 20%;
 }
 
 .pag_render{
-    font-size: 15px;
+    text-decoration:none;
+    font-size: 80%;
+    color:rgb(255, 255, 255);
     position: absolute;
     top: 82%;
     left: 20%;
