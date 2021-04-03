@@ -35,14 +35,14 @@ footer{
     width: 150px;
     text-align: center;
     font-size: large;
-    padding-top: 20px;
+    padding-top: 15px;
     background-color: rgb(26,143,26);
 }
 .Inicio:hover{
     width: 150px;
     text-align: center;
     font-size: large;
-    padding-top: 20px;
+    padding-top: 15px;
     background-color: rgb(40,167,40);
     color:black;
 }
@@ -69,20 +69,20 @@ footer{
     position: absolute;
     right: 0;
     width: 150px;
-    height: 30px;
+    height: 35px;
     text-align: center;
     font-size: large;
-    padding-top: 20px;
+    padding-top: 15px;
     background-color: rgb(58, 127, 243);
 }
 .Zona_Horaria:hover{
    position: absolute;
     right: 0;
     width: 150px;
-    height: 30px;
+    height: 35px;
     text-align: center;
     font-size: large;
-    padding-top: 20px;
+    padding-top: 15px;
     background-color: rgb(91,151,250);
 }
 .Container_Programacion{
