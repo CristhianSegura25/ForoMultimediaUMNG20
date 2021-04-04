@@ -353,41 +353,47 @@ footer{
     border-bottom: 12px solid rgb(81,81,81); 
 }
 .pag_animacion{
-    font-size: medium;
+    font-size: 90%;
     position: absolute;
     top: 5%;
     left: 20%;
     text-decoration: none;
+    color:white;
 }
 
 .pag_cortos_guiones{
-    font-size: medium;
+    font-size: 80%;
     position: absolute;
-    top: 25%;
+    top: 26%;
     left: 20%;
     text-decoration: none;
+    color:white;
 }
 
 .pag_modelado{
-    font-size: medium;
+    font-size: 90%;
     position: absolute;
     top: 46%;
     left: 20%;
     text-decoration: none;
+    color:white;
 }
 
 .pag_programacion{
-    font-size: medium;
+    font-size: 80%;
     position: absolute;
-    top: 65%;
+    top: 66%;
     left: 20%;
     text-decoration: none;
+    color:white;
+
 }
 
 .pag_render{
-    font-size: medium;
+    font-size: 90%;
     position: absolute;
     top: 86%;
     left: 20%;
     text-decoration: none;
+    color:white;
 }
