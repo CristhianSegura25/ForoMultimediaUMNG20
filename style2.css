@@ -46,7 +46,7 @@ footer{
     width: 150px;
     text-align: center;
     font-size: large;
-    padding-top: 15px;
+    padding-top: -1px;
     background-color: rgb(26,143,26);
 }
 
@@ -54,7 +54,7 @@ footer{
     width: 150px;
     text-align: center;
     font-size: large;
-    padding-top: 15px;
+    padding-top: -1px;
     background-color: rgb(40,167,40);
     color:black;
 }
@@ -99,4 +99,7 @@ footer{
     font-size: large;
     padding-top: 15px;
     background-color: rgb(91,151,250);
+}
+.logoinicio{
+    width: 45%;
 }

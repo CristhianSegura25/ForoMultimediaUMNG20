@@ -35,14 +35,14 @@ footer{
     width: 150px;
     text-align: center;
     font-size: large;
-    padding-top: 15px;
+    padding-top: -1px;
     background-color: rgb(26,143,26);
 }
 .Inicio:hover{
     width: 150px;
     text-align: center;
     font-size: large;
-    padding-top: 15px;
+    padding-top: -1px;
     background-color: rgb(40,167,40);
     color:black;
 }
@@ -85,6 +85,10 @@ footer{
     padding-top: 15px;
     background-color: rgb(91,151,250);
 }
+.logoinicio{
+    width: 45%;
+}
+
 .Container_Programacion{
     width: 95%;
     height: 90%;
@@ -353,41 +357,47 @@ footer{
     border-bottom: 12px solid rgb(81,81,81); 
 }
 .pag_animacion{
-    font-size: medium;
+    font-size: 90%;
     position: absolute;
     top: 5%;
     left: 20%;
     text-decoration: none;
+    color:white;
 }
 
 .pag_cortos_guiones{
-    font-size: medium;
+    font-size: 80%;
     position: absolute;
-    top: 25%;
+    top: 26%;
     left: 20%;
     text-decoration: none;
+    color:white;
 }
 
 .pag_modelado{
-    font-size: medium;
+    font-size: 90%;
     position: absolute;
     top: 46%;
     left: 20%;
     text-decoration: none;
+    color:white;
 }
 
 .pag_programacion{
-    font-size: medium;
+    font-size: 80%;
     position: absolute;
-    top: 65%;
+    top: 66%;
     left: 20%;
     text-decoration: none;
+    color:white;
+
 }
 
 .pag_render{
-    font-size: medium;
+    font-size: 90%;
     position: absolute;
     top: 86%;
     left: 20%;
     text-decoration: none;
+    color:white;
 }
