@@ -35,14 +35,14 @@ footer{
     width: 150px;
     text-align: center;
     font-size: large;
-    padding-top: 15px;
+    padding-top: -1px;
     background-color: rgb(26,143,26);
 }
 .Inicio:hover{
     width: 150px;
     text-align: center;
     font-size: large;
-    padding-top: 15px;
+    padding-top: -1px;
     background-color: rgb(40,167,40);
     color:black;
 }
@@ -85,6 +85,10 @@ footer{
     padding-top: 15px;
     background-color: rgb(91,151,250);
 }
+.logoinicio{
+    width: 45%;
+}
+
 .Container_Programacion{
     width: 95%;
     height: 90%;
