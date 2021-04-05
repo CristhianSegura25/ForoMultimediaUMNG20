@@ -124,7 +124,7 @@ footer{
 
 .modal{
     width: 40%;
-    height: 50%;
+    height: 65%;
     background-color: white;
     text-align: center;
     display: flex;
@@ -132,7 +132,7 @@ footer{
     justify-content: space-evenly;
     position: relative;
     transition: transform 1s;
-    transform:translateY(-10.5%); 
+    transform:translateY(-8%); 
 }
 .close{
     position: absolute;
@@ -149,4 +149,62 @@ footer{
 }
 .modal-close{
     transform: translateY(100%);
+}
+
+.headeriniciom{
+    display:inline-flex;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    background-color: #3875fc;
+    position: absolute;
+    top:0%;
+    left:0;
+
+}
+.headeriniciom>img{
+    padding-left: 5%;
+}
+
+.barraiconos1{
+    position: absolute;
+    top: 10%;
+    left:0;
+    height: 80%;
+    width: 50%;
+    background-color: white;
+    text-align: left;
+}
+/*.barraiconos1>li{
+    position: absolute;
+    top:0;
+    left:0;
+}*/
+.barraiconos2{
+    position: absolute;
+    top: 10%;
+    left:50%;
+    height: 80%;
+    width: 50%;
+    background-color: #84adf7;
+    text-align: left;
+}
+.barraiconos2>img{
+    padding-top: 5%;
+    padding-left:5%;
+}
+
+.footercerrar{
+    display: inline-flex;
+    align-items: center;
+    position: absolute;
+    top:90%;
+    left:0;
+    height: 10%;
+    width: 100%;
+    background-color: #3875fc;
+}
+
+.footercerrar>img{
+    padding-left: 70%;
 }

@@ -5,7 +5,8 @@
 }
 body{
 	margin:auto;
-	background-color: rgb(40,40,40);
+	background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+
 	align-items: center;
 	text-align: center;
 
