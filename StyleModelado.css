@@ -8,16 +8,7 @@ body{
     font-family: Tahoma Regular;
 }
 
-.Container_Carpeta{
-    width: 99.9%;
-    height: 99.8%;
-    border-radius: 5px;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    background-color: rgb(255, 255, 255);
-    border:1px solid rgb(0, 0, 0);
-}
+
 
 .Barra_Superior{
     display: flex;
