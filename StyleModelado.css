@@ -4,10 +4,8 @@ body{
     padding: 0;
 }
 
-
-.Contenido_Modelado{
+.Container_Carpeta{
     display: flex;
-    background-color: #323232;
 }
 
 .Barra_Lateral{
@@ -19,15 +17,22 @@ body{
 }
 
 .Barra_Lateral{
+
     background-color: #323232;
 }
 
 
-.Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render button{
+.Seccion_Animacion button, .Seccion_Guiones button, .Seccion_Modelado button, .Seccion_Programacion button, .Seccion_Render button{
     width: 50px; 
     height: 100px; 
+    margin-top: 27.5%;
+    margin-bottom: 30%;
     background: #747474;
     -moz-border-radius: 0 100px 100px 0;
     -webkit-border-radius: 0 100px 100px 0;
     border-radius: 0 100px 100px 0;
+}
+
+.Contenido{
+    background-color: #323232;
 }
