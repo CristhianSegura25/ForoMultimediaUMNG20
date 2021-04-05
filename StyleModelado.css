@@ -17,7 +17,6 @@ body{
 }
 
 .Barra_Lateral{
-
     background-color: #323232;
 }
 
@@ -25,8 +24,8 @@ body{
 .Seccion_Animacion button, .Seccion_Guiones button, .Seccion_Modelado button, .Seccion_Programacion button, .Seccion_Render button{
     width: 50px; 
     height: 100px; 
-    margin-top: 27.5%;
-    margin-bottom: 30%;
+    margin-top: 35%;
+    margin-bottom: 35%;
     background: #747474;
     -moz-border-radius: 0 100px 100px 0;
     -webkit-border-radius: 0 100px 100px 0;
@@ -34,5 +33,17 @@ body{
 }
 
 .Contenido{
+    width: 100%;
     background-color: #323232;
+}
+
+.Modelo_1, .Modelo_2{
+padding-top: 20%;
+padding-left: 10%;
+}
+
+.img_20_Años{
+
+    width: 360px;
+    height: 214px;
 }
