@@ -1,0 +1,9 @@
+.Barra_Superior{
+    display: flex;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    background-color: rgb(35, 90,217);
+    border-top: 2px solid rgba(91, 151, 250, 1);
+}
