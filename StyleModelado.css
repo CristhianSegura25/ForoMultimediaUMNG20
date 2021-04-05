@@ -7,3 +7,11 @@
     background-color: rgb(35, 90,217);
     border-top: 2px solid rgba(91, 151, 250, 1);
 }
+
+.boton_cerrar{
+    position: absolute;
+    top: 5%;
+    right: 3px;
+    width: 1;
+    height: 85%;
+}
