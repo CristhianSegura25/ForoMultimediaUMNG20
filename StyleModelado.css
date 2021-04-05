@@ -1,3 +1,13 @@
+body{
+    background-image: url(https://fondosmil.com/fondo/9728.jpg);
+
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Tahoma Regular;
+}
+
 .Barra_Superior{
     display: flex;
     width: 100%;
