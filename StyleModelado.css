@@ -42,8 +42,23 @@ padding-top: 20%;
 padding-left: 10%;
 }
 
-.img_20_Años{
+.Botones{
+    display: flex;
+    justify-content: flex-end;
+}
 
+.img_20_Años{
     width: 360px;
     height: 214px;
+}
+
+.Foro{
+    width: 100px;
+    height: 100px;
+    filter: invert(100%);
+}
+
+.Info{
+    width: 100px;
+    height: 100px;
 }
