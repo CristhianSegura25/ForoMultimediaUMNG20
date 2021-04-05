@@ -10,14 +10,22 @@ abrir.addEventListener("click", function(e) {
     modal.classList.toggle("modal-close");
 });
 
-cerrar.addEventListener("click", function(){
-    modal.classList.toggle("modal-close");
-    setTimeout(function(){
-        modalC.style.opacity="0";
-        modalC.style.visibility="hidden";
-    },1000)
+cerrar.addEventListener("click",function(){
+	modal.classList.toggle("modal-close");
+	setTimeout(function(){
+	modalc.style.visibility="hidden";
+	modalc.style.opacity="0";
+	},550)
 });
 
-window.addEventListener("click", function(){
+window.addEventListener("click",function(e){
+	console.log(e.target);
+	if(e.target==modalC){
+		modal.classList.toggle("modal-close");
 
+	setTimeout(function(){
+	modalc.style.visibility="hidden";
+	modalc.style.opacity="0";
+	},550);
+	}
 });

@@ -405,7 +405,7 @@ footer{
 .modal{
     width: 60%;
     height: 60%;
-    background: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -435,64 +435,21 @@ footer{
 }
 
 .modal > img{
+    position: absolute;
+    top: 10%;
     width: 100%;
     height: 25%;
 }
 
-.Claqueta_Superior{
-    width: 60%;
-    height: 10%;
+.modal > h2{
     position: absolute;
-    top: 21.5%;
-    left: 19.8%;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-}
-
-.Claqueta_Inferior{
-    width: 60%;
-    height: 60%;
-    position: absolute;
-    bottom: 5%;
-    left: 20%;
-    background-color: rgb(0, 0, 0);
-    border-radius: 25px;
-}
-
-.Claqueta_Barra_Inferior{
-    width: 100%;
-    height: 15%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.img_claqueta_S{
-    width: 100%;
-    height: 100%;
-    transform: rotate(-5deg);
-}
-
-.img_claqueta_I{
-    width: 100%;
-    height: 100%;
-}
-
-.Icono_Cerrar{
-    width: 3%;
-    height: 30%;
-    position: absolute;
-    top: -35%;
-    right: 3%;
-}
-
-.img_icono_cerrar{
-    width: 100%;
-    height: 100%;
-}
-
-.Texto_AcercaDe{
-    display: flex;
+    top: 32%;
     font-size: xx-large;
-    color: rgb(255, 255, 255);
+    color: white;
+}
+
+.modal > p{
+    font-size: large;
+    color: white;
+    text-align: left;
 }
