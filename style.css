@@ -12,12 +12,12 @@ body{
 
 }
 .logo20login{
-	width:35%;
-	height:35%;
+	width:30%;
+	height:30%;
+	padding-top: 100px;
 }
 .IngresoDatos{
 	padding-top: 40px;
-
 }
 .botoneslogin{
 	padding-top: 30px;
