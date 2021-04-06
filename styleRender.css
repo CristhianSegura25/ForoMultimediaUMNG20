@@ -1,9 +1,14 @@
+
 body {	
     background-size: 100% 100%;	
     background-color: rgb(38, 38, 38);
     margin: 0;
     padding: 0;
   }
+  .botones_laterales{
+    background-color: cadetblue;
+  }
+  
   .Seccion_Animacion button, .Seccion_Guiones button, .Seccion_Modelado button, .Seccion_Programacion button, .Seccion_Render button{
     width: 50px; 
     height: 100px; 
@@ -16,7 +21,7 @@ body {
 }
 
 .botones_info {
-  
+  /*margin-left: 50%;*/
   background-color: blue;
   display: flex;
   justify-content: flex-end;  
@@ -34,4 +39,10 @@ ul.botones_info li img {
  padding-left: 50%;
   padding: 0%  ;
   margin: 0%;
+}
+.visor_trabajo{
+  background-color: coral;
+}
+.info_trabajo{
+  background-color: darkgreen;
 }
