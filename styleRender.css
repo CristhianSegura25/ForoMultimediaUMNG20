@@ -32,14 +32,10 @@ ul.botones_info li {
   margin: 0%;
 }
 ul.botones_info li img {
-  width: 25%; height:75%;
+  width: 25%; 
 }
 
-.boton_home{
- padding-left: 50%;
-  padding: 0%  ;
-  margin: 0%;
-}
+
 .visor_trabajo{
   background-color: coral;
 }
