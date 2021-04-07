@@ -1,4 +1,5 @@
 body{
+    background-color: #323232;
     font-family: Tahoma Regular;
     margin: 0;
     padding: 0;
@@ -13,23 +14,38 @@ body{
     height: 97.6%;
     top: 2.4%;
     left: 0;
-
+    position: fixed;
 }
 
-.Barra_Lateral{
-    background-color: #323232;
-}
 
 
 .Seccion_Animacion button, .Seccion_Guiones button, .Seccion_Modelado button, .Seccion_Programacion button, .Seccion_Render button{
     width: 50px; 
     height: 100px; 
-    margin-top: 35%;
-    margin-bottom: 35%;
+    margin-top: 30%;
+    margin-bottom: 30%;
     background: #747474;
     -moz-border-radius: 0 100px 100px 0;
     -webkit-border-radius: 0 100px 100px 0;
     border-radius: 0 100px 100px 0;
+}
+
+.Boton_animacion, .Boton_guiones{
+    transition: transform 1s ease-in-out;
+}
+
+.Seccion_Animacion:hover .Boton_animacion{
+    transform:  matrix(3,0,0,1,0,0);
+}
+
+.Seccion_Guiones:hover .Boton_guiones{
+    transform:  matrix(3,0,0,1,0,0);
+}
+
+
+.Botones_laterales button:hover{
+    background: #999999;
+    color:  #747474;
 }
 
 .Contenido{
@@ -37,28 +53,36 @@ body{
     background-color: #323232;
 }
 
-.Modelo_1, .Modelo_2{
-padding-top: 20%;
-padding-left: 10%;
+.Modelo_1, .Modelo_2, .Modelo_3, .Modelo_4{
+    padding-top: 10%;
+    padding-right: 15%;
+    padding-left: 10%;
 }
 
+
 .Botones{
+    margin-top: 10%;
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
 }
 
+
 .img_20_Años{
-    width: 360px;
-    height: 214px;
+    width: 225px;
+    height: 128.4px;
 }
 
 .Foro{
     width: 100px;
     height: 100px;
     filter: invert(100%);
+    flex: 2 0 0;
 }
 
 .Info{
+
     width: 100px;
     height: 100px;
 }
+
