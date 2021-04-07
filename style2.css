@@ -163,7 +163,8 @@ footer{
 
 }
 .headeriniciom>img{
-    padding-left: 5%;
+    padding-left: 1.5%;
+    width: 5%;
 }
 
 .barraiconos1{
@@ -174,6 +175,28 @@ footer{
     width: 50%;
     background-color: white;
     text-align: left;
+}
+.iconoanimacion{
+    align-items: center;
+}
+.iconoanimacion>img{
+    width: 10%;
+}
+
+.iconocortos>img{
+    width: 10%;
+}
+
+.iconomodelado>img{
+    width: 10%;
+}
+
+.iconoprogramacion>img{
+    width: 10%;
+}
+
+.iconorender>img{
+    width: 10%;
 }
 /*.barraiconos1>li{
     position: absolute;
@@ -192,6 +215,7 @@ footer{
 .barraiconos2>img{
     padding-top: 5%;
     padding-left:5%;
+    width: 10%;
 }
 
 .footercerrar{
@@ -207,4 +231,5 @@ footer{
 
 .footercerrar>img{
     padding-left: 70%;
+    width: 10%;
 }
