@@ -21,14 +21,15 @@ body {
 }
 
 .botones_info {
-  /*margin-left: 50%;*/
+  height:  10%;
+  margin-left: 50%;
   background-color: blue;
   display: flex;
   justify-content: flex-end;  
 }
 ul.botones_info li {
-  width: 25%; height:75%;
-  padding: 0%;
+  width:50%; height:100%;
+  padding-top: 3%;
   margin: 0%;
 }
 ul.botones_info li img {
@@ -38,7 +39,23 @@ ul.botones_info li img {
 
 .visor_trabajo{
   background-color: coral;
+  
+}
+div.visor_trabajo img{
+  width: 90%;
 }
 .info_trabajo{
-  background-color: darkgreen;
+  background-color: darkgreen;   
+  margin: 10% 10% 0% 10%;
+ /*margin: 25px 50px 75px 100px;*/
+  /*padding: 10%, 10%, 0%, 0%;*/
+  padding: 10% 10% 0% 10%;
+
+  height: 90%;
+  border-radius: 80px 80px 80px 80px;
+}
+.botones_etapasrender{
+  background-color: crimson;
+  display: flex;
+  justify-content: space-between; 
 }
