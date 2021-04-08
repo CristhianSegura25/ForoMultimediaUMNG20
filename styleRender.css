@@ -69,12 +69,6 @@ padding: 10% 10% 0% 10%;
 height: 90%;
 border-radius: 80px 80px 80px 80px;
 }
-.botones_etapasrender{
-background-color: crimson;
-display: flex;
-justify-content: space-between; 
-/*margin-left: 20%;*/
-}
 .boton_camara{
   background-color: cornflowerblue;
   
@@ -83,6 +77,33 @@ justify-content: space-between;
 div.boton_camara img{
   width:85%;
 }
-div.botones_etapasrender img{
+.botones_etapasrender{
+background-color: crimson;
+display: flex;
+justify-content: space-between; 
+/*margin-left: 20%;*/
+}
+
+#btn-mas{
+  display: none;
+}
+.botones_deslizantes{
+  display: flex;
+justify-content: space-between; 
+background-color: darkblue;
+margin-right: -15px;
+opacity: 0;
+visibility: hidden;
+}
+div.botones_deslizantes img{
 width: 90%;
+}
+div.botones_deslizantes , .icon-mas2{
+  transition: all 500ms ease;
+}
+#btn-mas:checked~ .botones_deslizantes{
+  margin-right: 10px;
+  opacity: 1;
+  visibility: visible;
+
 }
