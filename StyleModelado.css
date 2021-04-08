@@ -5,17 +5,12 @@ body{
     padding: 0;
 }
 
-.Container_Carpeta{
+
+
+.Contenedor{
     display: flex;
 }
 
-.Barra_Lateral{
-    width: 10%;
-    height: 97.6%;
-    top: 2.4%;
-    left: 0;
-    position: fixed;
-}
 
 
 
@@ -30,38 +25,16 @@ body{
     border-radius: 0 100px 100px 0;
 }
 
-.Boton_animacion, .Boton_guiones{
-    transition: transform 1s ease-in-out;
-}
 
-.Seccion_Animacion:hover .Boton_animacion{
-    transform:  matrix(3,0,0,1,0,0);
-}
-
-.Seccion_Guiones:hover .Boton_guiones{
-    transform:  matrix(3,0,0,1,0,0);
-}
-
-
-.Botones_laterales button:hover{
-    background: #999999;
-    color:  #747474;
-}
 
 .Contenido{
     width: 100%;
     background-color: #323232;
 }
 
-.Modelo_1, .Modelo_2, .Modelo_3, .Modelo_4{
-    padding-top: 10%;
-    padding-right: 15%;
-    padding-left: 10%;
-}
 
 
 .Botones{
-    margin-top: 10%;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -77,11 +50,9 @@ body{
     width: 100px;
     height: 100px;
     filter: invert(100%);
-    flex: 2 0 0;
 }
 
 .Info{
-
     width: 100px;
     height: 100px;
 }
