@@ -14,14 +14,17 @@ body{
 
 
 .Seccion_Animacion button, .Seccion_Guiones button, .Seccion_Modelado button, .Seccion_Programacion button, .Seccion_Render button{
-    width: 75px; 
-    height: 150px; 
-    margin-top: 75%;
-    margin-bottom: 75%;
+    width: 60px; 
+    height: 120px; 
+    margin-top: 120%;
+    margin-bottom: 120%;
     background: #747474;
     -moz-border-radius: 0 100px 100px 0;
     -webkit-border-radius: 0 100px 100px 0;
     border-radius: 0 100px 100px 0;
+
+    white-space: normal !important;
+    word-wrap: break-word;
 }
 
 .Botones_laterales button:hover{
@@ -29,7 +32,7 @@ body{
     color:  #747474;
 }
 
-.Boton_animacion, .Boton_guiones{
+.Boton_animacion, .Boton_guiones, .Boton_modelado, .Boton_programacion, .Boton_render{
     transition: transform 1s ease-in-out;
 }
 
@@ -41,16 +44,45 @@ body{
     transform:  matrix(3,0,0,1,0,0);
 }
 
+.Seccion_Modelado:hover .Boton_modelado{
+    transform:  matrix(3,0,0,1,0,0);
+}
+
+.Seccion_Programacion:hover .Boton_programacion{
+    transform:  matrix(3,0,0,1,0,0);
+}
+
+.Seccion_Render:hover .Boton_render{
+    transform:  matrix(3,0,0,1,0,0);
+}
+
 .Contenido{
     width: 100%;
     background-color: #323232;
 }
 
 .Imagen_1, .Imagen_2, .Imagen_3, .Imagen_4, .Imagen_5, .Imagen_6, .Imagen_7, .Imagen_8 {
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
 }
 
+.pared_derecha_1{
+    width: 100px;
+    height: 535px;
+    transform: matrix(1,1,0,1,0,50);
+    background-color: lightblue;
+}
+.pared_abajo_1{
+    width: 535px;
+    height: 100px;
+    transform: matrix(1,0,1,1,50,0);
+    background-color: lightblue;
+}
+
+.Botones_inferiores{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
 
 .img_20_Años{
     width: 225px;
