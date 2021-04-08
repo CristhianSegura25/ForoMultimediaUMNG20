@@ -13,7 +13,6 @@ body{
 
 
 
-
 .Seccion_Animacion button, .Seccion_Guiones button, .Seccion_Modelado button, .Seccion_Programacion button, .Seccion_Render button{
     width: 50px; 
     height: 100px; 
@@ -25,13 +24,27 @@ body{
     border-radius: 0 100px 100px 0;
 }
 
+.Botones_laterales button:hover{
+    background: #999999;
+    color:  #747474;
+}
 
+.Boton_animacion, .Boton_guiones{
+    transition: transform 1s ease-in-out;
+}
+
+.Seccion_Animacion:hover .Boton_animacion{
+    transform:  matrix(3,0,0,1,0,0);
+}
+
+.Seccion_Guiones:hover .Boton_guiones{
+    transform:  matrix(3,0,0,1,0,0);
+}
 
 .Contenido{
     width: 100%;
     background-color: #323232;
 }
-
 
 
 .Botones{
