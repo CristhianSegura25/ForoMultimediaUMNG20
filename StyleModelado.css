@@ -14,10 +14,10 @@ body{
 
 
 .Seccion_Animacion button, .Seccion_Guiones button, .Seccion_Modelado button, .Seccion_Programacion button, .Seccion_Render button{
-    width: 50px; 
-    height: 100px; 
-    margin-top: 30%;
-    margin-bottom: 30%;
+    width: 75px; 
+    height: 150px; 
+    margin-top: 75%;
+    margin-bottom: 75%;
     background: #747474;
     -moz-border-radius: 0 100px 100px 0;
     -webkit-border-radius: 0 100px 100px 0;
@@ -46,6 +46,11 @@ body{
     background-color: #323232;
 }
 
+.Imagen_1, .Imagen_2, .Imagen_3, .Imagen_4, .Imagen_5, .Imagen_6, .Imagen_7, .Imagen_8 {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
 
 .img_20_Años{
     width: 225px;
@@ -59,7 +64,6 @@ body{
 }
 
 .Info{
-
     width: 100px;
     height: 100px;
 }
