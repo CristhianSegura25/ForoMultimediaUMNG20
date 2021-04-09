@@ -16,15 +16,13 @@ body{
 .Seccion_Animacion button, .Seccion_Guiones button, .Seccion_Modelado button, .Seccion_Programacion button, .Seccion_Render button{
     width: 60px; 
     height: 120px; 
-    margin-top: 120%;
-    margin-bottom: 120%;
+    margin-top: 50%;
+    margin-bottom: 50%;
     background: #747474;
     -moz-border-radius: 0 100px 100px 0;
     -webkit-border-radius: 0 100px 100px 0;
     border-radius: 0 100px 100px 0;
 
-    white-space: normal !important;
-    word-wrap: break-word;
 }
 
 .Botones_laterales button:hover{
