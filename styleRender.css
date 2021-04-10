@@ -8,14 +8,18 @@ body {
 }
 .botones_laterales{
   background-color: cadetblue;
-  
+}
+
+.Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render{
+  width: 50%; 
+  height: 10%;
+  margin-top: 65%;
+  margin-bottom: 65%;
 }
 
 .Seccion_Animacion button, .Seccion_Guiones button, .Seccion_Modelado button, .Seccion_Programacion button, .Seccion_Render button{
-  width: 60px; 
-  height: 120px; 
-  
-    margin-bottom: 50%;
+  width: 100%; 
+  height: 100%; 
   background: #747474;
   -moz-border-radius: 0 100px 100px 0;
   -webkit-border-radius: 0 100px 100px 0;
