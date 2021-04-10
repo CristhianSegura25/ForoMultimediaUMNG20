@@ -107,3 +107,31 @@ div.botones_deslizantes , .icon-mas2{
   visibility: visible;
 
 }
+.modal-container{
+  width: 50%;
+  height: 80%;
+  position: fixed;
+  /*z-index: 1000;*/
+
+  top: 0;
+  /*display: flex;
+  justify-content: flex-end;*/
+  align-items: center;
+  background-color: burlywood;
+  
+
+} 
+.img_fondo_info_render{
+  width: 60%;
+}
+.ventana{
+  position: relative;
+  transition: tranform 1s;
+  transform: translateY(100%); 
+  background: chocolate;
+}
+/*.modal{
+  width: 40%;
+  height: 40%;
+  background-color: chartreuse;
+}*/
