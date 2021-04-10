@@ -7,23 +7,32 @@ body{
 
 
 
-.Contenedor{
-    display: flex;
+.position-fixed{
+    width: 100px;
+    height: 100%;
 }
 
+.Botones_laterales{
+    height: 40%;
+}
 
+.Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render{
+    width: 60%; 
+    height: 30%; 
+    margin-top: 80%;
+    margin-bottom: 80%;
+}
 
 .Seccion_Animacion button, .Seccion_Guiones button, .Seccion_Modelado button, .Seccion_Programacion button, .Seccion_Render button{
-    width: 60px; 
-    height: 120px; 
-    margin-top: 50%;
-    margin-bottom: 50%;
+    width: 100%;
+    height: 100%;
     background: #747474;
     -moz-border-radius: 0 100px 100px 0;
     -webkit-border-radius: 0 100px 100px 0;
     border-radius: 0 100px 100px 0;
-
 }
+
+
 
 .Botones_laterales button:hover{
     background: #999999;
@@ -54,10 +63,6 @@ body{
     transform:  matrix(3,0,0,1,0,0);
 }
 
-.Contenido{
-    width: 100%;
-    background-color: #323232;
-}
 
 .Imagen_1, .Imagen_2, .Imagen_3, .Imagen_4, .Imagen_5, .Imagen_6, .Imagen_7, .Imagen_8 {
     padding-top: 15%;
@@ -70,10 +75,25 @@ body{
 }
 
 
+
 .pared_abajo_1{
     height: 12.5%;
     transform: skewX(45deg) translateX(6.5%);
     background-color: lightblue;
+}
+
+.Boton_info{
+    width: 50%;
+    height: 50%;
+    display:block;
+    margin: auto;
+}
+
+.Boton_info_2{
+    width: 50%;
+    height: 50%;
+    display:block;
+    margin: auto;
 }
 
 .Botones_inferiores{
