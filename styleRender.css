@@ -97,7 +97,7 @@ visibility: hidden;
 div.botones_deslizantes img{
 width: 90%;
 }
-div.botones_deslizantes , .icon-mas2{
+div.botones_deslizantes {
   transition: all 500ms ease;
 }
 #btn-mas:checked~ .botones_deslizantes{
@@ -122,10 +122,12 @@ div.botones_deslizantes , .icon-mas2{
   background-image: url("images/windows\ xp\ wallpaper.jpg");
   background-repeat: no-repeat;
   /*background-attachment: fixed;*/
-  background-size: 100% 100%;	
-  /*transition: all 500ms ease;*/
-  position: relative;
+  background-size: 100% 100%;
+  position: relative;	
+  transition: all 500ms ease;
+  
   transform: translateY(-30%);
+
  
 }
 .ventana_modal label{
