@@ -5,27 +5,27 @@ body{
     padding: 0;
 }
 
+.botones_laterales{
+    background-color: cadetblue;
+  }
+  
+  .Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render{
+    width: 50%; 
+    height: 10%;
+    margin-top: 50%;
+    margin-bottom: 50%;
+  }
 
-
-.Contenedor{
-    display: flex;
-}
-
-
-
-.Seccion_Animacion button, .Seccion_Guiones button, .Seccion_Modelado button, .Seccion_Programacion button, .Seccion_Render button{
-    width: 60px; 
-    height: 120px; 
-    margin-top: 120%;
-    margin-bottom: 120%;
+  .Seccion_Animacion button, .Seccion_Guiones button, .Seccion_Modelado button, .Seccion_Programacion button, .Seccion_Render button{
+    width: 200%; 
+    height: 100%; 
     background: #747474;
     -moz-border-radius: 0 100px 100px 0;
     -webkit-border-radius: 0 100px 100px 0;
     border-radius: 0 100px 100px 0;
+  }
+  
 
-    white-space: normal !important;
-    word-wrap: break-word;
-}
 
 .Botones_laterales button:hover{
     background: #999999;
@@ -34,32 +34,29 @@ body{
 
 .Boton_animacion, .Boton_guiones, .Boton_modelado, .Boton_programacion, .Boton_render{
     transition: transform 1s ease-in-out;
+    transform: translateX(-50%);
 }
 
 .Seccion_Animacion:hover .Boton_animacion{
-    transform:  matrix(3,0,0,1,0,0);
+    transform:  translateX(1%)
 }
 
 .Seccion_Guiones:hover .Boton_guiones{
-    transform:  matrix(3,0,0,1,0,0);
+    transform:  translateX(1%)
 }
 
 .Seccion_Modelado:hover .Boton_modelado{
-    transform:  matrix(3,0,0,1,0,0);
+    transform:  translateX(1%)
 }
 
 .Seccion_Programacion:hover .Boton_programacion{
-    transform:  matrix(3,0,0,1,0,0);
+    transform:  translateX(1%)
 }
 
 .Seccion_Render:hover .Boton_render{
-    transform:  matrix(3,0,0,1,0,0);
+    transform:  translateX(1%)
 }
 
-.Contenido{
-    width: 100%;
-    background-color: #323232;
-}
 
 .Imagen_1, .Imagen_2, .Imagen_3, .Imagen_4, .Imagen_5, .Imagen_6, .Imagen_7, .Imagen_8 {
     padding-top: 15%;
@@ -67,16 +64,30 @@ body{
 }
 
 .pared_derecha_1{
-    width: 100px;
-    height: 535px;
-    transform: matrix(1,1,0,1,0,50);
+    transform: skewY(45deg) translateY(6.5%);
     background-color: lightblue;
 }
+
+
+
 .pared_abajo_1{
-    width: 535px;
-    height: 100px;
-    transform: matrix(1,0,1,1,50,0);
+    height: 12.5%;
+    transform: skewX(45deg) translateX(6.5%);
     background-color: lightblue;
+}
+
+.Boton_info{
+    height: 100%;
+    width: 50%;
+    display:block;
+    margin: auto;
+}
+
+.Boton_info_2{
+    height: 50%;
+    width: 100%;
+    display:block;
+    margin: auto;
 }
 
 .Botones_inferiores{
