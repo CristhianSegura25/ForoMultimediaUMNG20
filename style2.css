@@ -258,8 +258,8 @@ footer{
 .modal1{
     display: flex;
     width: 70%;
-    height: 80%;
-    background: #ffff;
+    height: 75%;
+    background: rgba(255, 255, 255, 0.75);
     overflow: hidden;
     transition: transform 1s;
     transform:translateY(-8%); 
@@ -290,4 +290,67 @@ footer{
 
 .modal-close1{
     transform: translateY(200%);
+}
+
+.contenido-carrera{
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 97%;
+}
+
+.zona-logo{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.zona-logo > img{
+    width: 80%;
+    height: 50%;
+}
+
+.espaciador{
+    display: flex;
+    width: 3%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+    width: 2px;
+    height: 95%;
+    background: #000;
+}
+
+.contexto-carrera{
+    width: 55%;
+    height: 100%;
+    position: absolute;
+    right: 2%;
+}
+
+.nuestro-proposito{
+    width: 100%;
+    height: 25%;
+    text-align: left;
+    justify-content: left;
+}
+
+.perfil-de-aspirante{
+    width: 100%;
+    height: 25%;
+    text-align: right;
+    justify-content: right;
+}
+
+.perfil-de-egresado{
+    width: 100%;
+    height: 50%;
+    text-align: left;
+    justify-content: left;
 }
