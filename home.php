@@ -6,7 +6,7 @@
     <title> Home Foro </title>
 
     <meta charset="utf-8">
-    <link rel="stylesheet" href ="style2.css"/>
+    <link rel="stylesheet" href ="stylehome1.css"/>
 </head>
 <body>
     <div class="Container">
@@ -75,7 +75,7 @@
                         </div>
                         <div class="footercerrar">
                             <img src="images/cerrar.png" alt="cerrarsesion">
-                            <a class="textocerrar" href="#">Cerrar Sesion</a>
+                            <a class="textocerrar" href="login.php">Cerrar Sesion</a>
                         </div>
 <!--                         <a><img src="images/logo20años2.png" height="400px" alt="logo20años"></a> -->
                     </div>
@@ -90,7 +90,7 @@
                             <p> Explorador de Archivos </p>
                             <a href="#"><img class="close2" src="images/boton cerrar.png" alt="cerrar"></a>
                         </div>
-                        <div class="contenido-carrera">
+                        <div class="contenido-carreranosotros">
                             <div class="zonadiseñador">
                                 <div class="zonaimageni">
                                     <img class="diseñadorlogoi"src="images/foto.jpg"alt="foto">
@@ -181,6 +181,6 @@
             </div>
     </footer>
 
-    <script src="home.js"></script>
+    <script src="homexd.js"></script>
 </body>
 </html>

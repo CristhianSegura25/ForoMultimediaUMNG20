@@ -82,7 +82,7 @@ cerrar2.addEventListener("click",function(){
 	},1000)
 });
 
-window1.addEventListener("click",function(e){
+window.addEventListener("click",function(e){
 	console.log(e.target);
 	if(e.target==modalC2){
 		modal2.classList.toggle("modal-close2");
