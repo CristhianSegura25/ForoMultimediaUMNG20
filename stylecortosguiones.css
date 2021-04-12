@@ -35,7 +35,7 @@ body{
     height: 85%;
 }
 .zonabotonesnav{
-  	width: 25%;
+  	width: 15%;
     height: 97.8%;
     position: absolute;
     bottom: 0;
@@ -88,7 +88,7 @@ body{
     font-size: 90%;
     position: absolute;
     top: 5%;
-    left: 8%;
+    left: 12%;
     text-decoration: none;
     color:black;
 }
@@ -97,7 +97,7 @@ body{
     font-size: 80%;
     position: absolute;
     top: 26%;
-    left: 8%;
+    left: 12%;
     text-decoration: none;
     color:black;
 }
@@ -106,7 +106,7 @@ body{
     font-size: 90%;
     position: absolute;
     top: 46%;
-    left: 8%;
+    left: 12%;
     text-decoration: none;
     color:black;
 }
@@ -115,7 +115,7 @@ body{
     font-size: 80%;
     position: absolute;
     top: 66%;
-    left: 8%;
+    left: 12%;
     text-decoration: none;
     color:black;
 
@@ -125,7 +125,7 @@ body{
     font-size: 90%;
     position: absolute;
     top: 86%;
-    left: 8%;
+    left: 12%;
     text-decoration: none;
     color:black;
 }
@@ -299,4 +299,131 @@ body{
 
 .modal-closecortos1{
     transform: translateY(200%);
+}
+
+.zonaderecha1{
+	width: 15%;
+    height: 97.8%;
+    position: absolute;
+    bottom: 0;
+    right:0;
+}
+
+.zona-autores{
+    width: 70%;
+    height: 97.8%;
+    position: absolute;
+ 	left: 15%;
+ 	bottom:0;
+    background: #fafafa;
+}
+
+.retrato{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 60%;
+    background: #D3D3D3;
+    border: 3px solid #000;
+    border-radius: 5px;
+}
+
+.retrato-imagen{
+    width: 100%;
+    height: 100%;
+}
+
+.foto-retrato{
+    width: 100%;
+    height: 100%;
+}
+
+.info-autores{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    width: 90%;
+    height: 27%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.zona-1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 28%;
+    height: 40%;
+    background: #f0f0f0;
+    align-items: center;
+    justify-content: center;
+}
+
+.zona-2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 5%;
+    left: 36%;
+    width: 28%;
+    height: 40%;
+    background: #f0f0f0;
+    align-items: center;
+    justify-content: center;
+}
+
+.zona-3{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 28%;
+    height: 40%;
+    background: #f0f0f0;
+    align-items: center;
+    justify-content: center;
+}
+
+.zona-4{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    width: 28%;
+    height: 40%;
+    background: #f0f0f0;
+    align-items: center;
+    justify-content: center;
+}
+
+.zona-5{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 5%;
+    left: 36%;
+    width: 28%;
+    height: 40%;
+    background: #f0f0f0;
+    align-items: center;
+    justify-content: center;
+}
+
+.zona-6{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 28%;
+    height: 40%;
+    background: #f0f0f0;
+    align-items: center;
+    justify-content: center;
 }
