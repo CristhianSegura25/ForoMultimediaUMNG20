@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="es">
 
 <head>
@@ -43,7 +42,10 @@
                         <p class="close">X</p>
                         <div class="headeriniciom">
                             <img src="images/logousuario.png"alt="logousuario">
-                            <p class="textousuario">Nombre Usuario</p>
+                            <p class="textousuario"><?php
+                            
+                             ?>
+                            </p>
                         </div>
                         <div class="barraiconos1">
                             <ul>

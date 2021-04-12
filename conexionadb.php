@@ -7,7 +7,7 @@
 $servername="localhost";
 $username="root";
 $password="root";
-$db="Usuariostrabajo";
+$db="usuariostrabajo";
 	// $mydb="trabajito";
 	// $conn="";
 
@@ -17,7 +17,7 @@ $db="Usuariostrabajo";
 
 	}
 	 //Si la base de datos no existe, la crea
-     $sql = "CREATE DATABASE IF NOT EXISTS Usuariostrabajo";
+     $sql = "CREATE DATABASE IF NOT EXISTS usuariostrabajo";
      if($conexion->query($sql) === false){
          die("Conexión fallida: " . mysqli_connect_error());
      }
