@@ -25,16 +25,29 @@ body {
   border-radius: 0 100px 100px 0;
 }
 
-.logoi1, .img_20_Años, .Foro {
-height:  10%;
-/*margin-left: 10%;*/
-margin: 0% 0% 0% 10%;
-background-color: blue;
-/*justify-content: flex-end  ;*/
 
-display: flex;
-justify-content: flex-end;
+.Botones_info{
+  background-color: darkmagenta;
+  padding: 1%;
 }
+
+.img_20_Años{
+  width: 225px;
+  height: 128.4px;
+}
+
+.Foro{
+  width: 100px;
+  height: 100px;
+  filter: invert(100%);
+}
+
+.logoinfo{
+  width: 100px;
+  height: 100px;
+  filter: invert(100%);
+}
+
 ul.botones_info li {
 width:10%; height:100%;
 padding-top: 1%;
@@ -55,23 +68,6 @@ margin-left: 5%;
 margin-top: 15%;
 width:100%; height:80%;
 }
-
-.img_20_Años{
-  width: 225px;
-  height: 128.4px;
-}
-
-.Foro{
-  width: 100px;
-  height: 100px;
-  filter: invert(100%);
-}
-
-.logoinfo{
-  width: 100px;
-  height: 100px;
-  filter: invert(100%);
-}
 .visor_trabajo{
 background-color: coral;
 
@@ -91,12 +87,12 @@ border-radius: 80px 80px 80px 80px;
 }
 .boton_camara{
   background-color: cornflowerblue;
-  
-  
 }
+
 div.boton_camara img{
   width:85%;
 }
+
 .botones_etapasrender{
 background-color: crimson;
 display: flex;
@@ -127,12 +123,13 @@ div.botones_deslizantes {
   visibility: visible;
 
 }
+/*
 .modal_render{
  
   background-color: crimson;
   display: flex;
   justify-content: center;
-  /*position: fixed;*/
+  position: fixed;
   background-color: rgba(0, 0, 0,0.5);
    opacity: 0;
    visibility: hidden;
@@ -142,7 +139,7 @@ div.botones_deslizantes {
   margin: auto;
   background-image: url("images/windows\ xp\ wallpaper.jpg");
   background-repeat: no-repeat;
-  /*background-attachment: fixed;*/
+  background-attachment: fixed;
   background-size: 100% 100%;
   position: relative;	
   transition: all 500ms ease;
@@ -162,4 +159,65 @@ div.botones_deslizantes {
 #btn-modalrender:checked~ .modal_render.ventana_modal{
   transform: translateY(0%);
   
+}*/
+
+.headerventana{
+  width: 100%;
+  height: 5%;
+  background-color:#E2E2E2;
+  text-align: left;
+}
+
+.ventana{
+  width: 100%;
+  height: 100%;
+  background-color: darkslateblue;
+}
+
+.modalcontainerrender1{
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 100vh;
+  bottom:0;
+  left:0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+}
+.modalrender1{
+  width: 40%;
+  height: 50%;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  transition: transform 1s;
+  transform:translateY(-50%); 
+}
+
+.closerender1{
+  display: flex;
+  margin-left: auto;
+  margin-bottom: auto;
+  width: 50px;
+  height: 50px;
+  background:transparent;
+  color:black;
+  cursor: pointer;
+  border-radius: 50%;
+  text-shadow: 2px 2px 2px white;
+}
+
+.cerrarmodal{
+width: 50%;
+height: 50%;
+}
+
+.modal-closerender1{
+  transform: translateY(200%);
 }
