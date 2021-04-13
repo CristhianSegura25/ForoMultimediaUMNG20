@@ -1,0 +1,119 @@
+body{
+    background-color: #323232;
+    font-family: Tahoma Regular;
+    margin: 0;
+    padding: 0;
+}
+
+  
+  .Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render{
+    width: 50%; 
+    height: 20%;
+    margin-top: 50%;
+    margin-bottom: 50%;
+  }
+
+  .Seccion_Animacion button, .Seccion_Guiones button, .Seccion_Modelado button, .Seccion_Programacion button, .Seccion_Render button{
+    width: 200%; 
+    height: 100%; 
+    background: #747474;
+    -moz-border-radius: 0 100px 100px 0;
+    -webkit-border-radius: 0 100px 100px 0;
+    border-radius: 0 100px 100px 0;
+  }
+  
+
+
+.Botones_laterales button:hover{
+    background: #999999;
+    color:  #747474;
+}
+
+.Boton_animacion, .Boton_guiones, .Boton_modelado, .Boton_programacion, .Boton_render{
+    transition: transform 1s ease-in-out;
+    transform: translateX(-50%);
+}
+
+.Seccion_Animacion:hover .Boton_animacion{
+    transform:  translateX(1%)
+}
+
+.Seccion_Guiones:hover .Boton_guiones{
+    transform:  translateX(1%)
+}
+
+.Seccion_Modelado:hover .Boton_modelado{
+    transform:  translateX(1%)
+}
+
+.Seccion_Programacion:hover .Boton_programacion{
+    transform:  translateX(1%)
+}
+
+.Seccion_Render:hover .Boton_render{
+    transform:  translateX(1%)
+}
+/*.header{
+    background-color: chartreuse;
+    display: flex;
+    justify-content: flex-end;
+}*/
+.botones_header{
+    background-color: rgb(89, 89, 89);
+    padding: 1%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .img_20_Años{
+    width: 75px;
+    height: 42.8px;
+  }
+  
+  .Foro{
+    width: 50px;
+    height: 50px;
+    filter: invert(100%);
+  }
+
+  .field {
+    display:flex;
+    /*position:realtive;*/
+    /*justify-content: center;*/
+    padding-right: 2%; 
+    width:70%;
+    flex-direction:row;
+    /*box-shadow:
+     1px 1px 0 rgb(22, 160, 133),
+     2px 2px 0 rgb(22, 160, 133),
+     3px 3px 0 rgb(22, 160, 133),
+     4px 4px 0 rgb(22, 160, 133),
+     5px 5px 0 rgb(22, 160, 133),
+     6px 6px 0 rgb(22, 160, 133),
+     7px 7px 0 rgb(22, 160, 133)*/
+    ;
+  }
+  
+  .field>input[type=text],
+  .field>button {
+    display:block;
+    font:1.2em 'Montserrat Alternates';
+  }
+  
+  .field>input[type=text] {
+    flex:1;
+    
+    border:0.2em solid rgb(89, 102, 99);
+  }
+  
+  .field>button {
+    
+    background-color:rgb(53, 53, 53);
+    color:white;
+    border:none;
+  }
+  
+
+
+
+
