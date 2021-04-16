@@ -62,6 +62,11 @@ body{
     transform:  translateX(1%)
 }
 
+.logo_animacion{
+    height: 100%;
+}
+
+
 
 .Imagen_1, .Imagen_2, .Imagen_3, .Imagen_4, .Imagen_5, .Imagen_6, .Imagen_7, .Imagen_8 {
     padding-top: 15%;
@@ -73,8 +78,6 @@ body{
     background-color: lightblue;
 }
 
-
-
 .pared_abajo_1{
     height: 12.5%;
     transform: skewX(45deg) translateX(6.5%);
@@ -82,18 +85,35 @@ body{
 }
 
 .Boton_info{
+    background-color: #999999;
     height: 100%;
-    width: 50%;
-    display:block;
-    margin: auto;
-}
-
-.Boton_info_2{
-    height: 50%;
     width: 100%;
     display:block;
     margin: auto;
 }
+
+.info_modelo, .info_modelo_3{
+    display: none;
+    transform: translateY(12%);
+}
+
+
+.Boton_info_2{
+    background-color: #999999;
+    height: 100%;
+    width: 100%;
+    display:block;
+    margin: auto;
+}
+
+.info_modelo_2, .info_modelo_4{
+    display: none;
+    transform: translateX(12%);
+    height: 80%;
+}
+
+
+
 
 .Botones_inferiores{
     padding-top: 10%;

@@ -30,3 +30,20 @@ window.addEventListener("click",function(b){
 	},1000);
 	}
 });
+
+$('#showhide').on('click', function(e){
+    $("#info_modelo").toggle();    
+});
+
+$('#showhide_2').on('click', function(e){
+    $("#info_modelo_2").toggle();    
+});
+
+$('#showhide_3').on('click', function(e){
+    $("#info_modelo_3").toggle();    
+});
+
+$('#showhide_4').on('click', function(e){
+    $("#info_modelo_4").toggle();    
+});
+
