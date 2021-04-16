@@ -13,6 +13,22 @@ body{
     height: 100px;
     filter: invert(100%);
   }
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 769px) {
+    .Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render {
+      font-size: 20px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 768px) {
+    .Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render {
+      font-size: 10px;
+    }
+  }
+
+
   
   .Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render{
     width: 50%; 
@@ -20,6 +36,7 @@ body{
     margin-top: 50%;
     margin-bottom: 50%;
   }
+
 
   .Seccion_Animacion button, .Seccion_Guiones button, .Seccion_Modelado button, .Seccion_Programacion button, .Seccion_Render button{
     width: 200%; 
