@@ -6,7 +6,22 @@ body {
   /*box-sizing: border-box;*/
 }
 .botones_laterales{
-  background-color: cadetblue;
+  /*background-color: cadetblue;*/
+  position: relative;
+z-index: 10;
+}
+
+.magic {
+  z-index: 5;
+  position: absolute;
+  top: calc(50% - 10rem);
+  left: calc(50% - 10rem);
+  width: 20rem;
+  height: 20rem;
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/hover-reveal.jpg') 50% 50% no-repeat fixed;
+  background-size: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 15px 10px royalblue;
 }
 
 .Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render{
@@ -27,8 +42,12 @@ body {
 
 
 .Botones_info{
-  background-color: darkmagenta;
+  
+  /*background-color: darkmagenta;*/
   padding: 1%;
+  position: relative;
+  z-index: 10;
+ 
 }
 
 .img_20_Años{
@@ -69,14 +88,16 @@ margin-top: 15%;
 width:100%; height:80%;
 }*/
 .visor_trabajo{
-background-color: coral;
+/*background-color: coral;*/
+position: relative;
+z-index: 10;
 
 }
 div.visor_trabajo img{
 width: 80%;
 }
 .info_trabajo{
-background-color: darkgreen;   
+background-color:rgb(182, 190, 204);   
 margin: 10% 10% 0% 10%;
 /*margin: 25px 50px 75px 100px;*/
 /*padding: 10%, 10%, 0%, 0%;*/
@@ -84,9 +105,20 @@ padding: 10% 10% 0% 10%;
 
 height: 90%;
 border-radius: 80px 80px 80px 80px;
+position: relative;
+z-index: 10;
+position: relative;
+z-index: 10;
+}
+
+div .info_trabajo h2{
+  color: white;
+  text-align: center;
 }
 .boton_camara{
-  background-color: cornflowerblue;
+  /*background-color: cornflowerblue;*/
+  position: relative;
+z-index: 10;
 }
 
 div.boton_camara img{
@@ -94,11 +126,13 @@ div.boton_camara img{
 }
 
 .botones_etapasrender{
-background-color: crimson;
+/*background-color: crimson;*/
 display: flex;
 justify-content: space-between; 
-padding: 5%;
+padding: 2%;
 /*margin-left: 20%;*/
+position: relative;
+z-index: 10;
 }
 
 #btn-mas{
@@ -107,7 +141,7 @@ padding: 5%;
 .botones_deslizantes{
   display: flex;
 justify-content: space-between; 
-background-color: darkblue;
+/*background-color: darkblue;*/
 margin-right: -15px;
 opacity: 0;
 visibility: hidden;
