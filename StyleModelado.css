@@ -14,20 +14,18 @@ body{
     filter: invert(100%);
   }
 
-/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-@media screen and (min-width: 769px) {
+
+  @media screen and (min-width: 1521px) {
     .Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render {
       font-size: 20px;
     }
   }
-  
-  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-  @media screen and (max-width: 768px) {
+
+  @media screen and (max-width: 1520px) {
     .Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render {
       font-size: 10px;
     }
   }
-
 
   
   .Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render{
@@ -87,7 +85,7 @@ body{
 
 .Imagen_1, .Imagen_2, .Imagen_3, .Imagen_4, .Imagen_5, .Imagen_6, .Imagen_7, .Imagen_8 {
     padding-top: 15%;
-    padding-bottom: 15%;
+    padding-bottom: 25%;
 }
 
 .pared_derecha_1{
