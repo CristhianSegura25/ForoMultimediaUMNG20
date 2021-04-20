@@ -16,16 +16,25 @@ body{
 
 
   @media screen and (min-width: 1521px) {
-    .Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render {
-      font-size: 20px;
+     .Seccion_Modelado img, .Seccion_Programacion img{
+      height: 65%;
     }
+
+    .Seccion_Animacion img, .Seccion_Guiones img{
+        height: 85%;
+      }
+
+      .Seccion_Guiones img, .Seccion_Render img{
+        height: 75%;
+      }
   }
 
   @media screen and (max-width: 1520px) {
-    .Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render {
-      font-size: 10px;
+    .Seccion_Animacion, .Seccion_Guiones img, .Seccion_Modelado img, .Seccion_Programacion img, .Seccion_Render img{
+        height: 50%;
     }
   }
+  
 
   
   .Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render{
@@ -109,7 +118,7 @@ body{
 
 .info_modelo, .info_modelo_3{
     display: none;
-    transform: translateY(12%);
+    transform: translateY(13%);
 }
 
 
