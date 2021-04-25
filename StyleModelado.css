@@ -95,21 +95,45 @@ body{
 
 
 
-.Imagen_1, .Imagen_2, .Imagen_3, .Imagen_4, .Imagen_5, .Imagen_6, .Imagen_7, .Imagen_8 {
+.Imagen_1, .Imagen_2 {
     padding-top: 15%;
     padding-bottom: 25%;
 }
 
 .pared_derecha_1{
     transform: skewY(45deg) translateY(6.5%);
-    background-color: lightblue;
 }
 
 .pared_abajo_1{
     height: 12.5%;
     transform: skewX(45deg) translateX(6.5%);
-    background-color: lightblue;
 }
+
+.pared_derecha_1_2{
+    transform: skewY(45deg) translateY(6.5%);
+}
+
+.pared_abajo_1_2{
+    height: 11.5%;
+    transform: skewX(45deg) translateX(6.5%);
+    
+}
+
+@media screen and (min-width: 2001px) {
+    .pared_abajo_1_2{
+        height: 11.5%;
+        transform: skewX(45deg) translateX(6.5%);
+    }
+ }
+
+ @media screen and (max-width: 2000px) {
+    .pared_abajo_1_2{
+        height: 8%;
+        transform: skewX(45deg) translateX(6.5%);
+
+    }
+ }
+
 
 .Boton_info{
     background-color: #6E6F90;
@@ -138,8 +162,6 @@ body{
     transform: translateX(12%);
     height: 80%;
 }
-
-
 
 
 .Botones_inferiores{
@@ -176,6 +198,8 @@ body{
     width: 100%;
     height: 100%;
     background-color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .modalcontainermodelado1{
