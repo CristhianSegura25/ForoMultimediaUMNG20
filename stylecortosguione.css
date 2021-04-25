@@ -430,8 +430,8 @@ body{
 .Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render{
     width: 50%; 
     height: 10%;
-    margin-top: 30%;
-    margin-bottom: 30%;
+    margin-top: 25%;
+    margin-bottom: 25%;
   }
   .Seccion_Animacion button, .Seccion_Guiones button, .Seccion_Modelado button, .Seccion_Programacion button, .Seccion_Render button{
     width: 200%; 
