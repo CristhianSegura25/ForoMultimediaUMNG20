@@ -44,7 +44,6 @@ body{
 }
 
 .Barra_Lateral{
-    display: flex;
     width: 10%;
     height: 97.6%;
     position: absolute;
@@ -434,8 +433,8 @@ video{
  .Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render{
    width: 50%; 
    height: 10%;
-   margin-top: 50%;
-   margin-bottom: 50%;
+   margin-top: 45%;
+   margin-bottom: 45%;
  }
 
 
