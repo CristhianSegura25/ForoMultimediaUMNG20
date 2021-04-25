@@ -19,15 +19,15 @@ body{
 
 
   @media screen and (min-width: 1521px) {
-     .Seccion_Modelado img, .Seccion_Programacion img{
-      height: 65%;
+     .Seccion_Modelado img{
+      height: 60%;
     }
 
-    .Seccion_Animacion img, .Seccion_Guiones img{
-        height: 85%;
+    .Seccion_Animacion img, .Seccion_Programacion img, .Seccion_Render img{
+        height: 65%;
       }
 
-      .Seccion_Guiones img, .Seccion_Render img{
+      .Seccion_Guiones img{
         height: 75%;
       }
   }
@@ -51,17 +51,17 @@ body{
   .Seccion_Animacion button, .Seccion_Guiones button, .Seccion_Modelado button, .Seccion_Programacion button, .Seccion_Render button{
     width: 200%; 
     height: 100%; 
-    background: #747474;
+    background: #50527E;
     -moz-border-radius: 0 100px 100px 0;
     -webkit-border-radius: 0 100px 100px 0;
     border-radius: 0 100px 100px 0;
+    border-color: #50527E;
   }
   
 
 
 .Botones_laterales button:hover{
-    background: #999999;
-    color:  #747474;
+    background: #50527E;
 }
 
 .Boton_animacion, .Boton_guiones, .Boton_modelado, .Boton_programacion, .Boton_render{
@@ -112,7 +112,7 @@ body{
 }
 
 .Boton_info{
-    background-color: #999999;
+    background-color: #6E6F90;
     height: 100%;
     width: 100%;
     display:block;
@@ -126,7 +126,7 @@ body{
 
 
 .Boton_info_2{
-    background-color: #999999;
+    background-color: #6E6F90;
     height: 100%;
     width: 100%;
     display:block;
@@ -224,4 +224,8 @@ body{
 
 .modal-closemodelado1{
     transform: translateY(200%);
+}
+
+.info_modelo, .info_modelo_2, .info_modelo_3, .info_modelo_4, .info_modelo_5, .info_modelo_6, .info_modelo_7, .info_modelo_8, .info_modelo_9, .info_modelo_10, .info_modelo_11, .info_modelo_12, .info_modelo_13, .info_modelo_14, .info_modelo_15, .info_modelo_16{
+    background-color: #9697C1;
 }

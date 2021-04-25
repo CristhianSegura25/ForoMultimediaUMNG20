@@ -24,20 +24,75 @@ z-index: 10;
   box-shadow: 0 0 15px 10px royalblue;
 }
 
-.Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render{
-  width: 50%; 
-  height: 10%;
-  margin-top: 65%;
-  margin-bottom: 65%;
+@media screen and (min-width: 1521px) {
+  .Seccion_Modelado img{
+   height: 60%;
+ }
+
+ .Seccion_Animacion img, .Seccion_Programacion img, .Seccion_Render img{
+     height: 65%;
+   }
+
+   .Seccion_Guiones img{
+     height: 75%;
+   }
 }
 
+@media screen and (max-width: 1520px) {
+ .Seccion_Animacion, .Seccion_Guiones img, .Seccion_Modelado img, .Seccion_Programacion img, .Seccion_Render img{
+     height: 50%;
+ }
+}
+
+
+
+.Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render{
+ width: 50%; 
+ height: 10%;
+ margin-top: 50%;
+ margin-bottom: 50%;
+}
+
+
 .Seccion_Animacion button, .Seccion_Guiones button, .Seccion_Modelado button, .Seccion_Programacion button, .Seccion_Render button{
-  width: 100%; 
-  height: 100%; 
-  background: #747474;
-  -moz-border-radius: 0 100px 100px 0;
-  -webkit-border-radius: 0 100px 100px 0;
-  border-radius: 0 100px 100px 0;
+ width: 200%; 
+ height: 100%; 
+ background: #E77971;
+ -moz-border-radius: 0 100px 100px 0;
+ -webkit-border-radius: 0 100px 100px 0;
+ border-radius: 0 100px 100px 0;
+ border-color: #E77971;
+}
+
+
+
+.Botones_laterales button:hover{
+ background: #50527E;
+}
+
+.Boton_animacion, .Boton_guiones, .Boton_modelado, .Boton_programacion, .Boton_render{
+ transition: transform 1s ease-in-out;
+ transform: translateX(-50%);
+}
+
+.Seccion_Animacion:hover .Boton_animacion{
+ transform:  translateX(1%)
+}
+
+.Seccion_Guiones:hover .Boton_guiones{
+ transform:  translateX(1%)
+}
+
+.Seccion_Modelado:hover .Boton_modelado{
+ transform:  translateX(1%)
+}
+
+.Seccion_Programacion:hover .Boton_programacion{
+ transform:  translateX(1%)
+}
+
+.Seccion_Render:hover .Boton_render{
+ transform:  translateX(1%)
 }
 
 
