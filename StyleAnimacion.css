@@ -1,0 +1,460 @@
+body{
+    background-image: url(https://fondosmil.com/fondo/9728.jpg);
+
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Tahoma Regular;
+}
+
+.Container{
+    display: flex;
+}
+
+.Container_Carpeta{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    border:1px solid rgb(0, 0, 0);
+}
+
+.Barra_Lateral{
+    display: flex;
+    width: 10%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #404244, #0082c8, #0082c8, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #404244, #0082c8, #0082c8, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.Zona_Trabajo{
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.Cinta_Trabajos{
+    width: 80%;
+    height: 15%;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    background-color: rgb(255, 255, 255);
+}
+
+.Cinta_Animacion{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    background-color:rgb(0, 0, 0);
+}
+
+.Cinta_Vertical_1{
+    width: 10%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    background-color: rgb(255, 255, 255);
+}
+
+.Cinta_Vertical_2{
+    width: 10%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    background-color: rgb(255, 255, 255);
+}
+
+.Zona_Animacion{
+    width: 70%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.Zona_Video{
+    width: 90%;
+    height: 70%;
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    background-color: #3A3A3A;
+    border-radius: 5px;
+}
+
+video{
+    width: 100%;
+}
+
+.Play{
+    width: 10%;
+    height: 12%;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+
+.Imagen_Play{
+    width: 100%;
+    height: 100%;
+}
+
+.Logo_20_Años{
+    width: 10%;
+    height: 13%;
+    position: absolute;
+    top: 5%;
+    right: 3%;
+}
+
+.img_20_Años{
+    width: 100%;
+    height: 100%;
+}
+
+.Foro_Multimedia{
+    width: 6%;
+    height: 10%;
+    position: absolute;
+    top: 22%;
+    right: 5%;
+}
+
+.Foro{
+    width: 100%;
+    height: 100%;
+}
+
+.Info_Materia{
+    width: 4%;
+    height: 6%;
+    position: absolute;
+    top: 37%;
+    right: 6%;
+}
+
+.Info{
+    width: 100%;
+    height: 100%;
+}
+
+.Zona_Frames{
+    width: 90%;
+    position: absolute;
+    bottom: 2%;
+    right: 5%;
+}
+
+.Keyframe{
+    width: 100%;
+    height: 100%;
+}
+
+.Cinta{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.Cuadrados{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+/* .Semi_Circulo{
+    width: 25px; 
+    height: 50px; 
+    border: 2px solid #3172DB;
+    background: #4382FF;
+    -moz-border-radius: 100px 0 0 100px;
+    -webkit-border-radius: 100px 0 0 100px;
+    border-radius: 100px 0 0 100px;
+} */
+
+.Semi_Circulo2{
+    width: 25px; 
+    height: 50px; 
+    border: 2px solid #3172DB;
+    background: #4382FF;
+    -moz-border-radius: 0 100px 100px 0;
+    -webkit-border-radius: 0 100px 100px 0;
+    border-radius: 0 100px 100px 0;
+}
+
+/* .Circulo_1{
+    position: absolute;
+    left: 1.5%;
+    top: 15%;
+}
+
+.Circulo_2{
+    position: absolute;
+    left: 1.5%;
+    top: 30%;
+}
+
+.Circulo_3{
+    position: absolute;
+    left: 1.5%;
+    top: 45%;
+}
+
+.Circulo_4{
+    position: absolute;
+    left: 1.5%;
+    top: 60%;
+}
+
+.Circulo_5{
+    position: absolute;
+    left: 1.5%;
+    top: 75%;
+} */
+
+.Circulo2_1{
+    position: absolute;
+    top: 12.2%;
+}
+
+.Circulo2_2{
+    position: absolute;
+    top: 29.2%;
+}
+
+.Circulo2_3{
+    position: absolute;
+    top: 46.4%;
+}
+
+.Circulo2_4{
+    position: absolute;
+    top: 63.4%;
+}
+
+.Circulo2_5{
+    position: absolute;
+    top: 80.6%;
+}
+
+.pag_animacion{
+    text-decoration:none;
+    font-size: 80%;
+    color:rgb(255, 255, 255);
+    position: absolute;
+    top: 14%;
+    left: 20%;
+}
+
+.pag_cortos_guiones{
+    text-decoration:none;
+    font-size: 80%;
+    color:rgb(255, 255, 255);
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+.pag_modelado{
+    text-decoration:none;
+    font-size: 80%;
+    color:rgb(255, 255, 255);
+    position: absolute;
+    top: 48%;
+    left: 20%;
+}
+
+.pag_programacion{
+    text-decoration:none;
+    font-size: 80%;
+    color:rgb(255, 255, 255);
+    position: absolute;
+    top: 64%;
+    left: 20%;
+}
+
+.pag_render{
+    text-decoration:none;
+    font-size: 80%;
+    color:rgb(255, 255, 255);
+    position: absolute;
+    top: 82%;
+    left: 20%;
+}
+
+.modal-container{
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100vh;
+    top: 0%;
+    left: 0%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    width: 60%;
+    height: 60%;
+    transition: transform 0.5s;
+    transform: translateY(0%);
+    border-radius: 10px;
+}
+
+.modal-1{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.modal-2{
+    width: 100%;
+    height: 70%;
+    background: rgb(0, 0, 0);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.close{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    line-height: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.modal-close{
+    transform: translateY(-200%);
+}
+
+.modal-1 > img{
+    position: absolute;
+    top: 0%;
+    left: -1.2%;
+    width: 101%;
+    height: 100%;
+}
+
+.modal-2 > h2{
+    position: absolute;
+    top: 0;
+    font-size: xx-large;
+    color: white;
+}
+
+.modal-2 > p{
+    font-size: large;
+    color: white;
+    text-align: left;
+}
+
+
+
+@media screen and (min-width: 1521px) {
+    .Seccion_Modelado img, .Seccion_Programacion img{
+     height: 65%;
+   }
+
+   .Seccion_Animacion img, .Seccion_Guiones img{
+       height: 85%;
+     }
+
+     .Seccion_Guiones img, .Seccion_Render img{
+       height: 75%;
+     }
+ }
+
+ @media screen and (max-width: 1520px) {
+   .Seccion_Animacion, .Seccion_Guiones img, .Seccion_Modelado img, .Seccion_Programacion img, .Seccion_Render img{
+       height: 50%;
+   }
+ }
+ 
+
+ 
+ .Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render{
+   width: 50%; 
+   height: 10%;
+   margin-top: 50%;
+   margin-bottom: 50%;
+ }
+
+
+ .Seccion_Animacion button, .Seccion_Guiones button, .Seccion_Modelado button, .Seccion_Programacion button, .Seccion_Render button{
+   width: 200%; 
+   height: 100%; 
+   background: #747474;
+   -moz-border-radius: 0 100px 100px 0;
+   -webkit-border-radius: 0 100px 100px 0;
+   border-radius: 0 100px 100px 0;
+ }
+ 
+
+
+.Botones_laterales button:hover{
+   background: #999999;
+   color:  #747474;
+}
+
+.Boton_animacion, .Boton_guiones, .Boton_modelado, .Boton_programacion, .Boton_render{
+   transition: transform 1s ease-in-out;
+   transform: translateX(-50%);
+}
+
+.Seccion_Animacion:hover .Boton_animacion{
+   transform:  translateX(1%)
+}
+
+.Seccion_Guiones:hover .Boton_guiones{
+   transform:  translateX(1%)
+}
+
+.Seccion_Modelado:hover .Boton_modelado{
+   transform:  translateX(1%)
+}
+
+.Seccion_Programacion:hover .Boton_programacion{
+   transform:  translateX(1%)
+}
+
+.Seccion_Render:hover .Boton_render{
+   transform:  translateX(1%)
+}
