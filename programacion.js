@@ -39,7 +39,7 @@ window.addEventListener("click",function(b){
 });
 
 let cerrarpro1=document.querySelectorAll(".closepro1")[0];
-let abrirpro1=document.querySelectorAll(".letracompilar2")[0];
+let abrirpro1=document.querySelectorAll(".logoiconito1")[0];
 let modalpro1=document.querySelectorAll(".modalpro1")[0];
 let modalCpro1=document.querySelectorAll(".modalcontainerpro1")[0];
 
