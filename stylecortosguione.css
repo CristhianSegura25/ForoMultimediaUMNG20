@@ -427,3 +427,50 @@ body{
     align-items: center;
     justify-content: center;
 }
+.Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render{
+    width: 50%; 
+    height: 10%;
+    margin-top: 30%;
+    margin-bottom: 30%;
+  }
+  .Seccion_Animacion button, .Seccion_Guiones button, .Seccion_Modelado button, .Seccion_Programacion button, .Seccion_Render button{
+    width: 200%; 
+    height: 100%; 
+    background: #747474;
+    -moz-border-radius: 0 100px 100px 0;
+    -webkit-border-radius: 0 100px 100px 0;
+    border-radius: 0 100px 100px 0;
+  }
+
+.Botones_laterales button:hover{
+    background: #999999;
+    color:  #747474;
+}
+
+.Boton_animacion, .Boton_guiones, .Boton_modelado, .Boton_programacion, .Boton_render{
+    transition: transform 1s ease-in-out;
+    transform: translateX(-50%);
+}
+
+.Seccion_Animacion:hover .Boton_animacion{
+    transform:  translateX(1%)
+}
+
+.Seccion_Guiones:hover .Boton_guiones{
+    transform:  translateX(1%)
+}
+
+.Seccion_Modelado:hover .Boton_modelado{
+    transform:  translateX(1%)
+}
+
+.Seccion_Programacion:hover .Boton_programacion{
+    transform:  translateX(1%)
+}
+
+.Seccion_Render:hover .Boton_render{
+    transform:  translateX(1%)
+}
+.img-fluid1{
+    width: 22%;
+}

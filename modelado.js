@@ -47,3 +47,50 @@ $('#showhide_4').on('click', function(e){
     $("#info_modelo_4").toggle();    
 });
 
+$('#showhide_5').on('click', function(e){
+    $("#info_modelo_5").toggle();    
+});
+
+$('#showhide_6').on('click', function(e){
+    $("#info_modelo_6").toggle();    
+});
+
+$('#showhide_7').on('click', function(e){
+    $("#info_modelo_7").toggle();    
+});
+
+$('#showhide_8').on('click', function(e){
+    $("#info_modelo_8").toggle();    
+});
+
+$('#showhide_9').on('click', function(e){
+    $("#info_modelo_9").toggle();    
+});
+
+$('#showhide_10').on('click', function(e){
+    $("#info_modelo_10").toggle();    
+});
+
+$('#showhide_11').on('click', function(e){
+    $("#info_modelo_11").toggle();    
+});
+
+$('#showhide_12').on('click', function(e){
+    $("#info_modelo_12").toggle();    
+});
+
+$('#showhide_13').on('click', function(e){
+    $("#info_modelo_13").toggle();    
+});
+
+$('#showhide_14').on('click', function(e){
+    $("#info_modelo_14").toggle();    
+});
+
+$('#showhide_15').on('click', function(e){
+    $("#info_modelo_15").toggle();    
+});
+
+$('#showhide_16').on('click', function(e){
+    $("#info_modelo_16").toggle();    
+});

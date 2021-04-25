@@ -476,3 +476,99 @@ footer{
     width: 90%;
     height: 90%;
 }
+
+.Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render{
+    width: 50%; 
+    height: 10%;
+    margin-top: 35%;
+    margin-bottom: 35%;
+  }
+  .Seccion_Animacion button, .Seccion_Guiones button, .Seccion_Modelado button, .Seccion_Programacion button, .Seccion_Render button{
+    width: 200%; 
+    height: 100%; 
+    background: #747474;
+    -moz-border-radius: 0 100px 100px 0;
+    -webkit-border-radius: 0 100px 100px 0;
+    border-radius: 0 100px 100px 0;
+  }
+
+.Botones_laterales button:hover{
+    background: #999999;
+    color:  #747474;
+}
+
+.Boton_animacion, .Boton_guiones, .Boton_modelado, .Boton_programacion, .Boton_render{
+    transition: transform 1s ease-in-out;
+    transform: translateX(-50%);
+}
+
+.Seccion_Animacion:hover .Boton_animacion{
+    transform:  translateX(1%)
+}
+
+.Seccion_Guiones:hover .Boton_guiones{
+    transform:  translateX(1%)
+}
+
+.Seccion_Modelado:hover .Boton_modelado{
+    transform:  translateX(1%)
+}
+
+.Seccion_Programacion:hover .Boton_programacion{
+    transform:  translateX(1%)
+}
+
+.Seccion_Render:hover .Boton_render{
+    transform:  translateX(1%)
+}
+.img-fluid1{
+    width: 30%;
+}
+.modalcontainerpro1{
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100vh;
+    bottom:0;
+    left:0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+.modalpro1{
+    width: 40%;
+    height: 50%;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    transition: transform 1s;
+    transform:translateY(-50%); 
+}
+.closepro1{
+    position: absolute;
+    top:-12px;
+    right: 0px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background:transparent;
+    color:black;
+    cursor: pointer;
+    border-radius: 50%;
+    text-shadow: 2px 2px 2px white;
+}
+.modal-closepro1{
+    transform: translateY(200%);
+}
+.logoiconito1{
+    padding-left: 10%;
+    width: 80%;
+    margin-top: -3%;
+}
