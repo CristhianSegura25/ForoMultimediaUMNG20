@@ -474,3 +474,10 @@ body{
 .img-fluid1{
     width: 22%;
 }
+
+video{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
