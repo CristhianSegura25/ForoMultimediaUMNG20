@@ -1,14 +1,20 @@
 body {	
   background-size: 100% 100%;	
-  background-color: rgb(38, 38, 38);
+  /*background-color: rgb(38, 38, 38);*/
   margin: 0;
   padding: 0;
+  background-image: url("images/fondorenderbn.png") ;
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
   /*box-sizing: border-box;*/
 }
 .botones_laterales{
-  /*background-color: cadetblue;*/
+ /*background-color: cadetblue;*/
   position: relative;
-z-index: 10;
+  z-index: 10;
+  height: 900px;
 }
 
 .magic {
@@ -18,10 +24,14 @@ z-index: 10;
   left: calc(50% - 10rem);
   width: 20rem;
   height: 20rem;
-  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/hover-reveal.jpg') 50% 50% no-repeat fixed;
+  background-image: url("images/fondorender.jpg") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /*background-image: url("images/fondo_render.jpg"); */
   background-size: cover;
   border-radius: 50%;
-  box-shadow: 0 0 15px 10px royalblue;
+  box-shadow: 0 0 15px 10px rgb(192, 200, 223);
 }
 
 @media screen and (min-width: 1521px) {
@@ -46,13 +56,17 @@ z-index: 10;
 
 
 
-.Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render{
+.Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion {
  width: 50%; 
  height: 10%;
  margin-top: 50%;
  margin-bottom: 50%;
 }
-
+.Seccion_Render{
+  width: 50%; 
+ height: 10%;
+ margin-top: 50%;
+}
 
 .Seccion_Animacion button, .Seccion_Guiones button, .Seccion_Modelado button, .Seccion_Programacion button, .Seccion_Render button{
  width: 200%; 
@@ -100,6 +114,7 @@ z-index: 10;
   
   /*background-color: darkmagenta;*/
   padding: 1%;
+  
   position: relative;
   z-index: 10;
  
@@ -153,7 +168,7 @@ width: 80%;
 }
 .info_trabajo{
 background-color:rgb(182, 190, 204);   
-margin: 10% 10% 0% 10%;
+margin: 10% 20% 0% 0%;
 /*margin: 25px 50px 75px 100px;*/
 /*padding: 10%, 10%, 0%, 0%;*/
 padding: 10% 10% 0% 10%;
@@ -162,8 +177,7 @@ height: 90%;
 border-radius: 80px 80px 80px 80px;
 position: relative;
 z-index: 10;
-position: relative;
-z-index: 10;
+
 }
 
 div .info_trabajo h2{
@@ -261,7 +275,14 @@ div.botones_deslizantes {
 .ventana{
   width: 100%;
   height: 100%;
-  background-color: darkslateblue;
+  /*background-color: darkslateblue;*/
+  background-image: url("images/ventanarender.jpg") ;
+ /* background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;*/
+  color: white;
+  text-align: center;
+  
 }
 
 .modalcontainerrender1{
