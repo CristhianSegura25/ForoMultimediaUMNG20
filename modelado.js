@@ -31,6 +31,14 @@ window.addEventListener("click",function(b){
 	}
 });
 
+function setNewImage_1(){
+	document.getElementById("img1").src = "images/Modelos/Primer_Modelo.gif"
+}
+
+function setOldImage_1(){
+	document.getElementById("img1").src = "images/Modelos/Primer_Modelo.png"
+}
+
 $('#showhide').on('click', function(e){
     $("#info_modelo").toggle();    
 });
