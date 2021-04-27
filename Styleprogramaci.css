@@ -482,6 +482,27 @@ footer{
     height: 90%;
 }
 
+@media screen and (min-width: 1521px) {
+    .Seccion_Modelado img{
+     height: 60%;
+   }
+
+   .Seccion_Animacion img, .Seccion_Programacion img, .Seccion_Render img{
+       height: 65%;
+     }
+
+     .Seccion_Guiones img{
+       height: 75%;
+     }
+ }
+
+ @media screen and (max-width: 1520px) {
+   .Seccion_Animacion img, .Seccion_Guiones img, .Seccion_Modelado img, .Seccion_Programacion img, .Seccion_Render img{
+       height: 50%;
+   }
+ }
+
+
 .Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render{
     width: 50%; 
     height: 10%;
