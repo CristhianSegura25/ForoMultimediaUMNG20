@@ -1,9 +1,10 @@
 body{
     padding: 0;
     background-repeat: no-repeat;
-    background-image: url(https://fondosmil.com/fondo/9728.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+    /*background-image: url("images/fondo_guiones_atras.png") ;*/
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
     font-family: Tahoma Regular;
 }
 .container_cortosguiones{
@@ -21,6 +22,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     border:1px solid rgb(0, 0, 0);
+    
 }
 .Barra_Superior{
     display: flex;
@@ -44,10 +46,12 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
+    z-index: 8;
 }
 .Circulo2_1{
     position: absolute;
     top: 3.1%;
+    z-index: 10;
 }
 
 .Circulo2_2{
@@ -147,6 +151,7 @@ body{
 	bottom:50%;
 	left:20%;
 	background-color: #353535;
+    z-index: 10;
 }
 .zonaguion{
 	width: 70%;
@@ -155,6 +160,7 @@ body{
 	bottom:10%;
 	left:17.5%;
 	background-color: #D3D3D3;
+    z-index: 10;
 }
 .zonaderecha{
 	width: 25%;
@@ -162,6 +168,7 @@ body{
     position: absolute;
     bottom: 0;
     right:0;
+    z-index: 10;
 }
 
 .logo20años{
@@ -311,6 +318,7 @@ body{
     position: absolute;
     bottom: 0;
     right:0;
+    z-index: 10;
 }
 
 .zona-autores{
@@ -320,6 +328,7 @@ body{
  	left: 15%;
  	bottom:0;
     background: #fafafa;
+    
 }
 
 .retrato{
@@ -336,11 +345,13 @@ body{
 .retrato-imagen{
     width: 100%;
     height: 100%;
+    z-index: 10;
 }
 
 .foto-retrato{
     width: 100%;
     height: 100%;
+    z-index: 10;
 }
 
 .info-autores{
@@ -352,6 +363,7 @@ body{
     align-items: center;
     text-align: center;
     justify-content: center;
+    z-index: 10;
 }
 
 .zona-1{
@@ -365,6 +377,7 @@ body{
     background: #f0f0f0;
     align-items: center;
     justify-content: center;
+    z-index: 10;
 }
 
 .zona-2{
@@ -378,6 +391,7 @@ body{
     background: #f0f0f0;
     align-items: center;
     justify-content: center;
+    z-index: 10;
 }
 
 .zona-3{
@@ -391,6 +405,8 @@ body{
     background: #f0f0f0;
     align-items: center;
     justify-content: center;
+    z-index: 10;
+
 }
 
 .zona-4{
@@ -404,6 +420,7 @@ body{
     background: #f0f0f0;
     align-items: center;
     justify-content: center;
+    z-index: 10;
 }
 
 .zona-5{
@@ -417,6 +434,7 @@ body{
     background: #f0f0f0;
     align-items: center;
     justify-content: center;
+    z-index: 10;
 }
 
 .zona-6{
@@ -430,12 +448,14 @@ body{
     background: #f0f0f0;
     align-items: center;
     justify-content: center;
+    z-index: 10;
 }
 .Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render{
     width: 50%; 
     height: 12%;
     margin-top: 35%;
     margin-bottom: 35%;
+    z-index: 10;
   }
   .Seccion_Animacion button, .Seccion_Guiones button, .Seccion_Modelado button, .Seccion_Programacion button, .Seccion_Render button{
     width: 200%; 
@@ -446,6 +466,7 @@ body{
     border-radius: 0 100px 100px 0;
     border-color:#FFFFBF; 
     cursor:pointer;
+    z-index: 10;
   }
 
 .Botones_laterales button:hover{
@@ -487,4 +508,24 @@ video{
     vertical-align: center;
     align-items: center;
     text-align: center;
+    z-index: 10;
 }
+@import "compass/css3";
+
+.magic {
+    z-index: 5;
+    position: absolute;
+    top: calc(50% - 10rem);
+    left: calc(50% - 10rem);
+    width: 20rem;
+    height: 20rem;
+    background-image: url("images/fondo_guiones_atras.png") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /*background-image: url("images/fondo_render.jpg"); */
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 15px 10px rgb(192, 200, 223);
+  }
+  
