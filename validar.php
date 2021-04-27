@@ -1,5 +1,7 @@
+
 <?php
 	require_once "conexionadb.php";
+
 	$nombreingreso=$_POST['nombreingreso'];
 	$passwordingreso=$_POST['passwordingreso'];
 	session_start();
@@ -16,7 +18,8 @@
 	else{
 		include("login.php");
 ?>
-		<h1>ERROR EN LA AUTENTIFICACION</h1>
+			<p class="error"><b>ERROR EN LA AUTENTIFICACION</b></p>
+
 <?php
 	}
 	mysqli_free_result($resultado);
