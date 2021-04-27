@@ -129,7 +129,8 @@ footer{
     background-color: rgb(61,61,61);
 }
 .logoheader{
-	width: 10%;
+    padding-left: 2%;
+	width: 9%;
 }
 .logoheader2{
 	padding-top: 5%;
@@ -487,6 +488,8 @@ footer{
     margin-top: 35%;
     margin-bottom: 35%;
   }
+
+
   .Seccion_Animacion button, .Seccion_Guiones button, .Seccion_Modelado button, .Seccion_Programacion button, .Seccion_Render button{
     width: 200%; 
     height: 100%; 
@@ -494,11 +497,14 @@ footer{
     -moz-border-radius: 0 100px 100px 0;
     -webkit-border-radius: 0 100px 100px 0;
     border-radius: 0 100px 100px 0;
+    border-color: #747474;
+    cursor:pointer;
   }
+  
+
 
 .Botones_laterales button:hover{
-    background: #999999;
-    color:  #747474;
+    background: #50527E;
 }
 
 .Boton_animacion, .Boton_guiones, .Boton_modelado, .Boton_programacion, .Boton_render{
@@ -507,7 +513,7 @@ footer{
 }
 
 .Seccion_Animacion:hover .Boton_animacion{
-    transform:  translateX(1%)
+    transform:  translateX(0.1%)
 }
 
 .Seccion_Guiones:hover .Boton_guiones{
@@ -524,6 +530,10 @@ footer{
 
 .Seccion_Render:hover .Boton_render{
     transform:  translateX(1%)
+}
+
+.logo_animacion{
+    height: 100%;
 }
 .img-fluid1{
     width: 30%;
