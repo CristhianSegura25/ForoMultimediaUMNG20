@@ -31,6 +31,30 @@ window.addEventListener("click",function(b){
 	}
 });
 
+function setNewImage_1(){
+	document.getElementById("img1").src = "images/Modelos/Primer_Modelo.gif"
+}
+
+function setOldImage_1(){
+	document.getElementById("img1").src = "images/Modelos/Primer_Modelo.png"
+}
+
+function setNewImage_2(){
+	document.getElementById("img2").src = "images/Modelos/Segundo_Modelo.gif"
+}
+
+function setOldImage_2(){
+	document.getElementById("img2").src = "images/Modelos/Segundo_Modelo.png"
+}
+
+function setNewImage_3(){
+	document.getElementById("img3").src = "images/Modelos/Tercer_Modelo.gif"
+}
+
+function setOldImage_3(){
+	document.getElementById("img3").src = "images/Modelos/Tercer_Modelo.png"
+}
+
 $('#showhide').on('click', function(e){
     $("#info_modelo").toggle();    
 });
