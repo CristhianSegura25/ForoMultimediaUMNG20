@@ -64,22 +64,6 @@ window.addEventListener("click",function(b){
 	}
 });
 
-$('#showhide').on('click', function(e){
-    $("#info_modelo").toggle();    
-});
-
-$('#showhide_2').on('click', function(e){
-    $("#info_modelo_2").toggle();    
-});
-
-$('#showhide_3').on('click', function(e){
-    $("#info_modelo_3").toggle();    
-});
-
-$('#showhide_4').on('click', function(e){
-    $("#info_modelo_4").toggle();    
-});
-
 $('#modal1').on('hidden.bs.modal', function (e) {
 	// do something...
 	$('#modal1 iframe').attr("src", $("#modal1 iframe").attr("src"));
