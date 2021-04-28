@@ -32,7 +32,7 @@ window.addEventListener("click",function(b){
 });
 
 function setNewImage_1(){
-	document.getElementById("img1").src = "images/Modelos/Primer_Modelo.gif"
+	document.getElementById("img1").src = "images/Modelos/Primer_Modelo_2.gif"
 }
 
 function setOldImage_1(){
@@ -53,6 +53,46 @@ function setNewImage_3(){
 
 function setOldImage_3(){
 	document.getElementById("img3").src = "images/Modelos/Tercer_Modelo.png"
+}
+
+function setNewImage_4(){
+	document.getElementById("img4").src = "images/Modelos/Cuarto_Modelo.gif"
+}
+
+function setOldImage_4(){
+	document.getElementById("img4").src = "images/Modelos/Cuarto_Modelo.png"
+}
+
+function setNewImage_5(){
+	document.getElementById("img5").src = "images/Modelos/Quinto_Modelo.gif"
+}
+
+function setOldImage_5(){
+	document.getElementById("img5").src = "images/Modelos/Quinto_Modelo.png"
+}
+
+function setNewImage_6(){
+	document.getElementById("img6").src = "images/Modelos/Sexto_Modelo.gif"
+}
+
+function setOldImage_6(){
+	document.getElementById("img6").src = "images/Modelos/Sexto_Modelo.png"
+}
+
+function setNewImage_7(){
+	document.getElementById("img7").src = "images/Modelos/Septimo_Modelo.gif"
+}
+
+function setOldImage_7(){
+	document.getElementById("img7").src = "images/Modelos/Septimo_Modelo.png"
+}
+
+function setNewImage_8(){
+	document.getElementById("img8").src = "images/Modelos/Octavo_Modelo.gif"
+}
+
+function setOldImage_8(){
+	document.getElementById("img8").src = "images/Modelos/Octavo_Modelo.png"
 }
 
 $('#showhide').on('click', function(e){

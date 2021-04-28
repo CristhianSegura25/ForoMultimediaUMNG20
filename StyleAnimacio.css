@@ -522,21 +522,21 @@ video{
 
 
 @media screen and (min-width: 1521px) {
-    .Seccion_Modelado img, .Seccion_Programacion img{
-     height: 65%;
+    .Seccion_Modelado img{
+     height: 60%;
    }
 
-   .Seccion_Animacion img, .Seccion_Guiones img{
-       height: 85%;
+   .Seccion_Animacion img, .Seccion_Programacion img, .Seccion_Render img{
+       height: 65%;
      }
 
-     .Seccion_Guiones img, .Seccion_Render img{
+     .Seccion_Guiones img{
        height: 75%;
      }
  }
 
  @media screen and (max-width: 1520px) {
-   .Seccion_Animacion, .Seccion_Guiones img, .Seccion_Modelado img, .Seccion_Programacion img, .Seccion_Render img{
+   .Seccion_Animacion img, .Seccion_Guiones img, .Seccion_Modelado img, .Seccion_Programacion img, .Seccion_Render img{
        height: 50%;
    }
  }
