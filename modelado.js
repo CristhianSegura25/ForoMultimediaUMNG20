@@ -10,6 +10,7 @@ abrirmodelado1.addEventListener("click",function(b){
 	modalCmodelado1.style.visibility="visible";
 	modalmodelado1.classList.toggle("modal-closemodelado1");
 });
+
 cerrarmodelado1.addEventListener("click",function(){
 	modalmodelado1.classList.toggle("modal-closemodelado1");
 

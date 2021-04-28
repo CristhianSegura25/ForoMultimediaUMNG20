@@ -8,6 +8,12 @@ body{
     padding: 0;
 }
 
+.Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render{
+    position: sticky;
+    top: 100px;
+    z-index: 100;
+}
+
 
   @media screen and (min-width: 1521px) {
      .Seccion_Modelado img{
@@ -91,6 +97,11 @@ body{
     padding-bottom: 25%;
 }
 
+.Imagen_3, .Imagen_4 {
+    padding-top: 15%;
+    padding-bottom: 25%;
+}
+
 .pared_derecha_1{
     transform: skewY(45deg) translateY(6.5%);
 }
@@ -156,8 +167,11 @@ body{
 
 
 .Botones_inferiores{
-    padding-top: 10%;
-    padding-bottom: 5%;
+    position: sticky;
+    left:65%;
+    top: 0;
+    padding-top: 2%;
+    z-index: 100;
 }
 
 .img_20_Años{
@@ -187,22 +201,19 @@ body{
 
 .ventana{
     width: 100%;
-    height: 100%;
+    height: 95%;
     background-color: white;
-    font-size: 30px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .modalcontainermodelado1{
-    opacity: 0;
     visibility: hidden;
     position: fixed;
-    z-index: 1000;
     width: 100%;
-    height: 100vh;
+    height: 97%;
     bottom:0;
     left:0;
-    background: rgba(0,0,0,0.5);
     display: flex;
     justify-content: center;
     align-items:flex-end;
@@ -217,6 +228,7 @@ body{
     justify-content: space-evenly;
     transition: transform 1s;
     transform:translateY(-50%); 
+    overflow-y: scroll;
 }
 
 .closemodelado1{
