@@ -352,7 +352,6 @@ footer{
 
 .contenidozonaderecha{
 	background-color: rgb(0, 0, 0);
-    color: white;
 	width:93%;
     height: 82%;
     position: absolute;
@@ -362,6 +361,10 @@ footer{
     border-left: 12px solid rgb(81,81,81); 
     border-right:12px solid rgb(81,81,81); 
     border-bottom: 12px solid rgb(81,81,81); 
+    color: white;
+}
+.contenidozonaderecha>ul{
+    font-size: large;
 }
 .pag_animacion{
     font-size: 90%;
