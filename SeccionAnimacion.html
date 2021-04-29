@@ -12,51 +12,13 @@
     <body>    
         <div class="Container_Carpeta">
 
-            <div class="Barra_Lateral">
-                <div class="Seccion_Animacion">
-                    <button class="Boton_animacion" onclick="window.location='SeccionAnimacion.html'"><img class="img-fluid" src="images/Iconos_botones/Boton_animacion.png"/></button>
-                </div>
-                <div class="Seccion_Guiones">
-                    <button class="Boton_guiones" onclick="window.location='seccioncortosguiones.html'"><img class="img-fluid1" src="images/Iconos_botones/Boton_guiones.png"/></button>
-                </div>
-
-                <div class="Seccion_Modelado">
-                    <button class="Boton_modelado" onclick="window.location='SeccionModelado.html'"><img class="img-fluid" src="images/Iconos_botones/Boton_modelado.png"/></button>
-                </div>
-
-                <div class="Seccion_Programacion">
-                    <button class="Boton_programacion" onclick="window.location='seccionprogramacion.html'"><img class="img-fluid" src="images/Iconos_botones/Boton_programacion.png"/></button>
-                </div>
-
-                <div class="Seccion_Render">
-                    <button class="Boton_render" onclick="window.location='seccion_render.html'"><img class="img-fluid" src="images/Iconos_botones/Boton_render.png"/></button>
-                </div>
-            </div>
+            
 
             <div class="Zona_Trabajo">
                 <div class="zona-background">
                     <video autoplay muted loop id="video-fondo">
                         <source src="videos/video background 1.mp4" type="video/mp4">
                     </video>
-                </div>
-
-                <div class="Cinta_Trabajos">
-                    <img class="Cinta"src="images/cinta pelicula.png"alt="cintapelicula" />
-
-                    <input type="checkbox" id="boton-modal-1">
-                    <label for="boton-modal-1" class="lbl-modal-1"> <img src="images/cayde last stand.png" alt="cayde6"> </label>
-
-                    <input type="checkbox" id="btn-modal-2">
-                    <label for="btn-modal-2" class="lbl-modal-2"> <img src="images/leap of faith.png" alt="spiderman"> </label>
-
-                    <input type="checkbox" id="btn-modal-3">
-                    <label for="btn-modal-3" class="lbl-modal-3"> <img src="images/backwater.png" alt="undertaker"> </label>
-
-                    <input type="checkbox" id="btn-modal-4">
-                    <label for="btn-modal-4" class="lbl-modal-4"> <img src="images/Hinokami Kagura.png" alt="demon slayer"> </label>
-
-                    <input type="checkbox" id="btn-modal-5">
-                    <label for="btn-modal-5" class="lbl-modal-5"> <img src="images/planeta del tesoro.png" alt="el planeta del tesoro"> </label>
                 </div>
 
                 <div class="Cinta_Animacion">
@@ -80,6 +42,106 @@
                     <div class="Cinta_Vertical_2">
                         <img class="Cuadrados"src="images/Cuadrados.png"alt="cuadrados" />
                     </div>
+                </div>
+
+                <div class="Cinta_Trabajos">
+                    <img class="Cinta"src="images/cinta pelicula.png"alt="cintapelicula" />
+
+                    <input type="checkbox" id="boton-modal-1">
+                    <label for="boton-modal-1" class="lbl-modal-1"> <img src="images/cayde last stand.png" alt="cayde6"> </label>
+
+                    <input type="checkbox" id="btn-modal-2">
+                    <label for="btn-modal-2" class="lbl-modal-2"> <img src="images/leap of faith.png" alt="spiderman"> </label>
+
+                    <input type="checkbox" id="btn-modal-3">
+                    <label for="btn-modal-3" class="lbl-modal-3"> <img src="images/backwater.png" alt="undertaker"> </label>
+
+                    <input type="checkbox" id="btn-modal-4">
+                    <label for="btn-modal-4" class="lbl-modal-4"> <img src="images/Hinokami Kagura.png" alt="demon slayer"> </label>
+
+                    <input type="checkbox" id="btn-modal-5">
+                    <label for="btn-modal-5" class="lbl-modal-5"> <img src="images/planeta del tesoro.png" alt="el planeta del tesoro"> </label>
+
+                    <div class="modal-container_1">
+                        <div class="modal_1">
+                            <div class="cabecera">
+                                <header> Cayde-6: Last Stand </header>
+                            <label for="boton-modal-1"> x </label>
+                            </div>
+                            <video poster="images/cayde last stand.png" controls>
+                                <source src="videos/cayde last stand.mp4">
+                            </video>
+                        </div>
+                    </div>
+
+                    <div class="modal-container_2">
+                        <div class="modal_2">
+                            <div class="cabecera">
+                                <header> Leap of Faith - Spider-Man </header>
+                            <label for="btn-modal-2"> x </label>
+                            </div>
+                            <video poster="images/leap of faith.png" controls>
+                                <source src="videos/leap of faith.mp4">
+                            </video>
+                        </div>
+                    </div>
+        
+                    <div class="modal-container_3">
+                        <div class="modal_3">
+                            <div class="cabecera">
+                                <header> The Backwater Gospel </header>
+                            <label for="btn-modal-3"> x </label>
+                            </div>
+                            <video poster="images/backwater.png" controls>
+                                <source src="videos/the backwater gospel.mp4">
+                            </video>
+                        </div>
+                    </div>
+        
+                    <div class="modal-container_4">
+                        <div class="modal_4">
+                            <div class="cabecera">
+                                <header> Demon Slayer: Hinokami Kagura </header>
+                            <label for="btn-modal-4"> x </label>
+                            </div>
+                            <video poster="images/Hinokami Kagura.png" controls>
+                                <source src="videos/hinokami kagura.mp4">
+                            </video>
+                        </div>
+                    </div>
+        
+                    <div class="modal-container_5">
+                        <div class="modal_5">
+                            <div class="cabecera">
+                                <header> El Planeta del Tesoro: Sigo Aqui </header>
+                            <label for="btn-modal-5"> x </label>
+                            </div>
+                            <video poster="images/planeta del tesoro.png" controls>
+                                <source src="videos/sigo aqui.mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Barra_Lateral">
+                <div class="Seccion_Animacion">
+                    <button class="Boton_animacion" onclick="window.location='SeccionAnimacion.html'"><img class="img-fluid" src="images/Iconos_botones/Boton_animacion.png"/></button>
+                </div>
+                <div class="Seccion_Guiones">
+                    <button class="Boton_guiones" onclick="window.location='seccioncortosguiones.html'"><img class="img-fluid1" src="images/Iconos_botones/Boton_guiones.png"/></button>
+                </div>
+
+                <div class="Seccion_Modelado">
+                    <button class="Boton_modelado" onclick="window.location='SeccionModelado.html'"><img class="img-fluid" src="images/Iconos_botones/Boton_modelado.png"/></button>
+                </div>
+
+                <div class="Seccion_Programacion">
+                    <button class="Boton_programacion" onclick="window.location='seccionprogramacion.html'"><img class="img-fluid" src="images/Iconos_botones/Boton_programacion.png"/></button>
+                </div>
+
+                <div class="Seccion_Render">
+                    <button class="Boton_render" onclick="window.location='seccion_render.html'"><img class="img-fluid" src="images/Iconos_botones/Boton_render.png"/></button>
                 </div>
             </div>
 
@@ -106,66 +168,6 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo architecto culpa veritatis minus nesciunt est quo adipisci vero sequi, sapiente debitis ex accusamus maiores consectetur pariatur similique ad quasi quibusdam!</p>
                     </div>
                     </div>
-                </div>
-            </div>
-
-            <div class="modal-container_1">
-                <div class="modal_1">
-                    <div class="cabecera">
-                        <header> Cayde-6: Last Stand </header>
-                    <label for="boton-modal-1"> x </label>
-                    </div>
-                    <video poster="images/cayde last stand.png" controls>
-                        <source src="videos/cayde last stand.mp4">
-                    </video>
-                </div>
-            </div>
-
-            <div class="modal-container_2">
-                <div class="modal_2">
-                    <div class="cabecera">
-                        <header> Leap of Faith - Spider-Man </header>
-                    <label for="btn-modal-2"> x </label>
-                    </div>
-                    <video poster="images/leap of faith.png" controls>
-                        <source src="videos/leap of faith.mp4">
-                    </video>
-                </div>
-            </div>
-
-            <div class="modal-container_3">
-                <div class="modal_3">
-                    <div class="cabecera">
-                        <header> The Backwater Gospel </header>
-                    <label for="btn-modal-3"> x </label>
-                    </div>
-                    <video poster="images/backwater.png" controls>
-                        <source src="videos/the backwater gospel.mp4">
-                    </video>
-                </div>
-            </div>
-
-            <div class="modal-container_4">
-                <div class="modal_4">
-                    <div class="cabecera">
-                        <header> Demon Slayer: Hinokami Kagura </header>
-                    <label for="btn-modal-4"> x </label>
-                    </div>
-                    <video poster="images/Hinokami Kagura.png" controls>
-                        <source src="videos/hinokami kagura.mp4">
-                    </video>
-                </div>
-            </div>
-
-            <div class="modal-container_5">
-                <div class="modal_5">
-                    <div class="cabecera">
-                        <header> El Planeta del Tesoro: Sigo Aqui </header>
-                    <label for="btn-modal-5"> x </label>
-                    </div>
-                    <video poster="images/planeta del tesoro.png" controls>
-                        <source src="videos/sigo aqui.mp4">
-                    </video>
                 </div>
             </div>
 

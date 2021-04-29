@@ -4,11 +4,16 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href ="styleregistro.css"/>
+    <link rel="stylesheet" href ="styleregistr.css"/>
     <title>Registrate</title>
   </head>
 
   <body>
+    <div class="cosasuperior">
+        <p>20</p>
+        <P>AÑOS</P>
+        <P>MULTIMEDIA</P>
+    </div>
      <div>
       <img class="logo20login" src=images/logorojo.png alt="logo20años">
      </div>

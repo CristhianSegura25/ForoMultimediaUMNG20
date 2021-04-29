@@ -6,9 +6,12 @@
     <title>FORO 20 AÑOS MULTIMEDIA</title>
     <link rel="stylesheet"  href="stylelogin.css" />
 </head>
-
 <body>
-
+    <div class="cosasuperior">
+        <p>20</p>
+        <P>AÑOS</P>
+        <P>MULTIMEDIA</P>
+    </div>
     <div >
     	<img class="logo20login" src=images/logorojo.png alt="logo20años">
     </div>

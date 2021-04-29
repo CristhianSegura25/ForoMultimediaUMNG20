@@ -5,11 +5,16 @@
 }
 body{
 	margin:auto;
-	background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+	background-image: linear-gradient(to top, #00c6fb 0%,#0087f1 100%);
 
 	align-items: center;
 	text-align: center;
 
+}
+.cosasuperior{
+	background:#0064eb;
+	height: 20%;
+	color:rgba(1,1,1,0);
 }
 .logo20login{
 	width:30%;
