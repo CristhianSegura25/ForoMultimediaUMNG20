@@ -91,7 +91,6 @@ body{
 }
 
 
-
 .Imagen_1, .Imagen_2 {
     padding-top: 15%;
     padding-bottom: 25%;
@@ -106,20 +105,37 @@ body{
     transform: skewY(45deg) translateY(6.5%);
 }
 
+
+.pared_derecha_1 button:hover{
+    background-color: #8D8EB0;
+}
+
+
 .pared_abajo_1{
     height: 12.5%;
     transform: skewX(45deg) translateX(6.5%);
 }
 
+.pared_abajo_1 button:hover{
+    background-color: #8D8EB0;
+ }
+
 .pared_derecha_1_2{
     transform: skewY(45deg) translateY(6.5%);
 }
 
+.pared_derecha_1_2 button:hover{
+    background-color: #8D8EB0;
+ }
+
 .pared_abajo_1_2{
     height: 11.5%;
-    transform: skewX(45deg) translateX(6.5%);
-    
+    transform: skewX(45deg) translateX(6.5%); 
 }
+
+.pared_abajo_1_2 button:hover{
+    background-color: #8D8EB0;
+ }
 
 @media screen and (min-width: 2001px) {
     .pared_abajo_1_2{
