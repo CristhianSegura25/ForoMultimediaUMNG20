@@ -48,8 +48,26 @@
                         <div class="headerventana">
                             <a class="closerender1"><img class="cerrarmodal img-fluid"src="images/cerrarmodal.png"alt="cerrarmodal"></a>
                         </div>
+
                         <div class="ventana">
-                            <a>INFORMACION SECCION RENDER</a> 
+                            <div class="Botones_info col-12 col-sm-12">
+                            <a>INFORMACION SECCION RENDER</a>
+                            </div>
+                            <div class="row">
+                                <div class="info_modal col-12 col-sm-8">
+                                <p>El principal objetivo de realizar un render es dar apariencia realista a un modelo 3D</p><br>
+                                <p>Para dar esa apariencia reslista se realizan diversas técnicas tales como:  aplicacion de color, texturizado de materiales, iluminación, estos generaran esos efectos ópticos que se asemejan a una situación específica en el mundo real </p>
+                                </div>
+                                <div class="info_modal col-12 col-sm-4">
+                                    <img class="img_modal_1 " src="images/render_ejemplo.jpg" alt="">
+                                </div>
+                                <div class="info_modal_2 col-12 col-sm-12">
+                                <p> Por medio del render no solo es posible dar texturas e iluminacion a elementos que posteriormente se usaran como imagenes, tambien es posible aplicar las diversas tecnicas que usa el render para animaciones 3D, en incluso hacer integraciones con la vida real, es decir realida aumentada </p>                              
+                                    <img class="img_modal_2 " src="images/realidad-aumentada.jpg" alt="">
+                                </div>
+
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -69,7 +87,7 @@
             <div class="col-11 col-sm-7">
               
                 <div class="visor_trabajo">
-                    <img src="images/render_trabajo.png" alt="trabajo">
+                    <img class="img-fluid" src="images/trabajo_render_1/finalizado.jpg" alt="trabajo" id=trabajo_render>
                     <!--<img src="images/fondo_trabajo.png" alt="trabajo">-->
                 
                 </div>
@@ -77,8 +95,9 @@
             <div class="col-11 col-sm-5">   
                     
                 <div class="info_trabajo">
-                    <h2>Informacion autor</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus optio exercitationem voluptas vel eveniet quos, vitae tempore architecto dicta accusamus fuga ipsam repellendus modi sunt similique est libero id ab.</p>
+                    <h2>Render para Arquitectura</h2>
+                    <h3>Autor:arqing-mexico</h3>
+                    <p>Son una empresa especializada en crear piezas visuales por medio del render, een su mayoria con un enfoque arquitectonico</p>
                     
                 </div>
             </div> 
@@ -94,15 +113,22 @@
             <div class="col-8 col-sm-6 ms-auto">
                 <div class="botones_etapasrender">
                     <input type ="checkbox" id =btn-mas>
-                    <div class="botones_deslizantes">
-                    <a href="#" ><img src="images/modelado.png" alt="modelado"></a>
-                    <a href="#" ><img src="images/texturas.png" alt="texturas"></a>
-                    <a href="#" ><img src="images/render.png" alt="render"></a>
-                    </div>
-                    <div class ="btn-mas">
-                        <label for="btn-mas" >
-                            <img class="img-fluid" src="images/post_produccion.png" alt="post_produccion">
-                    </div>
+                    
+                        <div class="botones_deslizantes">
+                        
+                        <a href="#" onclick="funcion_cambio(0);"><img src="images/modelado.png" alt="modelado"></a>
+                        <a href="#"  onclick="funcion_cambio(1);"><img src="images/texturas.png" alt="texturas"></a>
+                        <a href="#"  onclick="funcion_cambio(2);"><img src="images/render.png" alt="render"></a>
+                        <a href="#"  onclick="funcion_cambio(3);"><img src="images/post_produccion.png" alt="post_produccion"></a>
+                        </div>
+                    
+                    
+                        <div class ="btn-mas">
+                            <label for="btn-mas" >
+
+                                <img class=" img-fluid" src="images/mas_render.png" alt="post_produccion">
+                        </div>
+                    
                 </div>
 
             </div>
