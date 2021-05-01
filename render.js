@@ -38,3 +38,16 @@ $(document).ready(function() {
 	  $magic.css({"left": e.pageX - magicWHalf, "top": e.pageY - magicWHalf});
 	});
   });
+
+  function funcion_cambio(n){
+	var trabajo_cambio =  document.getElementById("trabajo_render");
+	if(n==0){
+	trabajo_cambio.src="images/trabajo_render_1/modelado.jpg";
+    }else if(n==1){
+		trabajo_cambio.src="images/trabajo_render_1/iluminacion.jpg";
+		}else if(n==2){
+			trabajo_cambio.src="images/trabajo_render_1/color.jpg";
+			}else if(n==3){
+				trabajo_cambio.src="images/trabajo_render_1/finalizado.jpg";
+				}
+}
