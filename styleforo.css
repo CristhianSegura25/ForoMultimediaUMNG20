@@ -112,8 +112,30 @@ body{
     color:white;
     border:none;
   }
-  
+  .botones_secciones{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
 
+  }
+  .zona_escritura_post{
+    
+    justify-content: center;
+  }
+  .seleccion_tema{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+  }
+  .input_post{
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
 
-
-
+  }
+  .ultimos_post{
+    background-color: rgb(169, 169, 247);
+  }
+  .post{
+    background-color: darkolivegreen;
+  }
