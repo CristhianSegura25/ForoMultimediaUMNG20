@@ -30,3 +30,22 @@ window.addEventListener("click",function(b){
 	},1000);
 	}
 });
+
+$(document).ready(function() {
+	var $magic = $(".magic"),
+		magicWHalf = $magic.width() / 2;
+	$(document).on("mousemove", function(e) {
+	  $magic.css({"left": e.pageX - magicWHalf, "top": e.pageY - magicWHalf});
+	});
+  });
+
+  function funcion_cambio(n){
+	var trabajo_cambio =  document.getElementById("trabajo_render");
+	if(n==0){
+	trabajo_cambio.src="images/trabajo_render_2/1.jpg";
+    }else if(n==1){
+		trabajo_cambio.src="images/trabajo_render_2/2.jpg";
+		}else if(n==2){
+			trabajo_cambio.src="images/trabajo_render_2/3.jpg";
+			}
+}
