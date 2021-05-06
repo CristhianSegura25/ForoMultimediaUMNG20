@@ -16,7 +16,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 			die;
 		}
 
-		$sql="INSERT INTO Lista_Usuarios(usuario,correo,contrasena) VALUES ('$usuario','$correo','$contrasena')";
+		$sql="INSERT INTO Lista_Usuarios(usuario,correo,contrasena,tipo) VALUES ('$usuario','$correo','$contrasena','0')";
 
 		if($conexion->query($sql)===false){
 			die($conexion->error);
