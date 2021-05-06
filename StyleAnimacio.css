@@ -5,7 +5,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    font-family: Tahoma Regular;
+    font-family: 'New Tegomin', serif;
 }
 
 .Container{
@@ -271,8 +271,10 @@ video{
 }
 
 .modal{
+    position: absolute;
+    top: 10%;
     width: 60%;
-    height: 60%;
+    height: 80%;
     transition: transform 0.5s;
     transform: translateY(0%);
     border-radius: 10px;
@@ -289,7 +291,7 @@ video{
 
 .modal-2{
     width: 100%;
-    height: 70%;
+    height: 75%;
     background: rgb(0, 0, 0);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -297,6 +299,7 @@ video{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    text-align: center;
     position: relative;
 }
 
@@ -329,17 +332,66 @@ video{
 .modal-2 > h2{
     position: absolute;
     top: 0;
+    left: 35%;
     font-size: xx-large;
     color: white;
 }
 
 .modal-2 > p{
+    position: absolute;
+    top: 12%;
+    left: 3%;
     font-size: large;
     color: white;
     text-align: left;
 }
 
+.gifs-animacion{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    width: 80%;
+    height: 60%;
+}
 
+.fondo-gifs{
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    width: 40%;
+    height: 50%;
+}
+
+.fondo-gifs > img{
+    width: 100%;
+    height: 100%;
+}
+
+.walking{
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    width: 30%;
+    height: 100%;
+}
+
+.walking > img{
+    width: 100%;
+    height: 100%;
+}
+
+.exageracion{
+    position: absolute;
+    bottom: 0%;
+    right: 10%;
+    width: 40%;
+    height: 50%;
+}
+
+.exageracion > img{
+    width: 100%;
+    height: 100%;
+}
 
 @media screen and (min-width: 1521px) {
     .Seccion_Modelado img{
@@ -667,10 +719,78 @@ video{
     position: absolute;
     bottom: 0%;
     width: 100%;
-    height: 20%;
-    background: #939490;
-    color: #ffff;
+    height: 23%;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
     transition: all 500ms ease;
+}
+
+.foto-autor{
+    width: 20%;
+    height: 95%;
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    /* background: #000; */
+}
+
+.foto-autor > img{
+    width: 100%;
+    height: 100%;
+}
+
+.titulo-animacion{
+    position: absolute;
+    top: 2%;
+    right: 1.5%;
+    width: 75%;
+    height: 20%;
+    justify-content: center;
+    text-align: center;
+    /* background: #000; */
+}
+
+.titulo-animacion > p{
+    position: absolute;
+}
+
+.nombre-autor{
+    width: 23%;
+    height: 20%;
+    position: absolute;
+    top: 28%;
+    left: 23.5%;
+    /* background: #000; */
+}
+
+.nombre-autor > p{
+    position: absolute;
+}
+
+.fecha-animacion{
+    width: 23%;
+    height: 20%;
+    position: absolute;
+    top: 50%;
+    left: 23.5%;
+    /* background: #000; */
+}
+
+.fecha-animacion > p{
+    position: absolute;
+}
+
+.descripcion{
+    width: 50%;
+    height: 75%;
+    position: absolute;
+    bottom: 2%;
+    right: 1.5%;
+    /* background: #000; */
+}
+
+.descripcion > p{
+    position: absolute;
 }
 
 #btn-modal_1{

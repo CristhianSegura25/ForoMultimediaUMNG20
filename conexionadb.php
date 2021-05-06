@@ -33,6 +33,7 @@ $db="usuariostrabajo";
         usuario VARCHAR(255) NOT NULL,
         correo VARCHAR(255) NOT NULL,
         contrasena VARCHAR(255) NOT NULL,
+        tipo VARCHAR(255) NOT NULL,
         timestamp TIMESTAMP
     )";
 
