@@ -3,35 +3,29 @@
 
 <head>
     <title> Home Foro </title>
-
     <meta charset="utf-8">
     <link rel="stylesheet" href ="stylehome1.css"/>
 </head>
 <body>
     <div class="Container">
         <div class="Zona_Botones">
-           <a href="SeccionAnimacion.html" ><img class="logoicono"src="images/logo animacion.png"alt="logoanimacion" /></a>
-            <a class="Boton" href="SeccionAnimacion.html"> Animacion </a>
+           <a href="SeccionAnimacion.html"><img id="img_1" onmouseover="setNewImage_1()" onmouseout="setOldImage_1()" class="logoicono" src="images/Ilustraciones/Logo_Animacion.png" alt="logoanimacion"/></a>
         </div>
 
         <div class="Zona_Botones">
-            <a href="seccioncortosguiones.html" ><img class="logoicono"src="images/logo cortosguiones.png" alt="logocortosguiones"/></a>
-            <a class="Boton" href="seccioncortosguiones.html"> Cortos/Guiones </a>
+            <a href="seccioncortosguiones.html" ><img id="img_2" onmouseover="setNewImage_2()" onmouseout="setOldImage_2()" class="logoicono" src="images/Ilustraciones/Logo_Guiones.png" alt="logocortosguiones"/></a>
         </div>
 
         <div class="Zona_Botones">
-            <a href="SeccionModelado.html" ><img class="logoicono"src="images/logo modelado.png" alt="logomodelado"/></a>
-            <a class="Boton" href="SeccionModelado.html"> Modelado </a>
+            <a href="SeccionModelado.html" ><img id="img_3" onmouseover="setNewImage_3()" onmouseout="setOldImage_3()" class="logoicono" class="logoicono" src="images/Ilustraciones/Logo_Modelado.png" alt="logomodelado"/></a>
         </div>
         
         <div class="Zona_Botones">
-            <a href="seccionprogramacion.html" ><img class="logoicono"src="images/logo programacion.png" alt="logoprogramacion"/></a>
-            <a class="Boton" href="seccionprogramacion.html"> Programacion </a>
+            <a href="seccionprogramacion.html" ><img id="img_4" onmouseover="setNewImage_4()" onmouseout="setOldImage_4()" class="logoicono" src="images/Ilustraciones/Logo_Programacion.png" alt="logoprogramacion"/></a>
         </div>
 
         <div class="Zona_Botones">
-            <a href="seccion_render.html" ><img class="logoicono"src="images/logo render.png" alt="logorender"/></a>
-            <a class="Boton" href="seccion_render.html"> Render </a>
+            <a href="seccion_render.html" ><img id="img_5" onmouseover="setNewImage_5()" onmouseout="setOldImage_5()" class="logoicono"class="logoicono" src="images/Ilustraciones/Logo_Render.png" alt="logorender"/></a>
         </div>
     </div>
     <footer>
@@ -50,23 +44,23 @@
                         <div class="barraiconos1">
                             <ul>
                                 <li class="iconoanimacion">
-                                    <img src="images/logo animacion.png" alt="iconoanimacion">
+                                    <img src="images/Ilustraciones/Logo_Animacion.png" alt="iconoanimacion">
                                     <a class="textoanimacion" href="#" >Animacion 2D/3D</a>
                                 </li>
                                  <li class="iconocortos">
-                                    <img src="images/logo cortosguiones.png" alt="iconocortosguiones">
+                                    <img src="images/Ilustraciones/Logo_Guiones.png" alt="iconocortosguiones">
                                     <a class="textocortos"href="#" >Cortos/Guiones</a>
                                 </li>
                                  <li class="iconomodelado">
-                                    <img src="images/logo modelado.png" alt="iconomodelado">
+                                    <img src="images/Ilustraciones/Logo_Modelado.png" alt="iconomodelado">
                                     <a class="textomodelado"href="#" >Modelado 3D</a>
                                 </li>
                                  <li class="iconoprogramacion">
-                                    <img src="images/logo programacion.png" alt="iconoprogramacion">
+                                    <img src="images/Ilustraciones/Logo_Programacion.png" alt="iconoprogramacion">
                                     <a class="textoprogramacion" href="#" >Programacion</a>
                                 </li>
                                  <li class="iconorender">
-                                    <img src="images/logo render.png" alt="iconorender">
+                                    <img src="images/Ilustraciones/Logo_Render.png" alt="iconorender">
                                     <a class="textorender"href="#" >Render</a>
                                 </li>
                             </ul>
@@ -99,7 +93,7 @@
                                 </div>
                                 <div class="zonatextod">
                                     <h2>Cristian Segura</h2>
-                                    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum repellendus sunt perspiciatis tenetur laudantium dolorum, possimus ut iusto nemo sapiente. Rem, saepe dolore aspernatur reiciendis possimus omnis rerum doloremque nesciunt!</h3>
+                                    <h3>Soy estudiante de Séptimo Semestre de Ingeniería en Multimedia. </h3>
                                 </div>
                             </div>
                             <div class="zonadiseñador1">
@@ -170,7 +164,12 @@
                                 <div class="perfil-de-egresado">
                                     <h2> Perfil de Egresado. </h2>
                                     <p> El ingeniero en multimedia de la Universidad Militar Nueva Ganada está en capacidad de utilizar los estándares de ingeniería computacionales y de multimedia, para desarrollar productos innovadores en términos de diseño, interactividad, uso, realismo e inteligencia, como cualidades de la calidad de la experiencia para el usuario final. Además, cuenta con la idoneidad para analizar, evaluar e investigar situaciones reales de su campo profesional, de manera crítica y reflexiva, y con compromiso social y ético, con el fin de establecer oportunidades de avance tecnológico y científico en la ingeniería en multimedia, así como con habilidades administrativas y gerenciales, que le posibilitan su integración en el entorno laboral y la creación de empresa. </p>
-                                </div>                            
+                                </div>    
+                                
+                                <div class="sobre-los-20">
+                                    <h2> Sobre los 20 años </h2>
+                                    <p> La carrera de Ingeniería en Multimedia cumple 20 años de ser instaurada en la Universidad Militar Nueva Granada </p>
+                                </div>    
                             </div>
                         </div>
                     </div>
@@ -184,5 +183,7 @@
     </footer>
 
     <script src="homexd.js"></script>
+    <script src="home2.js"></script>
+
 </body>
 </html>

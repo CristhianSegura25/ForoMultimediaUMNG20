@@ -23,7 +23,7 @@ footer{
 }
 
 .logoicono{
-    height: 20%;
+    height: 30%;
 }
 
 .Zona_Botones{
@@ -185,23 +185,23 @@ footer{
 .iconoanimacion{
     align-items: center;
 }
-.iconoanimacion>img{
+.iconoanimacion img{
     width: 10%;
 }
 
-.iconocortos>img{
+.iconocortos img{
     width: 10%;
 }
 
-.iconomodelado>img{
+.iconomodelado img{
     width: 10%;
 }
 
-.iconoprogramacion>img{
+.iconoprogramacion img{
     width: 10%;
 }
 
-.iconorender>img{
+.iconorender img{
     width: 10%;
 }
 /*.barraiconos1>li{

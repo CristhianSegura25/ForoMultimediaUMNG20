@@ -8,6 +8,7 @@ body{
     padding: 0;
 }
 
+
 .Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render{
     position: sticky;
     top: 100px;
@@ -191,20 +192,19 @@ body{
 }
 
 .img_20_Años{
-    width: 225px;
-    height: 128.4px;
+    width: 100px;
+    height: 200px;
 }
 
 .Foro{
     width: 100px;
     height: 100px;
-    filter: invert(100%);
 }
 
 .logoinfo{
     width: 100px;
     height: 100px;
-    filter: invert(100%);
+    filter: invert(1);
 }
 
 
