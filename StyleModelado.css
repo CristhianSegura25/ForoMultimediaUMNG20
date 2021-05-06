@@ -9,6 +9,7 @@ body{
 }
 
 
+
 .Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render{
     position: sticky;
     top: 100px;
