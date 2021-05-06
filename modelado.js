@@ -96,6 +96,22 @@ function setOldImage_8(){
 	document.getElementById("img8").src = "images/Modelos/Octavo_Modelo.png"
 }
 
+function setNewImage_foro(){
+	document.getElementById("foro").src = "images/Ilustraciones/Logo_Foro.gif"
+}
+
+function setOldImage_foro(){
+	document.getElementById("foro").src = "images/Ilustraciones/Logo_Foro.png"
+}
+
+function setNewImage_logo_20(){
+	document.getElementById("logo_20").src = "images/Ilustraciones/Logo_20.gif"
+}
+
+function setOldImage_logo_20(){
+	document.getElementById("logo_20").src = "images/Ilustraciones/Logo_20.png"
+}
+
 $('#showhide').on('click', function(e){
     $("#info_modelo").toggle();    
 });

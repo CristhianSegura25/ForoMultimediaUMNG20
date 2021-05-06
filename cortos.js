@@ -70,3 +70,19 @@ $(document).ready(function() {
 	  $magic.css({"left": e.pageX - magicWHalf, "top": e.pageY - magicWHalf});
 	});
   });
+
+function setNewImage_foro(){
+	document.getElementById("foro").src = "images/Ilustraciones/Logo_Foro.gif"
+}
+
+function setOldImage_foro(){
+	document.getElementById("foro").src = "images/Ilustraciones/Logo_Foro.png"
+}
+
+function setNewImage_logo_20(){
+	document.getElementById("logo_20").src = "images/Ilustraciones/Logo_20.gif"
+}
+
+function setOldImage_logo_20(){
+	document.getElementById("logo_20").src = "images/Ilustraciones/Logo_20.png"
+}

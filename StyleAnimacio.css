@@ -121,8 +121,9 @@ video{
 }
 
 .img_20_Años{
-    width: 100%;
-    height: 100%;
+    width: 225px;
+    height: 225px;
+    padding-left: 15%;
 }
 
 .Foro_Multimedia{
@@ -134,13 +135,12 @@ video{
 }
 
 .Foro{
-    width: 100%;
-    height: 100%;
+    width: 150px;
+    height: 150px;
 }
 
 .Info_Materia{
     width: 4%;
-    height: 6%;
     position: absolute;
     top: 37%;
     right: 6%;

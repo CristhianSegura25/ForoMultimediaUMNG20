@@ -70,3 +70,11 @@ window.addEventListener("click",function(b){
 	},1000);
 	}
 });
+
+function setNewImage_foro(){
+	document.getElementById("foro").src = "images/Ilustraciones/Logo_Foro.gif"
+}
+
+function setOldImage_foro(){
+	document.getElementById("foro").src = "images/Ilustraciones/Logo_Foro.png"
+}

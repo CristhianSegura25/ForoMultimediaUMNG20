@@ -128,17 +128,18 @@ footer{
     height: 18%;
     background-color: rgb(61,61,61);
 }
+
 .logoheader{
     padding-left: 2%;
-	width: 9%;
+	width: 12%;
+    height: 12%;
 }
 .logoheader2{
 	padding-top: 5%;
 	width: 90%;
 	height: 90%;
 }
-.logo20añosiconoheader{
-}
+
 .compilar{
 	padding-top: 15px;
 	position: absolute;

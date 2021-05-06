@@ -122,19 +122,18 @@ body {
 }
 
 .img_20_Años{
-  width: 157.5px;
-  height: 89.88px;
+  width: 175px;
+  height: 175px;
 }
 
 .Foro{
-  width: 75px;
-  height: 75px;
-  filter: invert(100%);
+  width: 125px;
+  height: 125px;
 }
 
 .logoinfo{
-  width: 75px;
-  height: 75px;
+  width: 100px;
+  height: 100px;
   filter: invert(100%);
 }
 
