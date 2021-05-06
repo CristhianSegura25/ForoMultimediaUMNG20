@@ -99,7 +99,7 @@
                                 </div>
                                 <div class="zonatextod">
                                     <h2>Cristian Segura</h2>
-                                    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum repellendus sunt perspiciatis tenetur laudantium dolorum, possimus ut iusto nemo sapiente. Rem, saepe dolore aspernatur reiciendis possimus omnis rerum doloremque nesciunt!</h3>
+                                    <h3>Soy estudiante de Séptimo Semestre de Ingeniería en Multimedia. </h3>
                                 </div>
                             </div>
                             <div class="zonadiseñador1">
@@ -170,7 +170,12 @@
                                 <div class="perfil-de-egresado">
                                     <h2> Perfil de Egresado. </h2>
                                     <p> El ingeniero en multimedia de la Universidad Militar Nueva Ganada está en capacidad de utilizar los estándares de ingeniería computacionales y de multimedia, para desarrollar productos innovadores en términos de diseño, interactividad, uso, realismo e inteligencia, como cualidades de la calidad de la experiencia para el usuario final. Además, cuenta con la idoneidad para analizar, evaluar e investigar situaciones reales de su campo profesional, de manera crítica y reflexiva, y con compromiso social y ético, con el fin de establecer oportunidades de avance tecnológico y científico en la ingeniería en multimedia, así como con habilidades administrativas y gerenciales, que le posibilitan su integración en el entorno laboral y la creación de empresa. </p>
-                                </div>                            
+                                </div>    
+                                
+                                <div class="sobre-los-20">
+                                    <h2> Sobre los 20 años </h2>
+                                    <p> La carrera de Ingeniería en Multimedia cumple 20 años de ser instaurada en la Universidad Militar Nueva Granada </p>
+                                </div>    
                             </div>
                         </div>
                     </div>
