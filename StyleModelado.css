@@ -8,7 +8,10 @@ body{
     padding: 0;
 }
 
-
+.logo_modelado{
+    width: 20%;
+    padding-top: 15%;
+}
 
 .Seccion_Animacion, .Seccion_Guiones, .Seccion_Modelado, .Seccion_Programacion, .Seccion_Render{
     position: sticky;
