@@ -8,6 +8,11 @@ body{
     font-family: Tahoma Regular;
 }
 
+.Boton_Foro, .Boton_20, .Boton_info, .Boton_info_2, .Boton_galeria{
+    background: none;
+    border: 0;
+}
+
 .logo_guiones{
     width: 20%;
     padding-top: 15%;
@@ -242,7 +247,8 @@ body{
     display: inline-block;
     width: 25px;
     height: 25px;
-    background:transparent;
+    background: none;
+    border: 0;
     color:black;
     cursor: pointer;
     border-radius: 50%;
@@ -307,7 +313,8 @@ body{
     display: inline-block;
     width: 25px;
     height: 25px;
-    background:transparent;
+    background: none;
+    border: 0;
     color:black;
     cursor: pointer;
     border-radius: 50%;
