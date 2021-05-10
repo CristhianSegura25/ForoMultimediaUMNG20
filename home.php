@@ -89,11 +89,11 @@
                         <div class="contenido-carreranosotros">
                             <div class="zonadiseñador">
                                 <div class="zonaimageni">
-                                    <img class="diseñadorlogoi"src="images/foto.jpg"alt="foto">
+                                    <img class="diseñadorlogoi"src="images/cristhian.jpg"alt="foto">
                                 </div>
                                 <div class="zonatextod">
                                     <h2>Cristian Segura</h2>
-                                    <h3>Soy estudiante de Séptimo Semestre de Ingeniería en Multimedia. </h3>
+                                    <h3>Soy estudiante de Séptimo Semestre de Ingeniería en Multimedia. Me gusta la creación de motion graphics y la animación en general.</h3>
                                 </div>
                             </div>
                             <div class="zonadiseñador1">
