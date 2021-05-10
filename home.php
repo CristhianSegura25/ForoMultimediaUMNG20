@@ -111,7 +111,7 @@
                                 </div>
                                 <div class="zonatextod">
                                     <h2>Jessica Arias</h2>
-                                    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum repellendus sunt perspiciatis tenetur laudantium dolorum, possimus ut iusto nemo sapiente. Rem, saepe dolore aspernatur reiciendis possimus omnis rerum doloremque nesciunt!</h3>
+                                    <h3>Soy una estudiante de Séptimo Semestre de Ingeniería en Multimedia. Dentro de mis intereses estan la edicion y la ilustracion.  </h3>
                                 </div>
                             </div>
                             <div class="zonadiseñador1">
