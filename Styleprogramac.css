@@ -17,6 +17,11 @@ footer{
     background-color: rgb(35, 90,217);
 }
 
+.Boton_20{
+    background: none;
+    border: 0;
+}
+
 .logo_programacion{
     width: 20%;
     padding-top: 15%;
