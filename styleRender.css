@@ -222,7 +222,12 @@ z-index: 8;
 
 #btn-mas{
   display: none;
+  cursor: pointer;
 }
+/*div.btn-mas img{
+  
+  cursor: pointer;
+}*/
 .botones_deslizantes{
   display: flex;
 justify-content: space-between; 
