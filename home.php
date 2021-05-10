@@ -25,7 +25,7 @@
         </div>
 
         <div class="Zona_Botones">
-            <a href="seccion_render.html" ><img id="img_5" onmouseover="setNewImage_5()" onmouseout="setOldImage_5()" class="logoicono"class="logoicono" src="images/Ilustraciones/Logo_Render.png" alt="logorender"/></a>
+            <a href="seccion_render.html" ><img id="img_5" onmouseover="setNewImage_5()" onmouseout="setOldImage_5()" class="logoicono" src="images/Ilustraciones/Logo_Render.png" alt="logorender"/></a>
         </div>
     </div>
     <footer>

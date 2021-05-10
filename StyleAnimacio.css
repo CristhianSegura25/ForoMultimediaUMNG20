@@ -8,6 +8,11 @@ body{
     font-family: 'New Tegomin', serif;
 }
 
+.logo_animacion{
+    width: 20%;
+    padding-top: 15%;
+}
+
 .Container{
     display: flex;
 }

@@ -17,6 +17,11 @@ footer{
     background-color: rgb(35, 90,217);
 }
 
+.logo_programacion{
+    width: 20%;
+    padding-top: 15%;
+}
+
 .Container{
     display: flex;
 }
