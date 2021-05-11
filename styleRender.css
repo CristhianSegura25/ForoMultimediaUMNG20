@@ -11,6 +11,11 @@ body {
   /*box-sizing: border-box;*/
 }
 
+.Boton_Foro, .Boton_Info, .Boton_20, .Boton_galeria ,.boton_modelado, .boton_texturas, .boton_render, .boton_post{
+  background: none;
+  border: 0;
+}
+
 .logo_render{
   width: 25%;
   padding-top: 10%;
@@ -214,7 +219,6 @@ z-index: 8;
 
 div.boton_camara img{
   margin-top: 10%;
-  width:55%;
 }
 
 .botones_etapasrender{
@@ -348,7 +352,8 @@ div.botones_deslizantes {
   margin-bottom: auto;
   width: 50px;
   height: 50px;
-  background:transparent;
+  background: none;
+  border: 0;
   color:black;
   cursor: pointer;
   border-radius: 50%;
