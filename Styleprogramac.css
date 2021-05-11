@@ -17,10 +17,16 @@ footer{
     background-color: rgb(35, 90,217);
 }
 
-.Boton_20{
+
+.Boton_Foro, .Boton_Info, .Boton_20, .codigo_1, .codigo_2, .codigo_3, .codigo_4, .codigo_5, .codigo_6{
     background: none;
     border: 0;
 }
+.codigo_1, .codigo_2, .codigo_3, .codigo_4, .codigo_5, .codigo_6{
+    color:white;
+    font-size: 20px;
+}
+
 
 .logo_programacion{
     width: 20%;
@@ -138,16 +144,20 @@ footer{
     height: 18%;
     background-color: rgb(61,61,61);
 }
+.logo20añosheader{
+width: 15%;
+}
 
 .logoheader{
     padding-left: 2%;
-	width: 12%;
-    height: 12%;
+	width: 70%;
+    height: 70%;
 }
+
 .logoheader2{
-	padding-top: 5%;
-	width: 90%;
-	height: 90%;
+	padding-top: 8%;
+	width: 100%;
+	height: 100%;
 }
 
 .compilar{
@@ -180,6 +190,8 @@ footer{
 .letrarecuadro1{
 	text-decoration: none;
 	color:rgb(59,132,55);
+    background: none;
+    border: 0;
 }
 .recuadro2{
 	position: absolute;
@@ -625,6 +637,8 @@ footer{
     padding-left: 10%;
     width: 80%;
     margin-top: -3%;
+    background: none;
+    border: 0;
 }
 
 video{
