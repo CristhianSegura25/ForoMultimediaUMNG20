@@ -179,19 +179,30 @@ position: relative;
 z-index: 8;
 
 }
-div.visor_trabajo img{
+.visor_trabajo_4 ,.visor_trabajo_5{
+  
+  height:100%;
+  
+  display: flex;  
+  justify-content: center;
+position: relative;
+z-index: 8;
+
+}
+div.visor_trabajo img {
 width: 80%;
 object-fit: contain;
 border-radius: 10%  10% 10% 10% ;
 box-shadow: 5px 2px 8px #999;
 }
+div.visor_trabajo_4 img, div.visor_trabajo_5 img{
+  
+  object-fit: contain;
+  border-radius: 10%  10% 10% 10% ;
+  box-shadow: 5px 2px 8px #999;
+  }
 
-  #visor_4,#visor_5{
-    width: 40%;
-    object-fit: contain;
-    border-radius: 10%  10% 10% 10% ;
-    box-shadow: 5px 2px 8px #999;
-    }
+  
 .info_trabajo{
 background-color:rgb(182, 190, 204);   
 margin: 5% 20% 0% 0%;
