@@ -44,7 +44,7 @@ $(document).ready(function() {
 	if(n==0){
 	trabajo_cambio.src="images/trabajo_render_3/1.JPG";
     }else if(n==1){
-		trabajo_cambio.src="images/trabajo_render_3/2.jpg";
+		trabajo_cambio.src="images/trabajo_render_3/2.JPG";
 		}else if(n==2){
 			trabajo_cambio.src="images/trabajo_render_3/3.JPG";
 			}else if(n==3){
