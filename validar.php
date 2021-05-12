@@ -19,23 +19,23 @@
 		}
 	}
 
-	$sql=mysql_query("SELECT * FROM login WHERE email='$nombreingreso'");
+	$sql=mysqli_query("SELECT * FROM login WHERE email='$nombreingreso'");
 	if($f=mysqli_fetch_array($sql)){
 		if($passwordingreso==$f['password']){
-			$_SESSION['id']=$f2['id'];
-			$_SESSION['user']=$f2['user'];
-			header("Localizacion: index2.php"):
+			$_SESSION['id']=$f['id'];
+			$_SESSION['user']=$f['user'];
+			header("Localizacion: home.php");
 		}
 		else{
 			echo '<script> alert("Contraseña Incorrecta") </script>';
 
-			echo "<script> location.href='home.php' </script>"
+			echo "<script> location.href='home.php' </script>";
 		}
 	}
 	else{
-		echo '<script> alert("Este usuario no existe, por favor registrarse para poder ingresar") </script>'
+		echo '<script> alert("Este usuario no existe, por favor registrarse para poder ingresar") </script>';
 
-		echo "<script> location.href='home.php' </script>"
+		echo "<script> location.href='login.php' </script>";
 	}
 
 	

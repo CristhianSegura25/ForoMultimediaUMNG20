@@ -4,7 +4,7 @@
 <head>
     <title> Home Foro </title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href ="stylehome1.css"/>
+    <link rel="stylesheet" href ="stylehom.css"/>
 </head>
 <body>
     <div class="Container">
@@ -89,7 +89,11 @@
                         <div class="contenido-carreranosotros">
                             <div class="zonadiseñador">
                                 <div class="zonaimageni">
+<<<<<<< Updated upstream
                                     <img class="diseñadorlogoi"src="images/cristhian.jpg"alt="foto">
+=======
+                                    <img class="diseñadorlogoi"src="images/cristian.jpg"alt="foto">
+>>>>>>> Stashed changes
                                 </div>
                                 <div class="zonatextod">
                                     <h2>Cristian Segura</h2>
@@ -102,12 +106,12 @@
                                     <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum repellendus sunt perspiciatis tenetur laudantium dolorum, possimus ut iusto nemo sapiente. Rem, saepe dolore aspernatur reiciendis possimus omnis rerum doloremque nesciunt!</h3>
                                 </div>
                                 <div class="zonaimagend">
-                                    <img class="diseñadorlogod"src="images/foto.jpg"alt="foto">
+                                    <img class="diseñadorlogod"src="images/juan.jpg"alt="foto">
                                 </div>
                             </div>
                             <div class="zonadiseñador">
                                 <div class="zonaimageni">
-                                    <img class="diseñadorlogoi"src="images/foto.jpg"alt="foto">
+                                    <img class="diseñadorlogoi"src="images/jessica.jpg"alt="foto">
                                 </div>
                                 <div class="zonatextod">
                                     <h2>Jessica Arias</h2>
@@ -117,10 +121,10 @@
                             <div class="zonadiseñador1">
                                 <div class="zonatextoi">
                                     <h2>Brayan Faura</h2>
-                                    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum repellendus sunt perspiciatis tenetur laudantium dolorum, possimus ut iusto nemo sapiente. Rem, saepe dolore aspernatur reiciendis possimus omnis rerum doloremque nesciunt!</h3>
+                                    <h3>Estudiante de 7mo semestre de Ingenieria multimedia apasionado por el mundo del entretenimiento.</h3>
                                 </div>
                                 <div class="zonaimagend">
-                                    <img class="diseñadorlogod"src="images/foto.jpg"alt="foto">
+                                    <img class="diseñadorlogod"src="images/brayan.jpg"alt="foto">
                                 </div>
                             </div>
 
@@ -177,8 +181,12 @@
                 </div>
             </div>
 
-            <div class="Zona_Horaria">
-                <a> 12:00 PM </a>
+            <div id="hora" class="Zona_Horaria">
+                <script>
+                    var hoy=new Date();
+                    var hora=hoy.getHours()+':'+hoy.getMinutes()+':'+hoy.getSeconds();
+                    document.getElementById("hora").innerHTML = hora;
+                </script>
             </div>
     </footer>
 
