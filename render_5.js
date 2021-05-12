@@ -42,13 +42,13 @@ $(document).ready(function() {
   function funcion_cambio(n){
 	var trabajo_cambio =  document.getElementById("trabajo_render");
 	if(n==0){
-	trabajo_cambio.src="images/trabajo_render_5/1.jpg";
+	trabajo_cambio.src="images/trabajo_render_5/1.JPG";
     }else if(n==1){
-		trabajo_cambio.src="images/trabajo_render_5/2.jpg";
+		trabajo_cambio.src="images/trabajo_render_5/2.JPG";
 		}else if(n==2){
-			trabajo_cambio.src="images/trabajo_render_5/3.jpg";
+			trabajo_cambio.src="images/trabajo_render_5/3.JPG";
 			}else if(n==3){
-				trabajo_cambio.src="images/trabajo_render_5/4.jpg";
+				trabajo_cambio.src="images/trabajo_render_5/4.JPG";
 				}
 }
 
