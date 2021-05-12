@@ -42,10 +42,10 @@ $(document).ready(function() {
   function funcion_cambio(n){
 	var trabajo_cambio =  document.getElementById("trabajo_render");
 	if(n==0){
-	trabajo_cambio.src="images/trabajo_render_2/1.jpg";
+	trabajo_cambio.src="images/trabajo_render_2/1.JPG";
     }else if(n==1){
-		trabajo_cambio.src="images/trabajo_render_2/2.jpg";
+		trabajo_cambio.src="images/trabajo_render_2/2.JPG";
 		}else if(n==2){
-			trabajo_cambio.src="images/trabajo_render_2/3.jpg";
+			trabajo_cambio.src="images/trabajo_render_2/3.JPG";
 			}
 }
