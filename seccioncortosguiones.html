@@ -4,10 +4,10 @@
 
 <head>
     <title>Seccion Cortos/Guiones</title>
-    <meta charset="utf-8">                    
+
+    <meta charset="utf-8">
     <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js  ></script>
     <link rel="stylesheet" href ="stylecortosguiones.css"/>
-    <link rel="stylesheet" href ="transition.css"/>
 </head>
 <body>
 
@@ -18,6 +18,7 @@
     </div>
 
     <div class="magic"></div>
+
 	<div class="container_cortosguiones">
         <div class="zonabotonesnav">
             <div class="Seccion_Animacion">
@@ -39,29 +40,83 @@
                 <button class="Boton_render" onclick="window.location='seccion_render.html'"><img class="img-fluid" src="images/Iconos_botones/Boton_render.png"/></button>
             </div>
         </div>
-        <div class="zonacentral">
-        	<div class="zonavideo">
-                <video poster="images/cayde last stand.jpg" controls>
-                    <source src="videos/cayde last stand.mp4">
-                </video>
-        	</div>
-        	<div class="zonaguion">
-        	</div>
+
+        <div class="zona-autores">
+            <div class="zona-1">
+                <div class="retrato">
+                    <a href="director-1.html"> <img class="foto-retrato" src="images/del toro.png" alt="retrato"> </a>
+                </div>
+                <div class="info-autores">
+                    <p> Director: Guilleromo del Toro. </p>
+                    <p> Mejor Proyecto: Hellboy. </p>
+                </div>
+            </div>
+
+            <div class="zona-2">
+                <div class="retrato">
+                    <a href="director-2.html"> <img class="foto-retrato" src="images/nolan.png" alt="retrato"> </a>
+                </div>
+                <div class="info-autores">
+                    <p> Director: Christopher Nolan. </p>
+                    <p> Mejor Proyecto: Interestellar. </p>
+                </div>
+            </div>
+
+            <div class="zona-3">
+                <div class="retrato">
+                    <a href="director-3.html"> <img class="foto-retrato" src="images/burton.png" alt="retrato"> </a>
+                </div>
+                <div class="info-autores">
+                    <p> Director: Tim Burton. </p>
+                    <p> Mejor Proyecto: El Cadaver de la Novia. </p>
+                </div>
+            </div>
+
+            <div class="zona-4">
+                <div class="retrato">
+                    <a href="director-4.html"> <img class="foto-retrato" src="images/martin.png" alt="retrato"> </a>
+                </div>
+                <div class="info-autores">
+                    <p> Director: Martin Scorsese. </p>
+                    <p> Mejor Proyecto: Taxi Driver. </p>
+                </div>
+            </div>
+
+            <div class="zona-5">
+                <div class="retrato">
+                    <a href="director-5.html"> <img class="foto-retrato" src="images/cameron.png" alt="retrato"> </a>
+                </div>
+                <div class="info-autores">
+                    <p> Director: James Cameron. </p>
+                    <p> Mejor Proyecto: Avatar. </p>
+                </div>
+            </div>
+
+            <div class="zona-6">
+                <div class="retrato">
+                    <img class="foto-retrato" src="images/jackson.png" alt="retrato">
+                </div>
+                <div class="info-autores">
+                    <p> Director: Peter Jackson. </p>
+                    <p> Mejor Proyecto: El Señor de los Anillos. </p>
+                </div>
+            </div>
         </div>
-        <div class="zonaderecha">
+
+        <div class="zonaderecha1">
         	<div class="logo20">
-                <button class="Boton_Foro" onclick="window.location='foro.html'"><img class="logo20años" id="logo_20" onmouseover="setNewImage_logo_20()" onmouseout="setOldImage_logo_20()"  class="img_20_Años img-fluid" src="images/Ilustraciones/Logo_20.png" alt="logo20años" /></button>
+        		<a href="home.php"><img class="logo20años"src="images/logorojo.png"alt="logo20años"></a>
         	</div>
         	<div class="logof1">
-                <button class="Boton_20" onclick="window.location='foro.html'"><img class="logoforo"id="foro" onmouseover="setNewImage_foro()" onmouseout="setOldImage_foro()" class="Foro img-fluid" src="images/Ilustraciones/Logo_Foro.png" alt="foromultimedia"/></button>
+        		<a href="#"><img class="logoforo"src="images/iconoforo.png"alt="iconoforo"></a>
 
         	</div>
         	<div class="logoa1">
-        		<button class="Boton_info" href="#"><img class="logoacercade"src="images/acercadecortos.png"alt="acercadecortos"></button>
+        		<a href="#"><img class="logoacercade"src="images/acercadecortos.png"alt="acercadecortos"></a>
         		<div class="modalcontainercortos">
                     <div class="modalcortos modal-closecortos">
                         <div class="headerventana">
-                            <button class="closecortos"><img class="cerrarmodal"src="images/cerrarmodal.png"alt="cerrarmodal"></button>
+                            <a class="closecortos"><img class="cerrarmodal"src="images/cerrarmodal.png"alt="cerrarmodal"></a>
                         </div>
                         <div class="ventana">
                             <a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo architecto culpa veritatis minus nesciunt est quo adipisci vero sequi, sapiente debitis ex accusamus maiores consectetur pariatur similique ad quasi quibusdam!</a> 
@@ -69,13 +124,12 @@
                     </div>
                 </div>
         	</div>
-            
         	<div class="logoi1">
-        		<button class="Boton_info_2" href="#"><img class="logoinfo"src="images/iconoinfo2.png"alt="iconoinfo"></button>
+        		<a href="#"><img class="logoinfo"src="images/iconoinfo2.png"alt="iconoinfo"></a>
         		<div class="modalcontainercortos1">
                     <div class="modalcortos1 modal-closecortos1">
                         <div class="headerventana">
-                            <button class="closecortos1"><img class="cerrarmodal"src="images/cerrarmodal.png"alt="cerrarmodal"></button>
+                            <a class="closecortos1"><img class="cerrarmodal"src="images/cerrarmodal.png"alt="cerrarmodal"></a>
                         </div>
                         <div class="ventana">
                             <a>\</a> 
@@ -83,9 +137,8 @@
                     </div>
                 </div>
         	</div>
-            
         	<div class="logoobras">
-        		<button class="Boton_galeria" onclick="window.location='seccioncortosguiones2.html'"><img class="obras"src="images/trabajos.png"alt="obras"></button>
+        		<a href="seccioncortosguiones.html"><img class="obras"src="images/trabajos.png"alt="obras"></a>
         	</div>
         	
         </div>
