@@ -7,10 +7,11 @@
 
     <meta charset="utf-8">
     <link rel="stylesheet" href ="Styleprogramac.css"/>
-    <link type="text/css" rel="stylesheet" href="css/SyntaxHighlighter.css"></link>
     <script language="javascript" src="/wp-content/uploads/tutorial-data/js/shCore.js"></script>
     <script language="javascript" src="/wp-content/uploads/tutorial-data/js/shBrushJava.js"></script>
-    <script language="javascript" src="/wp-content/uploads/tutorial-data/js/shBrushePhp.js"></script>      
+    <script language="javascript" src="/wp-content/uploads/tutorial-data/js/shBrushePhp.js"></script>     
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script> 
     <link rel="stylesheet" href ="transition.css"/> 
 </head>
 <body>
@@ -21,35 +22,12 @@
         </center>
     </div>
 
-<!-- 	<div class="Circulo_1">
-        <div class="Semi_Circulo"> </div>
-    </div>
-    <div class="Circulo_2">
-        <div class="Semi_Circulo"></div>
-    </div>
-    <div class="Circulo_3">
-        <div class="Semi_Circulo"> </div>
-    </div>
-    <div class="Circulo_4">
-        <div class="Semi_Circulo"> </div>
-    </div>
-    <div class="Circulo_5">
-        <div class="Semi_Circulo"> </div>
-    </div>
-     -->
-	<div class="Container_Programacion">
-        <!-- <div class="Barra_Superior">
-            <a>&nbspSeccion Programacion</a>
-            <a href="home.php" ><img class="boton_cerrar"src="images/boton cerrar.png"alt="cerrar" /></a>
-        </div> -->
-        <div class="HeaderProgramacion">
+	<div class="row Container_Programacion">
+        <div class="HeaderProgramacion col-12 col-md-12">
         	<div class="logo20añosheader">
                 <button class="Boton_20" onclick="window.location='home.php'"><img class="logoheader" id="logo_20" onmouseover="setNewImage_logo_20()" onmouseout="setOldImage_logo_20()"  class="img_20_Años img-fluid" src="images/Ilustraciones/Logo_20.png" alt="logo20años" /></button>
         	</div>
         	<div class="compilar">
-<!--                 <a href="#"><img class="logoiconito" src="images/iconoinfo.png"alt="iconoinfo"/></a> -->
-<!-- 				<a class="letracompilar1" href="#"> ▷</a>
-				<a class="letracompilar2" href="#"> Compilar </a> -->
                 <button class="Boton_Info" href="#"><img class="logoiconito1" src="images/imcompi.png"alt="compilar"/></button>
                 <div class="modalcontainerpro1">
                     <div class="modalpro1 modal-closepro1">
@@ -94,32 +72,10 @@
                 </div>
 			</div>
         </div>
+        
 
-        <div class="Barra_Lateral_Izquierda">
-<!--         	<div class="Circulo2_1">
-                <div class="Semi_Circulo2"> </div>
-            </div>
-            <a class="pag_animacion" href="SeccionAnimacion.html"> Seccion Animacion </a>
+        <div class="Barra_Lateral_Izquierda col-1 col-md-1 ">
 
-            <div class="Circulo2_2">
-                <div class="Semi_Circulo2"> </div>
-            </div>
-            <a class="pag_cortos_guiones" href="SeccionCortosGuiones.html"> Seccion Cortos/Guiones </a>
-
-            <div class="Circulo2_3">
-                <div class="Semi_Circulo2"> </div>
-            </div>
-            <a class="pag_modelado" href="SeccionModelado.html"> Seccion Modelado </a>
-
-            <div class="Circulo2_4">
-                <div class="Semi_Circulo2"> </div>
-            </div>
-            <a class="pag_programacion" href="seccionprogramacion.html"> Seccion Programacion </a>
-
-            <div class="Circulo2_5">
-                <div class="Semi_Circulo2"> </div>
-            </div>
-            <a class="pag_render" href="SeccionRender.html"> Seccion Render </a> -->
             <div class="Seccion_Animacion">
                 <button class="Boton_animacion " onclick="window.location='SeccionAnimacion.html'"><img class="img-fluid" src="images/Iconos_botones/Boton_animacion.png"/></button>
             </div>
@@ -141,7 +97,7 @@
 
         </div>
 
-        <div class="Barra_Lateral_Izquierda2">
+        <div class="Barra_Lateral_Izquierda2 col-1 col-md-1">
         	<div class="contador" id="app">
         		<ul>
         			<li>1</li>
@@ -195,7 +151,7 @@
         </div>
        
 
-        <div class="Zona_Central">
+        <div class="Zona_Central col-8 col-md-8">
             <div class="textozonacentral">
                 <br/>
                     !DOCTYPE html <br/>
@@ -515,54 +471,34 @@
             </div>
         </div>
 
-        <div class="Zona_Derecha">
-        	<div class="headerzonaderecha">
+        <div class="Zona_Derecha col-2 col-md-2">
+        	<div class="headerzonaderecha col-12 col-md-12">
         		<a>&nbsp;Solution Explorer</a>
         	</div>
-        	<div class="header2zonaderecha">
-        		<a class="header2letra1">Search Solution Explorer</a>
-        		<a class="header2letra2">▽</a>
+        	<div class="header2zonaderecha col-12 col-md-12">
+        		<a class="header2letra1 col-10 col-md-10">Search Solution Explorer</a>
+        		<a class="header2letra2 col-2 col-md-2">▽</a>
         	</div>
-        	<div class="contenidozonaderecha">
+        	<div class="contenidozonaderecha col-12 col-md-12">
                     <ul>
-<<<<<<< Updated upstream
                         <button class="codigo_1" href="#" style="text-decoration:none"><li>1</li></button><br>
                         <button class="codigo_2" href="#" style="text-decoration:none"><li>2</li></button><br>
                         <button class="codigo_3" href="#" style="text-decoration:none"><li>3</li></button><br>
                         <button class="codigo_4" href="#" style="text-decoration:none"><li>4</li></button><br>
                         <button class="codigo_5" href="#" style="text-decoration:none"><li>5</li></button><br>
                         <button class="codigo_6" href="#" style="text-decoration:none"><li>6</li></button>
-=======
                         <a href="seccionprogramacion2.html" style="text-decoration:none"><li>Visualizacion 3D de Escena de pelicula</li></a>
                         <a href="#" style="text-decoration:none"><li>2</li></a>
                         <a href="#" style="text-decoration:none"><li>3</li></a>
                         <a href="#" style="text-decoration:none"><li>4</li></a>
                         <a href="#" style="text-decoration:none"><li>5</li></a>
                         <a href="#" style="text-decoration:none"><li>6</li></a>
->>>>>>> Stashed changes
                     </ul>
         	</div>
         </div>
 
     </div>
 
- <!--    <footer>
-            <div class="Inicio">
-                <a> <img class="logoinicio"src="images/logo20años2.png" alt="logoprogramacion"> </a>
-            </div>
-
-            <div class="Acerca">
-                <a class="Boton" href="home.html"> Acerca de Nosotros </a>
-            </div>
-
-            <div class="Acerca">
-                <a class="Boton" href="home.html"> Acerca de la Carrera </a>
-            </div>
-
-            <div class="Zona_Horaria">
-                <a> 12:00 PM </a>
-            </div>
-    </footer> -->
     <script src="https://unpkg.com/vue@next"></script>
 	<script src="programacion.js"></script>
     <script src="main.js"></script>  

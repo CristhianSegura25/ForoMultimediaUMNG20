@@ -4,10 +4,10 @@
 
 
 <?php 
-$servername="localhost";
-$username="root";
-$password="root";
-$db="usuariostrabajo";
+$servername="pgdb1.runhosting.com";
+$username="3631994_dbforo20";
+$password="3631994_dbforo20";
+//$db="usuariostrabajo";
 	// $mydb="trabajito";
 	// $conn="";
 
@@ -26,7 +26,7 @@ $db="usuariostrabajo";
     if($conexion===false){
     	die("Conexión fallida: " . mysqli_connect_error());
     }
-
+/*
     //crea la tabla si no existe
     $sql = "CREATE TABLE IF NOT EXISTS Lista_Usuarios(
         id INT(10) AUTO_INCREMENT PRIMARY KEY,
@@ -39,7 +39,7 @@ $db="usuariostrabajo";
 
     if($conexion->query($sql) === false){
          die("Conexión fallida: " . mysqli_connect_error());
-    }
+    }*/
 	?>
 	
 

@@ -1,20 +1,6 @@
 body{
-    background-image: url(https://fondosmil.com/fondo/9728.jpg);
-
     padding: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
     font-family: Tahoma Regular;
-}
-footer{
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 50px;
-    background-color: rgb(35, 90,217);
 }
 
 
@@ -37,70 +23,7 @@ footer{
     display: flex;
 }
 
-.logoicono{
-    height: 20%;
-}
-.Boton{
-    text-decoration: none;
-    color: white;
-    text-shadow: 2px 2px 2px black;
 
-}
-
-.Inicio{
-    width: 150px;
-    text-align: center;
-    font-size: large;
-    padding-top: -1px;
-    background-color: rgb(26,143,26);
-}
-.Inicio:hover{
-    width: 150px;
-    text-align: center;
-    font-size: large;
-    padding-top: -1px;
-    background-color: rgb(40,167,40);
-    color:black;
-}
-
-.Acerca{
-    
-    margin-left: 25px;
-    padding-top: 15px;
-    width: 300px;
-    background-color: rgb(58, 127, 243);
-    text-align: center;
-    align-items: center;
-}
-.Acerca:hover{
-    
-    margin-left: 25px;
-    padding-top: 15px;
-    width: 300px;
-    background-color: rgb(91,151,250);
-    text-align: center;
-    align-items: center;
-}
-.Zona_Horaria{
-    position: absolute;
-    right: 0;
-    width: 150px;
-    height: 35px;
-    text-align: center;
-    font-size: large;
-    padding-top: 15px;
-    background-color: rgb(58, 127, 243);
-}
-.Zona_Horaria:hover{
-   position: absolute;
-    right: 0;
-    width: 150px;
-    height: 35px;
-    text-align: center;
-    font-size: large;
-    padding-top: 15px;
-    background-color: rgb(91,151,250);
-}
 .logoinicio{
     width: 45%;
 }
@@ -108,12 +31,7 @@ footer{
 .Container_Programacion{
     width: 100%;
     height: 100%;
-/*    width: 95%;
-    height: 90%;*/
     border-radius: 5px;
-    position: absolute;
-    top: 0%;
-    right: 0%;
     background-color: rgb(255, 255, 255);
     border:1px solid rgb(0, 0, 0);
     font-family: Inconsolata Regular;
@@ -136,10 +54,7 @@ footer{
 }
 .HeaderProgramacion{
 	display: flex;
-	position: absolute;
 	align-items: center;
-    top: 0px;
-    left: 0;
     width: 100%;
     height: 18%;
     background-color: rgb(61,61,61);
@@ -162,8 +77,7 @@ width: 15%;
 
 .compilar{
 	padding-top: 15px;
-	position: absolute;
-	right: 52%;
+
 	border:2px solid rgb(44,44,42);
 	height: 35px;
 	width: 150px;
@@ -179,8 +93,6 @@ width: 15%;
 }
 .recuadro1{
 	padding-top: 15px;
-	position: absolute;
-	right: 48%;
 	align-items: center;
 	text-align: center;
 	height: 35px;
@@ -194,8 +106,6 @@ width: 15%;
     border: 0;
 }
 .recuadro2{
-	position: absolute;
-	right: 44%;
 	align-items: center;
 	text-align: center;
 	height: 50px;
@@ -204,8 +114,6 @@ width: 15%;
 }
 
 .recuadro3{
-	position: absolute;
-	right: 40%;
 	align-items: center;
 	text-align: center;
 	height: 50px;
@@ -213,114 +121,26 @@ width: 15%;
 	border:2px solid rgb(44,44,42);
 }
 
-.Semi_Circulo{
-    width: 25px; 
-    height: 50px; 
-    border: 2px solid rgb(0, 0, 0); 
-    background: rgb(53,53,53);
-    -moz-border-radius: 100px 0 0 100px;
-    -webkit-border-radius: 100px 0 0 100px;
-    border-radius: 100px 0 0 100px;
-}
-
-.Semi_Circulo2{
-    width: 25px; 
-    height: 50px; 
-    border: 2px solid rgb(0, 0, 0);
-    background: rgb(53,53,53);
-    -moz-border-radius: 0 100px 100px 0;
-    -webkit-border-radius: 0 100px 100px 0;
-    border-radius: 0 100px 100px 0;
-}
-
-.Circulo_1{
-    position: absolute;
-    left: 1.5%;
-    top: 20%;
-}
-
-.Circulo_2{
-    position: absolute;
-    left: 1.5%;
-    top: 35%;
-}
-
-.Circulo_3{
-    position: absolute;
-    left: 1.5%;
-    top: 50%;
-}
-
-.Circulo_4{
-    position: absolute;
-    left: 1.5%;
-    top: 65%;
-}
-
-.Circulo_5{
-    position: absolute;
-    left: 1.5%;
-    top: 80%;
-}
-.Circulo2_1{
-    position: absolute;
-    top: 3.1%;
-}
-
-.Circulo2_2{
-    position: absolute;
-    top: 23.4%;
-}
-
-.Circulo2_3{
-    position: absolute;
-    top: 43.4%;
-}
-
-.Circulo2_4{
-    position: absolute;
-    top: 63.6%;
-}
-
-.Circulo2_5{
-    position: absolute;
-    top: 83.8%;
-}
 .Barra_Lateral_Izquierda{
-  	width: 10%;
-    height: 82.7%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    height: 30%;
     background-color: rgb(81, 81, 81);
 }
 
 .Barra_Lateral_Izquierda2{
-  	width: 7%;
-    height: 82.7%;
-    position: absolute;
-    bottom: 0;
-    left:10%;
     border-left: 3px solid rgb(81, 81, 81);
     border-right: 3px solid rgb(81, 81, 81);
     background-color: rgb(53, 53, 53);
 }
+
 .contador{
     color:#45c0d0;
-    position: absolute;
-    left:-10%;
     text-align: center;
-    right:0;
 }
 .contador>ul{
     list-style:none;
 }
+
 .Zona_Central{
-  	width: 63%;
-    height: 82.7%;
-    position: absolute;
-    bottom: 0;
-    left: 17%;
     border-left: 3px solid rgb(81, 81, 81);
     border-right: 3px solid rgb(81, 81, 81);
     background-color: rgb(53, 53, 53);
@@ -328,19 +148,10 @@ width: 15%;
 }
 
 .Zona_Derecha{
-	width: 20%;
-    height: 82.7%;
-    position: absolute;
-    bottom: 0;
-    right:0;
     background-color: rgb(81, 81, 81);
 }
+
 .headerzonaderecha{
-	width: 100%;
-    height: 7%;
-    position: absolute;
-    top: 0;
-    right:0;
     background-color: rgb(61, 61, 61);
     font-weight: bold;
     font-size:x-large;
@@ -353,9 +164,6 @@ width: 15%;
 .header2zonaderecha{
 	width: 100%;
     height: 4.5%;
-    position: absolute;
-    top: 10%;
-    right:0;
     background-color: rgb(68, 68, 68);
     font-weight: bolder;
     font-size:large;
@@ -364,22 +172,12 @@ width: 15%;
     padding-top:4%;
     color:rgb(120,120,120);
 }
-.header2letra1{
-	position: absolute;
-	left:5%;
-}
-.header2letra2{
-	position: absolute;
-	right:10%;
-}
+
 
 .contenidozonaderecha{
 	background-color: rgb(0, 0, 0);
-	width:93%;
-    height: 82%;
-    position: absolute;
-   	bottom: 0;
-    right:0;
+	width:100%;
+    height: 80%;
     background-color: rgb(53, 53, 53);
     border-left: 12px solid rgb(81,81,81); 
     border-right:12px solid rgb(81,81,81); 
@@ -389,6 +187,7 @@ width: 15%;
 .contenidozonaderecha>ul{
     font-size: large;
 }
+
 .pag_animacion{
     font-size: 90%;
     position: absolute;
