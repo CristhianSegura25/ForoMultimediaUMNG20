@@ -89,11 +89,7 @@
                         <div class="contenido-carreranosotros">
                             <div class="zonadiseñador">
                                 <div class="zonaimageni">
-<<<<<<< Updated upstream
                                     <img class="diseñadorlogoi"src="images/cristhian.jpg"alt="foto">
-=======
-                                    <img class="diseñadorlogoi"src="images/cristian.jpg"alt="foto">
->>>>>>> Stashed changes
                                 </div>
                                 <div class="zonatextod">
                                     <h2>Cristian Segura</h2>
