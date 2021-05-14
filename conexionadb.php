@@ -7,6 +7,7 @@
 $servername="pgdb1.runhosting.com";
 $username="3631994_dbforo20";
 $password="3631994_dbforo20";
+
 //$db="usuariostrabajo";
 	// $mydb="trabajito";
 	// $conn="";
