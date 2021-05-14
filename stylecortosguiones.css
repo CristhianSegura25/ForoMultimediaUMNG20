@@ -8,7 +8,7 @@ body{
     font-family: Tahoma Regular;
 }
 
-.Boton_Foro, .Boton_20, .Boton_info, .Boton_info_2, .Boton_galeria{
+.Boton_Foro, .Boton_20, .Boton_info, .Boton_info_2, .Boton_galeria ,.Boton_Obras{
     background: none;
     border: 0;
 }
