@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     padding: 0;
     font-family: Tahoma Regular;
 }
@@ -52,6 +53,7 @@ body{
     width: 1;
     height: 85%;
 }
+
 .HeaderProgramacion{
 	display: flex;
 	align-items: center;
@@ -59,6 +61,7 @@ body{
     height: 18%;
     background-color: rgb(61,61,61);
 }
+
 .logo20añosheader{
 width: 15%;
 }
@@ -77,9 +80,8 @@ width: 15%;
 
 .compilar{
 	padding-top: 15px;
-
-	border:2px solid rgb(44,44,42);
-	height: 35px;
+	border: 2px solid rgb(44,44,42);
+	height: 50px;
 	width: 150px;
 }
 .letracompilar1{
@@ -95,7 +97,7 @@ width: 15%;
 	padding-top: 15px;
 	align-items: center;
 	text-align: center;
-	height: 35px;
+	height: 50px;
 	width: 50px;
 	border:2px solid rgb(44,44,42);
 }
@@ -354,9 +356,6 @@ width: 15%;
   
 
 
-.Botones_laterales button:hover{
-    background: #50527E;
-}
 
 .Boton_animacion, .Boton_guiones, .Boton_modelado, .Boton_programacion, .Boton_render{
     transition: transform 1s ease-in-out;
