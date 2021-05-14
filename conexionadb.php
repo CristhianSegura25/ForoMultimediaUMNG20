@@ -3,12 +3,13 @@
 $servername="3631994_dbforo20";
 $username="3631994_dbforo20";
 $password="3631994_dbforo20";
+$db="3631994_dbforo20";
 
 //$db="usuariostrabajo";
 	// $mydb="trabajito";
 	// $conn="";
 
-	$conexion = new mysqli($servername,$username,$password);
+	$conexion = new mysqli($servername,$username,$password,$db);
 	if($conexion->connect_error){
 		die("Conexion Fallida:".$conn->connect_error);
 	}
