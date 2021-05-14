@@ -1,6 +1,6 @@
 
 <?php 
-$servername="pgdb1.runhosting.com";
+$servername="3631994_dbforo20";
 $username="3631994_dbforo20";
 $password="3631994_dbforo20";
 
