@@ -9,8 +9,8 @@ $db="3631994_dbforo20";
 	// $mydb="trabajito";
 	// $conn="";
 
-	$conexion = new mysqli($servername,$username,$password,$db);
-	if($conexion->connect_error){
+	$conn = new mysqli($servername,$username,$password,$db);
+	if($conn->connect_error){
 		die("Conexion Fallida:".$conn->connect_error);
 	}
     else{
