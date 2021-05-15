@@ -3,32 +3,32 @@
 $servername = "pdb42.awardspace.net";
 $username = "3631994_dbforo2021";
 $password = "1234_dbforo2021";
-//$db="3631994_dbforo2021";
+$db = "3631994_dbforo2021";
 
 
 
-	$conn = new mysqli($servername,$username,$password);
+	/*$conn = new mysqli($servername,$username,$password);
 	if($conn->connect_error){
 		die("Conexion Fallida:".$conn->connect_error);
 	}
     else{
         echo "Connected successfully";
-    }
-    
+    }*/
+
 	 //Si la base de datos no existe, la crea
     /* $sql = "CREATE DATABASE IF NOT EXISTS usuariostrabajo";
      if($conexion->query($sql) === false){
          die("Conexión fallida: " . mysqli_connect_error());
      }
-
+*/
     //se conecta pero ahora usando la base de datos tambien
-    $conn=mysqli_connect($servername,$username,$password,$db);
+    $conn = mysqli_connect($servername,$username,$password,$db);
     if($conn===false){
     	die("Conexión fallida: " . mysqli_connect_error());
     }
     else{
-        echo "Connected successfully";
-    }     */
+        echo "Connected successfully with database";
+    }     
 /*
     //crea la tabla si no existe
     $sql = "CREATE TABLE IF NOT EXISTS Lista_Usuarios(
