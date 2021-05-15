@@ -3,26 +3,31 @@
 $servername = "pgdb1.runhosting.com";
 $username = "3631994_dbforo20";
 $password = "12345_dbforo20";
-//$db="3631994_dbforo20";
+$db="3631994_dbforo20";
 
 
-	$conn = new mysqli("5432",$servername,$username,$password);
+
+	/*$conn = new mysqli($servername,$username,$password,$db);
 	if($conn->connect_error){
 		die("Conexion Fallida:".$conn->connect_error);
 	}
     else{
         echo "Connected successfully";
-    }
+    }*/
 	 //Si la base de datos no existe, la crea
     /* $sql = "CREATE DATABASE IF NOT EXISTS usuariostrabajo";
      if($conexion->query($sql) === false){
          die("Conexión fallida: " . mysqli_connect_error());
      }
+     */
     //se conecta pero ahora usando la base de datos tambien
-    $conexion=mysqli_connect($servername,$username,$password,$db);
-    if($conexion===false){
+    $conn=mysqli_connect($servername,$username,$password,$db);
+    if($conn===false){
     	die("Conexión fallida: " . mysqli_connect_error());
-    }*/
+    }
+    else{
+        echo "Connected successfully";
+    }
 /*
     //crea la tabla si no existe
     $sql = "CREATE TABLE IF NOT EXISTS Lista_Usuarios(
