@@ -29,7 +29,7 @@ $db = "3631994_dbforo2021";
     else{
         echo "Connected successfully with database";
     }     
-/*
+
     //crea la tabla si no existe
     $sql = "CREATE TABLE IF NOT EXISTS Lista_Usuarios(
         id INT(10) AUTO_INCREMENT PRIMARY KEY,
@@ -40,7 +40,10 @@ $db = "3631994_dbforo2021";
         timestamp TIMESTAMP
     )";
 
-    if($conexion->query($sql) === false){
-         die("Conexión fallida: " . mysqli_connect_error());
+    if($conn->query($sql) == TRUE){
+        echo "Table created";
+    }
+    else{
+        echo "Error creating table" .$conn->error;
     }*/
 ?>
