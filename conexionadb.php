@@ -3,13 +3,13 @@
 $servername="pgdb1.runhosting.com";
 $username="3631994_dbforo20";
 $password="3631994_dbforo20";
-$db="3631994_dbforo20";
+//$db="3631994_dbforo20";
 
 //$db="usuariostrabajo";
 	// $mydb="trabajito";
 	// $conn="";
 
-	$conn = new mysqli($servername,$username,$password,$db);
+	$conn = new mysqli($servername,$username,$password);
 	if($conn->connect_error){
 		die("Conexion Fallida:".$conn->connect_error);
 	}
