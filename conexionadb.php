@@ -6,7 +6,7 @@ $password = "12345_dbforo20";
 //$db="3631994_dbforo20";
 
 
-	$conn = new mysqli($servername,$username,$password);
+	$conn = new mysqli("5432",$servername,$username,$password);
 	if($conn->connect_error){
 		die("Conexion Fallida:".$conn->connect_error);
 	}
