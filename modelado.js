@@ -33,7 +33,7 @@ window.addEventListener("click",function(b){
 });
 
 function setNewImage_1(){
-	document.getElementById("img1").src = "images/Modelos/Primer_Modelo_2.gif"
+	document.getElementById("img1").src = "https://im3.ezgif.com/tmp/ezgif-3-0a407d1315fe.gif"
 }
 
 function setOldImage_1(){
@@ -41,7 +41,7 @@ function setOldImage_1(){
 }
 
 function setNewImage_2(){
-	document.getElementById("img2").src = "images/Modelos/Segundo_Modelo.gif"
+	document.getElementById("img2").src = "https://im3.ezgif.com/tmp/ezgif-3-ba799f78105f.gif"
 }
 
 function setOldImage_2(){
@@ -49,7 +49,7 @@ function setOldImage_2(){
 }
 
 function setNewImage_3(){
-	document.getElementById("img3").src = "images/Modelos/Tercer_Modelo.gif"
+	document.getElementById("img3").src = "https://im3.ezgif.com/tmp/ezgif-3-4014605c3820.gif"
 }
 
 function setOldImage_3(){
@@ -57,7 +57,7 @@ function setOldImage_3(){
 }
 
 function setNewImage_4(){
-	document.getElementById("img4").src = "images/Modelos/Cuarto_Modelo.gif"
+	document.getElementById("img4").src = "https://im3.ezgif.com/tmp/ezgif-3-24e9e7a9304a.gif"
 }
 
 function setOldImage_4(){
@@ -65,7 +65,7 @@ function setOldImage_4(){
 }
 
 function setNewImage_5(){
-	document.getElementById("img5").src = "images/Modelos/Quinto_Modelo.gif"
+	document.getElementById("img5").src = "https://im3.ezgif.com/tmp/ezgif-3-39ae92b641c3.gif"
 }
 
 function setOldImage_5(){
@@ -73,7 +73,7 @@ function setOldImage_5(){
 }
 
 function setNewImage_6(){
-	document.getElementById("img6").src = "images/Modelos/Sexto_Modelo.gif"
+	document.getElementById("img6").src = "https://im3.ezgif.com/tmp/ezgif-3-5091ceacccad.gif"
 }
 
 function setOldImage_6(){
@@ -81,7 +81,7 @@ function setOldImage_6(){
 }
 
 function setNewImage_7(){
-	document.getElementById("img7").src = "images/Modelos/Septimo_Modelo.gif"
+	document.getElementById("img7").src = "https://im3.ezgif.com/tmp/ezgif-3-20059a24bde6.gif"
 }
 
 function setOldImage_7(){
@@ -89,7 +89,7 @@ function setOldImage_7(){
 }
 
 function setNewImage_8(){
-	document.getElementById("img8").src = "images/Modelos/Octavo_Modelo.gif"
+	document.getElementById("img8").src = "https://im3.ezgif.com/tmp/ezgif-3-1e50e58ef084.gif"
 }
 
 function setOldImage_8(){
