@@ -1,13 +1,10 @@
 
 <?php 
-$servername="pgdb1.runhosting.com";
-$username="3631994_dbforo20";
-$password="3631994_dbforo20";
+$servername = "pddb1.runhosting.com";
+$username = "3631994_dbforo20";
+$password = "12345_dbforo20";
 //$db="3631994_dbforo20";
 
-//$db="usuariostrabajo";
-	// $mydb="trabajito";
-	// $conn="";
 
 	$conn = new mysqli($servername,$username,$password);
 	if($conn->connect_error){
@@ -40,4 +37,4 @@ $password="3631994_dbforo20";
     if($conexion->query($sql) === false){
          die("Conexión fallida: " . mysqli_connect_error());
     }*/
-	?>
+?>
