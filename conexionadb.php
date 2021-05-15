@@ -45,5 +45,6 @@ $db = "3631994_dbforo2021";
     }
     else{
         echo "Error creating table" .$conn->error;
-    }*/
+    }
+    
 ?>
