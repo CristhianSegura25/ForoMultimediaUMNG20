@@ -33,7 +33,7 @@ window.addEventListener("click",function(b){
 });
 
 function setNewImage_1(){
-	document.getElementById("img1").src = "https://im3.ezgif.com/tmp/ezgif-3-0a407d1315fe.gif"
+	document.getElementById("img1").src = "https://i.ibb.co/HCrz06d/Primer-Modelo-2.gif"
 }
 
 function setOldImage_1(){
@@ -41,7 +41,7 @@ function setOldImage_1(){
 }
 
 function setNewImage_2(){
-	document.getElementById("img2").src = "https://im3.ezgif.com/tmp/ezgif-3-ba799f78105f.gif"
+	document.getElementById("img2").src = "https://i.ibb.co/f1Sf2hr/Segundo-Modelo.gif"
 }
 
 function setOldImage_2(){
@@ -49,7 +49,7 @@ function setOldImage_2(){
 }
 
 function setNewImage_3(){
-	document.getElementById("img3").src = "https://im3.ezgif.com/tmp/ezgif-3-4014605c3820.gif"
+	document.getElementById("img3").src = "https://i.ibb.co/JmP15jX/Tercer-Modelo.gif"
 }
 
 function setOldImage_3(){
@@ -57,7 +57,7 @@ function setOldImage_3(){
 }
 
 function setNewImage_4(){
-	document.getElementById("img4").src = "https://im3.ezgif.com/tmp/ezgif-3-24e9e7a9304a.gif"
+	document.getElementById("img4").src = "https://i.ibb.co/B2XTdtS/Cuarto-Modelo.gif"
 }
 
 function setOldImage_4(){
@@ -65,7 +65,7 @@ function setOldImage_4(){
 }
 
 function setNewImage_5(){
-	document.getElementById("img5").src = "https://im3.ezgif.com/tmp/ezgif-3-39ae92b641c3.gif"
+	document.getElementById("img5").src = "https://i.ibb.co/G3Y9JXz/Quinto-Modelo.gif"
 }
 
 function setOldImage_5(){
@@ -73,7 +73,7 @@ function setOldImage_5(){
 }
 
 function setNewImage_6(){
-	document.getElementById("img6").src = "https://im3.ezgif.com/tmp/ezgif-3-5091ceacccad.gif"
+	document.getElementById("img6").src = "https://i.ibb.co/sV51ptS/Sexto-Modelo.gif"
 }
 
 function setOldImage_6(){
@@ -81,7 +81,7 @@ function setOldImage_6(){
 }
 
 function setNewImage_7(){
-	document.getElementById("img7").src = "https://im3.ezgif.com/tmp/ezgif-3-20059a24bde6.gif"
+	document.getElementById("img7").src = "https://i.ibb.co/XXPtvXn/Septimo-Modelo.gif"
 }
 
 function setOldImage_7(){
@@ -89,7 +89,7 @@ function setOldImage_7(){
 }
 
 function setNewImage_8(){
-	document.getElementById("img8").src = "https://im3.ezgif.com/tmp/ezgif-3-1e50e58ef084.gif"
+	document.getElementById("img8").src = "https://i.ibb.co/55wGnRD/Octavo-Modelo.gif"
 }
 
 function setOldImage_8(){
@@ -97,7 +97,7 @@ function setOldImage_8(){
 }
 
 function setNewImage_foro(){
-	document.getElementById("foro").src = "images/Ilustraciones/Logo_Foro.gif"
+	document.getElementById("foro").src = "https://i.ibb.co/vQVqyYy/Logo-Foro.gif"
 }
 
 function setOldImage_foro(){
@@ -105,7 +105,7 @@ function setOldImage_foro(){
 }
 
 function setNewImage_logo_20(){
-	document.getElementById("logo_20").src = "images/Ilustraciones/Logo_20.gif"
+	document.getElementById("logo_20").src = "https://i.ibb.co/djdfZ2p/Logo-20.gif"
 }
 
 function setOldImage_logo_20(){
