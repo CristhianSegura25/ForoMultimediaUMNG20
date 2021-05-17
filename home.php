@@ -45,23 +45,23 @@
                             <ul>
                                 <li class="iconoanimacion">
                                     <img src="images/Ilustraciones/Logo_Animacion.png" alt="iconoanimacion">
-                                    <a class="textoanimacion" href="#" >Animacion 2D/3D</a>
+                                    <a class="textoanimacion" href="SeccionAnimacion.html" >Animacion 2D/3D</a>
                                 </li>
                                  <li class="iconocortos">
                                     <img src="images/Ilustraciones/Logo_Guiones.png" alt="iconocortosguiones">
-                                    <a class="textocortos"href="#" >Cortos/Guiones</a>
+                                    <a class="textocortos"href="seccioncortosguiones.html" >Cortos/Guiones</a>
                                 </li>
                                  <li class="iconomodelado">
                                     <img src="images/Ilustraciones/Logo_Modelado.png" alt="iconomodelado">
-                                    <a class="textomodelado"href="#" >Modelado 3D</a>
+                                    <a class="textomodelado"href="SeccionModelado.html" >Modelado 3D</a>
                                 </li>
                                  <li class="iconoprogramacion">
                                     <img src="images/Ilustraciones/Logo_Programacion.png" alt="iconoprogramacion">
-                                    <a class="textoprogramacion" href="#" >Programacion</a>
+                                    <a class="textoprogramacion" href="seccionprogramacion.html" >Programacion</a>
                                 </li>
                                  <li class="iconorender">
                                     <img src="images/Ilustraciones/Logo_Render.png" alt="iconorender">
-                                    <a class="textorender"href="#" >Render</a>
+                                    <a class="textorender"href="seccion_render.html" >Render</a>
                                 </li>
                             </ul>
                         </div>
