@@ -6,10 +6,9 @@
 	$nombreingreso=$_POST['nombreingreso'];
 	$passwordingreso=$_POST['passwordingreso'];
 
-	session_start();
-
 	$_SESSION['nombreingreso']=$nombreingreso;
 
+	$consulta="SELECT*FROM Lista_Usuarios where ((usuario='$nombreingreso') or (correo='$nombreingreso'))AND contrasena='$passwordingreso'";
 	
 
 	$resultado=mysqli_query($conn,$consulta);
