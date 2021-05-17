@@ -1,6 +1,5 @@
 
  <?php
-	session_start();
 	require_once "conexionadb.php";
 
 	$nombreingreso=$_POST['nombreingreso'];
