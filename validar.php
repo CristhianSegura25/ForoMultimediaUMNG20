@@ -8,7 +8,7 @@
 	$resultado=mysqli_query($conn,$consulta);
 	$filas=mysqli_num_rows($resultado);
 	if($filas){
-		header("Location:/srv/disk4/3631994/www/foromultimediaumng20.mywebcommunity.org/home.php");
+		include("home.php");
 		}
 	else{
 		include("login.php");
