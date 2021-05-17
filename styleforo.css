@@ -227,3 +227,25 @@ body{
     padding: 1%;
     margin: 1%;
   }
+
+  .post_1 a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+  }
+
+  .botones_secciones .Category_List{
+    display: block;
+    width: 15%;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    background: rgba(150, 150, 150, 0.7);
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+
+  .botones_secciones .ct_section_active{
+    background: rgba(255, 255, 255, 0.7);
+  }

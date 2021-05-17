@@ -9,6 +9,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <link rel="stylesheet" href ="styleforo.css"/>
     <link rel="stylesheet" href ="transition.css"/>
+
+    <script src="filtro.js"></script>
 </head>
 <body>
 
@@ -67,11 +69,17 @@
             <div class="col-12 col-sm-12">
               
                 <div class="botones_secciones">
-                    <button type="button">Animacion 2D y 3D</button>
+                    <a href="#" class="Category_List" category="all"> Todo </a>
+                    <a href="#" class="Category_List" category="animacion"> Animacion 2D y 3D </a>
+                    <a href="#" class="Category_List" category="cortos-guiones"> Cortos y Guiones </a>
+                    <a href="#" class="Category_List" category="modelado"> Modelado </a>
+                    <a href="#" class="Category_List" category="programacion"> Programacion </a>
+                    <a href="#" class="Category_List" category="render"> Render </a>
+                    <!-- <button type="button">Animacion 2D y 3D</button>
                     <button type="button">Cortos y guiones</button>
                     <button type="button">Programacion</button>
                     <button type="button">Render</button>
-                    <button type="button">Modelado</button>
+                    <button type="button">Modelado</button> -->
                 </div>
             </div>
            
@@ -82,7 +90,7 @@
                     <div class="seleccion_tema">
                         
                         <form>
-                            <input type="radio" name="seccion" value="animacion_2d_3d">animacion 2d y 3d
+                            <input type="radio" name="seccion" value="animacion_2d_3d">Animacion 2D y 3D
                             <input type="radio" name="seccion" value="cortos_guiones">Cortos y guiones 
                             <input type="radio" name="seccion" value="programacion">Programacion
                             <input type="radio" name="seccion" value="render">Render
@@ -109,18 +117,70 @@
 
             </div>
             <div class="col-12 col-sm-12">
-                <div class="post">
+                <div class="post" category="animacion_2d_3d">
                     <div>
                         <p>Animacion</p>
                     </div>
                     <div class="post_1">
-                        <P>Nombre usuario</P>
-                        <p>fecha</p>
-                        <h2>TITULO</h2>
+                        <P>Nombre usuario: Rocha</P>
+                        <p>fecha: 15/05/2021</p>
+                        <a href="#"> TITULO: Dinamicas. </a>
+                        <!-- <h2>TITULO: Dinamicas.</h2> -->
 
                     </div>
                 </div>
 
+                <div class="post" category="programacion">
+                    <div>
+                        <p>Programacion</p>
+                    </div>
+                    <div class="post_1">
+                        <P>Nombre usuario: Gutierrez</P>
+                        <p>fecha: 11/05/2021</p>
+                        <a href="#"> TITULO: Fourier. </a>
+                        <!-- <h2>TITULO: Fourier.</h2> -->
+
+                    </div>
+                </div>
+
+                <div class="post" category="render">
+                    <div>
+                        <p>Render</p>
+                    </div>
+                    <div class="post_1">
+                        <P>Nombre usuario: Karen</P>
+                        <p>fecha: 14/05/2021</p>
+                        <a href="#"> TITULO: Texturas. </a>
+                        <!-- <h2>TITULO: Texturas.</h2> -->
+
+                    </div>
+                </div>
+
+                <div class="post" category="modelado">
+                    <div>
+                        <p>Modelado</p>
+                    </div>
+                    <div class="post_1">
+                        <P>Nombre usuario: Rocha</P>
+                        <p>fecha: 09/05/2021</p>
+                        <a href="#"> TITULO: Errores Geometricos. </a>
+                        <!-- <h2>TITULO: Errores Geometricos.</h2> -->
+
+                    </div>
+                </div>
+
+                <div class="post" category="cortos_guiones">
+                    <div>
+                        <p>Cortos y Guiones</p>
+                    </div>
+                    <div class="post_1">
+                        <P>Nombre usuario: Skankhunt</P>
+                        <p>fecha: 02/03/2021</p>
+                        <a href="#"> TITULO: Manejo de Camaras. </a>
+                        <!-- <h2>TITULO: Manejo de Camaras.</h2> -->
+
+                    </div>
+                </div>
             </div>
 
 
