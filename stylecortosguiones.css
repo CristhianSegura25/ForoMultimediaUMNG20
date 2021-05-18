@@ -1,10 +1,11 @@
 body{
     padding: 0;
+    background-image: url("images/fondo_guiones.jpg") ;
     background-repeat: no-repeat;
     /*background-image: url("images/fondo_guiones_atras.png") ;*/
     background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-size: cover;
+    background-attachment: fixed;
+    background-size: cover;
     font-family: Tahoma Regular;
 }
 
@@ -19,31 +20,11 @@ body{
 }
 
 .container_cortosguiones{
-    width: 100%;
-    height: 99.8%;
-/*    width: 95%;
-    height: 90%;*/
-    border-radius: 5px;
-    position: absolute;
-    top: 0%;
-    right: 0%;
-   /* background-color: rgb(255, 255, 255);*/
-    background-image: url("images/fondo_guiones.jpg") ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    border:1px solid rgb(0, 0, 0);
-    
+
 }
-.Barra_Superior{
-    display: flex;
-    width: 100%;
-    height: 2%;
-    position: absolute;
-    top: 0;
-    background-color: rgb(35, 90,217);
-    border-top: 2px solid rgba(91, 151, 250, 1);
-}
+
+
+
 .boton_cerrar{
     position: absolute;
     top: 5%;
@@ -51,165 +32,51 @@ body{
     width: 1;
     height: 85%;
 }
-.zonabotonesnav{
-  	width: 10%;
-    height: 97.8%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: 8;
-}
-.Circulo2_1{
-    position: absolute;
-    top: 3.1%;
-    z-index: 10;
-}
 
-.Circulo2_2{
-    position: absolute;
-    top: 23.4%;
-}
-
-.Circulo2_3{
-    position: absolute;
-    top: 43.4%;
-}
-
-.Circulo2_4{
-    position: absolute;
-    top: 63.6%;
-}
-
-.Circulo2_5{
-    position: absolute;
-    top: 83.8%;
-}
-.Semi_Circulo{
-    width: 25px; 
-    height: 50px; 
-    border: 2px solid rgb(0, 0, 0); 
-    background: #E2E1D0;
-    -moz-border-radius: 100px 0 0 100px;
-    -webkit-border-radius: 100px 0 0 100px;
-    border-radius: 100px 0 0 100px;
-}
-
-.Semi_Circulo2{
-    width: 25px; 
-    height: 50px; 
-    border: 2px solid rgb(0, 0, 0);
-    background: #E2E1D0;
-    -moz-border-radius: 0 100px 100px 0;
-    -webkit-border-radius: 0 100px 100px 0;
-    border-radius: 0 100px 100px 0;
-}
-.pag_animacion{
-    font-size: 90%;
-    position: absolute;
-    top: 5%;
-    left: 12%;
-    text-decoration: none;
-    color:black;
-}
-
-.pag_cortos_guiones{
-    font-size: 80%;
-    position: absolute;
-    top: 26%;
-    left: 12%;
-    text-decoration: none;
-    color:black;
-}
-
-.pag_modelado{
-    font-size: 90%;
-    position: absolute;
-    top: 46%;
-    left: 12%;
-    text-decoration: none;
-    color:black;
-}
-
-.pag_programacion{
-    font-size: 80%;
-    position: absolute;
-    top: 66%;
-    left: 12%;
-    text-decoration: none;
-    color:black;
-
-}
-
-.pag_render{
-    font-size: 90%;
-    position: absolute;
-    top: 86%;
-    left: 12%;
-    text-decoration: none;
-    color:black;
-}
 .zonacentral{
-	width: 50%;
-	height: 97.8%;
- 	position: absolute;
- 	left: 25%;
- 	bottom:0;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 .zonavideo{
-	width: 100%;
+	width: 60%;
 	height: 60%;
-	position: absolute;
-	top:0%;
-	left:0%;
-    z-index: 10;
+
+    z-index: 100;
 }
 .zonaguion{
-	width: 80%;
+	width: 60%;
 	height: 30%;
-	position: absolute;
-	bottom: 5%;
-	left: 10%;
 	background-color: #D3D3D3;
     z-index: 10;
 }
-.zonaderecha{
-	width: 25%;
-    height: 97.8%;
-    position: absolute;
-    bottom: 0;
-    right:0;
-    z-index: 10;
+
+.zonaderecha1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.botones_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .logo20años{
-	width: 30%;
-	position: absolute;
-	right: 6%;
-	bottom:87%;
+	width: 50%;
 }
 .logoforo{
-	width: 25%;
-	position: absolute;
-	right: 10%;
-	bottom:75%;
+	width: 40%;
 }
 .logoacercade{
-	width: 25%;
-	position: absolute;
-	right: 10%;
-	bottom:60%;
+	width: 40%;
 }
 .logoinfo{
-	width: 25%;
-	position: absolute;
-	right: 10%;
-	bottom:45%;
+	width: 40%;
 }
 .obras{
-	width: 30%;
-	position: absolute;
-	right: 5%;
-	bottom:2%;
+	width: 50%;
 }
 
 .modalcontainercortos{
@@ -324,29 +191,18 @@ body{
     transform: translateY(200%);
 }
 
-.zonaderecha1{
-	width: 15%;
-    height: 97.8%;
-    position: absolute;
-    bottom: 0;
-    right:0;
-    z-index: 10;
-}
 
 .zona-autores{
-    width: 70%;
-    height: 97.8%;
-    position: absolute;
- 	left: 15%;
- 	bottom:0;
-    background: #fafafa;
-    
+    flex-direction: column;
+}
+
+.zona_1, .zona_2{
+    display: flex;
+    flex-direction: row;
+
 }
 
 .retrato{
-    position: absolute;
-    top: 5%;
-    left: 5%;
     width: 90%;
     height: 60%;
     background: #D3D3D3;
@@ -354,114 +210,28 @@ body{
     border-radius: 5px;
 }
 
-.retrato-imagen{
-    width: 100%;
-    height: 100%;
-    z-index: 10;
-}
-
 .foto-retrato{
     width: 100%;
     height: 100%;
-    z-index: 10;
+
 }
 
 .info-autores{
-    position: absolute;
-    top: 70%;
-    left: 5%;
     width: 90%;
     height: 27%;
     align-items: center;
     text-align: center;
     justify-content: center;
-    z-index: 10;
 }
 
-.zona-1{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 5%;
-    left: 5%;
+.zona-1, .zona-2, .zona-3, .zona-4, .zona-5, .zona-6{
     width: 28%;
     height: 40%;
     background: #f0f0f0;
     align-items: center;
     justify-content: center;
-    z-index: 10;
 }
 
-.zona-2{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 5%;
-    left: 36%;
-    width: 28%;
-    height: 40%;
-    background: #f0f0f0;
-    align-items: center;
-    justify-content: center;
-    z-index: 10;
-}
-
-.zona-3{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 5%;
-    right: 5%;
-    width: 28%;
-    height: 40%;
-    background: #f0f0f0;
-    align-items: center;
-    justify-content: center;
-    z-index: 10;
-
-}
-
-.zona-4{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    bottom: 5%;
-    left: 5%;
-    width: 28%;
-    height: 40%;
-    background: #f0f0f0;
-    align-items: center;
-    justify-content: center;
-    z-index: 10;
-}
-
-.zona-5{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    bottom: 5%;
-    left: 36%;
-    width: 28%;
-    height: 40%;
-    background: #f0f0f0;
-    align-items: center;
-    justify-content: center;
-    z-index: 10;
-}
-
-.zona-6{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    bottom: 5%;
-    right: 5%;
-    width: 28%;
-    height: 40%;
-    background: #f0f0f0;
-    align-items: center;
-    justify-content: center;
-    z-index: 10;
-}
 
 @media screen and (min-width: 1521px) {
     .Seccion_Modelado img{
@@ -543,6 +313,7 @@ video{
     text-align: center;
     z-index: 10;
 }
+
 @import "compass/css3";
 
 .magic {

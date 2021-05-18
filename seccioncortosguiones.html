@@ -7,6 +7,8 @@
 
     <meta charset="utf-8">
     <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js  ></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <link rel="stylesheet" href ="stylecortosguiones.css"/>
     <link rel="stylesheet" href ="transition.css"/>
 </head>
@@ -19,10 +21,10 @@
         </center>
     </div>
 
-    <div class="magic"></div>
+    <!--<div class="magic"></div>-->
 
-	<div class="container_cortosguiones">
-        <div class="zonabotonesnav">
+	<div class="row container_cortosguiones justify-content-between">
+        <div class="zonabotonesnav col-1 col-md-1">
             <div class="Seccion_Animacion">
                 <button class="Boton_animacion " onclick="window.location='SeccionAnimacion.html'"title="Animacion"><img class="img-fluid" src="images/Iconos_botones/Boton_animacion.png"/></button>
             </div>
@@ -43,8 +45,9 @@
             </div>
         </div>
 
-        <div class="zona-autores">
-            <div class="zona-1">
+        <div class="zona-autores col-8 col-md-8 align-items-center">
+            <div class="zona_1 justify-content-around">
+            <div class="zona-1 col-10 col-md-4">
                 <div class="retrato">
                     <a href="director-1.html"> <img class="foto-retrato" src="images/del toro.png" alt="retrato"> </a>
                 </div>
@@ -54,7 +57,7 @@
                 </div>
             </div>
 
-            <div class="zona-2">
+            <div class="zona-2 col-10 col-md-4">
                 <div class="retrato">
                     <a href="director-2.html"> <img class="foto-retrato" src="images/nolan.png" alt="retrato"> </a>
                 </div>
@@ -64,7 +67,7 @@
                 </div>
             </div>
 
-            <div class="zona-3">
+            <div class="zona-3 col-10 col-md-4">
                 <div class="retrato">
                     <a href="director-3.html"> <img class="foto-retrato" src="images/burton.png" alt="retrato"> </a>
                 </div>
@@ -73,8 +76,9 @@
                     <p> Mejor Proyecto: El Cadaver de la Novia. </p>
                 </div>
             </div>
-
-            <div class="zona-4">
+            </div> 
+            <div class="zona_2 justify-content-around">
+            <div class="zona-4 col-10 col-md-4">
                 <div class="retrato">
                     <a href="director-4.html"> <img class="foto-retrato" src="images/martin.png" alt="retrato"> </a>
                 </div>
@@ -84,7 +88,7 @@
                 </div>
             </div>
 
-            <div class="zona-5">
+            <div class="zona-5 col-10 col-md-4">
                 <div class="retrato">
                     <a href="director-5.html"> <img class="foto-retrato" src="images/cameron.png" alt="retrato"> </a>
                 </div>
@@ -94,7 +98,7 @@
                 </div>
             </div>
 
-            <div class="zona-6">
+            <div class="zona-6 col-10 col-md-4">
                 <div class="retrato">
                     <img class="foto-retrato" src="images/jackson.png" alt="retrato">
                 </div>
@@ -103,16 +107,23 @@
                     <p> Mejor Proyecto: El Señor de los Anillos. </p>
                 </div>
             </div>
+            </div> 
         </div>
 
-        <div class="zonaderecha1">
+        <div class="zonaderecha1 col-2 col-md-2">
+            <div class="botones_1">
         	<div class="logo20">
                 <button class="Boton_20" onclick="window.location='home.php'"title="Home"><img class="logo20años" id="logo_20" onmouseover="setNewImage_logo_20()" onmouseout="setOldImage_logo_20()"  class="img_20_Años img-fluid" src="images/Ilustraciones/Logo_20.png" alt="logo20años" /></button>
         	</div>
         	<div class="logof1">
+<<<<<<< HEAD
                 <button class="Boton_Foro" onclick="window.location='foro.html'"title="Foro"><img class="logoforo"id="foro" onmouseover="setNewImage_foro()" onmouseout="setOldImage_foro()" class="Foro img-fluid" src="images/Ilustraciones/Logo_Foro.png" alt="foromultimedia"/></button>
 
+=======
+                <button class="Boton_Foro" onclick="window.location='foro.html'"><img class="logoforo"id="foro" onmouseover="setNewImage_foro()" onmouseout="setOldImage_foro()" class="Foro img-fluid" src="images/Ilustraciones/Logo_Foro.png" alt="foromultimedia"/></button>
+>>>>>>> 41db37fe7b7e66b3157bc9d5ae0da0fae820cc09
         	</div>
+
         	<div class="logoi1">
         		<button class="Boton_info_2" href="#"title="Informacion guiones "title="Informacion de cortos y guiones"><img class="logoinfo"src="images/iconoinfo2.png"alt="iconoinfo"></button>
         		<div class="modalcontainercortos1">
@@ -121,17 +132,28 @@
                             <button class="closecortos1"><img class="cerrarmodal"src="images/cerrarmodal.png"alt="cerrarmodal"></button>
                         </div>
                         <div class="ventana">
-                            <a>\</a> 
+                            <h2>Acerca de Cortos y Guiones</h2>
+                            <p> Durante la produccion de proyectos donde se requiera dialogos e interacciones especificas, es donde el guion entra en juego, ya que le permite a la persona que realiza las acciones a entender como realizar el trabajo de manera correcta. </p>
+                            <p> En cortos y guiones, aprenderas las bases para escribir un guion y poder dirigir un proyecto cinematografico. </p>
+                            
                         </div>
                     </div>
                 </div>
         	</div>
+<<<<<<< HEAD
         	<div class="logoobras">
         		<button class="Boton_Obras" onclick="window.location='seccioncortosguiones2.html'"title="Galeria"><img class="obras"src="images/trabajos.png"alt="obras"></button>
+=======
+        </div>
+        	<div class="logoobras ms-auto">
+        		<button class="Boton_Obras" onclick="window.location='seccioncortosguiones2.html'"><img class="obras"src="images/trabajos.png"alt="obras"></button>
+>>>>>>> 41db37fe7b7e66b3157bc9d5ae0da0fae820cc09
         	</div>
         	
         </div>
+
 	</div>
+    
 	<script src="cortos.js"></script>
     <script src="main.js"></script>  
 </body>
