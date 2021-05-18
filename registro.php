@@ -19,7 +19,7 @@
      </div>
       <div class="container-datos">
         <p class="titulito"><b>INGRESE LOS SIGUIENTES DATOS PARA REGISTRARSE:</b></p>
-        <form action="login.php" class="zonaformulario" method="POST">
+        <form action="#" class="zonaformulario" method="POST">
           <div class="datos-usuario">
             <input type="text" name="usuario" placeholder="Usuario"required>
           </div>

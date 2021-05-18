@@ -27,7 +27,7 @@ $db = "3631994_dbforo2021";
     	die("Conexión fallida: " . mysqli_connect_error());
     }
     else{
-        echo "Connected successfully with database";
+        // echo "Connected successfully with database";
     }     
 /*
     //crea la tabla si no existe
