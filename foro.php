@@ -87,23 +87,17 @@
         <div class="row">
             <div class="col-12 col-sm-12">
                 <div class="zona_escritura_post">
-                    <div class="seleccion_tema">
-                        
-                        <form>
-                            <input type="radio" name="seccion" value="animacion_2d_3d">Animacion 2D y 3D
-                            <input type="radio" name="seccion" value="cortos_guiones">Cortos y guiones 
+                    <div class="input_post">
+                        <form action="#" method="POST">
+                            <input type="radio" name="seccion" value="animacion">Animacion 2D y 3D
+                            <input type="radio" name="seccion" value="cortos">Cortos y guiones 
                             <input type="radio" name="seccion" value="programacion">Programacion
                             <input type="radio" name="seccion" value="render">Render
-                            <input type="radio" name="seccion" value="modelado">Modelado
-
-                        </form>                            
-                    </div>
-                    <div class="input_post">
-                        <form>
+                            <input type="radio" name="seccion" value="modelado">Modelado<br>
                             <label for="">Escribe aqui tu post:</label><br>
-                            <input type="post" id="" name=""><br>
+                            <input type="post" name="pregunta"><br>
                             <input type="button"  value="enviar">
-
+                            <?php require_once 'gpregunta.php'?>
                         </form>
                     </div>
                 </div>
