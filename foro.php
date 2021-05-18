@@ -95,7 +95,7 @@
                             <input type="radio" name="seccion" value="render">Render
                             <input type="radio" name="seccion" value="modelado">Modelado<br>
                             <label for="">Escribe aqui tu post:</label><br>
-                            <input type="post" name="pregunta"><br>
+                            <input type="post" name="pregunta" required><br>
                             <input type="submit"  value="enviar">
                             <?php require_once 'gpregunta.php'?>
                         </form>
