@@ -53,5 +53,12 @@ $db = "3631994_dbforo2021";
         pregunta VARCHAR(1000) NOT NULL,
         timestamp TIMESTAMP
     )";
+    $conn = mysqli_connect($servername,$username,$password,$db);
+    if($conn===false){
+        die("Conexión fallida: " . mysqli_connect_error());
+    }
+    else{
+        // echo "Connected successfully with database";
+    }     
 
 ?>
