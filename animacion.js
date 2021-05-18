@@ -94,3 +94,4 @@ function setNewImage_logo_20(){
 function setOldImage_logo_20(){
 	document.getElementById("logo_20").src = "images/Ilustraciones/Logo_20.png"
 }
+
