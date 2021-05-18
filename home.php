@@ -67,7 +67,7 @@
                         </div>
                         <div class="barraiconos2">
                             <img src="images/iconoforo.png" href="#" alt="iconoforo">
-                            <a class="textoforo" href="#" >Foro</a>
+                            <a class="textoforo" href="foro.php" >Foro</a>
                         </div>
                         <div class="footercerrar">
                             <img src="images/cerrar.png" alt="cerrarsesion">
