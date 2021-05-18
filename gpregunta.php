@@ -3,7 +3,7 @@ require_once "conexionadb.php";
 
 if($_SERVER["REQUEST_METHOD"] == "POST"){
 	if(!empty(trim($_POST["tipo"])) && !empty(trim($_POST["pregunta"]))){
-		$tipo=$_POST['seccion'];
+		$tipo=$_POST['tipo'];
 		$pregunta=$_POST['pregunta'];
 
 		// $pincript=password_hash($contrasena,PASSWORD_DEFAULT);

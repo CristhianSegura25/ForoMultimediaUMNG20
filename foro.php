@@ -89,11 +89,11 @@
                 <div class="zona_escritura_post">
                     <div class="input_post">
                         <form action="#" method="POST">
-                            <input type="radio" name="seccion" value="animacion">Animacion 2D y 3D
-                            <input type="radio" name="seccion" value="cortos">Cortos y guiones 
-                            <input type="radio" name="seccion" value="programacion">Programacion
-                            <input type="radio" name="seccion" value="render">Render
-                            <input type="radio" name="seccion" value="modelado">Modelado<br>
+                            <input type="radio" name="tipo" value="animacion">Animacion 2D y 3D
+                            <input type="radio" name="tipo" value="cortos">Cortos y guiones 
+                            <input type="radio" name="tipo" value="programacion">Programacion
+                            <input type="radio" name="tipo" value="render">Render
+                            <input type="radio" name="tipo" value="modelado">Modelado<br>
                             <label for="">Escribe aqui tu post:</label><br>
                             <input type="post" name="pregunta" required><br>
                             <input type="submit"  value="enviar">
