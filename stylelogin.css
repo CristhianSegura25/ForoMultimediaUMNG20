@@ -146,6 +146,7 @@ form input[type="submit"]:hover{
 
 .registro{
 	padding-top: 1%;
+	margin-bottom: 2%;
 }
 .error{
 	color:red;
