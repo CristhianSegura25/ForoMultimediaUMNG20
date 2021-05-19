@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-<html>
-
-  <head>
+<html lang="es">
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href ="styleregistr.css"/>
     <title>Registrate</title>
-  </head>
-
-  <body>
+    </head>
+<body>
   <header>
         <p>20</p><br><br>
         <p>AÑOS</p><br><br>
@@ -18,6 +16,7 @@
     <div>
     	<img class="logo20login" src=https://s3.gifyu.com/images/Login-20-anos-nuevo-720-2.gif alt="logo20años">
     </div>
+
       <div class="container-datos">
         <p class="titulito"><b>INGRESE LOS SIGUIENTES DATOS PARA REGISTRARSE:</b></p>
         <form action="#" class="zonaformulario" method="POST">
