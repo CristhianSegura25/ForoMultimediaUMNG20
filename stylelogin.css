@@ -13,6 +13,7 @@ body{
 .cosasuperior, .cosainferior{
 	background:#0064eb;
 	height: 30%;
+	color:rgba(1,1,1,0);
 }
 .logo20login{
 	width:40%;
