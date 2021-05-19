@@ -9,9 +9,14 @@ body{
 	text-align: center;
 
 }
-.cosasuperior, .cosainferior{
+.cosasuperior{
 	background:#0064eb;
 	height: 50%;
+	color:rgba(1,1,1,0);
+}
+
+footer{
+	background:#0064eb;
 	color:rgba(1,1,1,0);
 }
 

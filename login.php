@@ -28,11 +28,11 @@
         <div class="registro">
             <button class="botonregistro" onclick="window.location.href='registro.php'">REGISTRARSE</button>
         </div>
-        <div class="cosainferior">
+        <footer class="cosainferior">
         <p>20</p>
         <p>AÑOS</p>
         <p>MULTIMEDIA</p>
-        </div>
+        </footer>
 	</div>
 </body>
 </html>
