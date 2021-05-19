@@ -115,6 +115,7 @@ form input[type="password"]{
 }
 
 .botoningreso:hover{
+	margin-bottom: 2%;
 	width:150px;
 	height: 35px;
 	padding:3px 20px;
@@ -124,6 +125,5 @@ form input[type="password"]{
 	font-family: Calibri;
 	font-size: large;
 	color:#000000;
-	margin:8px 0;
 	display:inline-block;
 }
