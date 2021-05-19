@@ -9,14 +9,14 @@
   </head>
 
   <body>
-    <div class="cosasuperior">
-        <p>20</p>
-        <P>AÑOS</P>
-        <P>MULTIMEDIA</P>
+    <header>
+          <p>20</p><br><br>
+          <p>AÑOS</p><br><br>
+          <p>MULTIMEDIA</p>
+    </header>
+    <div >
+    	<img class="logo20login" src=https://s3.gifyu.com/images/Login-20-anos-nuevo-720-2.gif alt="logo20años">
     </div>
-     <div>
-      <img class="logo20login" src=images/logorojo.png alt="logo20años">
-     </div>
       <div class="container-datos">
         <p class="titulito"><b>INGRESE LOS SIGUIENTES DATOS PARA REGISTRARSE:</b></p>
         <form action="#" class="zonaformulario" method="POST">
@@ -37,6 +37,13 @@
          <div class="ingreso">
             <button class="botoningreso" onclick="window.location.href='login.php'">INGRESAR</button>
         </div>
+
+        <footer>
+        <p>20</p><br><br>
+        <p>AÑOS</p><br><br>
+        <p>MULTIMEDIA</p><br><br><br><br>
+        </footer>
+        
       </div>
   </body>
 </html>
