@@ -13,7 +13,8 @@
         <p>20</p><br><br>
         <p>AÑOS</p><br><br>
         <p>MULTIMEDIA</p>
-</header>
+  </header>
+
     <div>
     	<img class="logo20login" src=https://s3.gifyu.com/images/Login-20-anos-nuevo-720-2.gif alt="logo20años">
     </div>
@@ -39,10 +40,11 @@
         </div>
 
         <footer>
-        <p>20</p><br><br>
-        <p>AÑOS</p><br><br>
-        <p>MULTIMEDIA</p><br><br><br><br>
-      </footer>
+          <p>20</p><br><br>
+          <p>AÑOS</p><br><br>
+          <p>MULTIMEDIA</p><br><br><br><br>
+        </footer>
+
       </div>
 
 
