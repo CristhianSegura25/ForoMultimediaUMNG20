@@ -8,6 +8,9 @@
 </head>
 <body>
     <div class="cosasuperior">
+        <p>20</p>
+        <p>AÑOS</p>
+        <p>MULTIMEDIA</p>
     </div>
     <div >
     	<img class="logo20login" src=https://s3.gifyu.com/images/Login-20-anos-nuevo-720-2.gif alt="logo20años">
@@ -25,7 +28,11 @@
         <div class="registro">
             <button class="botonregistro" onclick="window.location.href='registro.php'">REGISTRARSE</button>
         </div>
-        <div class="cosainferior"></div>
+        <div class="cosainferior">
+        <p>20</p>
+        <p>AÑOS</p>
+        <p>MULTIMEDIA</p>
+        </div>
 	</div>
 </body>
 </html>
