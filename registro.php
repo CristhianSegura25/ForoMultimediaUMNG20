@@ -14,7 +14,7 @@
           <p>AÑOS</p><br><br>
           <p>MULTIMEDIA</p>
     </header>
-    <div >
+    <div>
     	<img class="logo20login" src=https://s3.gifyu.com/images/Login-20-anos-nuevo-720-2.gif alt="logo20años">
     </div>
       <div class="container-datos">
@@ -38,12 +38,13 @@
             <button class="botoningreso" onclick="window.location.href='login.php'">INGRESAR</button>
         </div>
 
-      </div>
-      <footer>
+        <footer>
         <p>20</p><br><br>
         <p>AÑOS</p><br><br>
         <p>MULTIMEDIA</p><br><br><br><br>
-        </footer>
-        
+      </footer>
+      </div>
+
+
   </body>
 </html>
