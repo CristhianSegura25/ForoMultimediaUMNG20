@@ -97,7 +97,7 @@ form input[type="password"]{
 }
 
 .botoncitoenviar{
-	margin-top: 2%;
+	margin-top: 1%;
 }
 
 .botoningreso{
@@ -111,7 +111,6 @@ form input[type="password"]{
 	font-family: Calibri;
 	font-size: large;
 	color:#ffffff;
-	margin:8px 0;
 	display:inline-block;
 }
 
