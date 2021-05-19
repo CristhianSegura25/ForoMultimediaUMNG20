@@ -10,10 +10,9 @@ body{
 	text-align: center;
 
 }
-.cosasuperior{
+.cosasuperior, .cosainferior{
 	background:#0064eb;
-	height: 20%;
-	color:rgba(1,1,1,0);
+	height: 30%;
 }
 .logo20login{
 	width:40%;
