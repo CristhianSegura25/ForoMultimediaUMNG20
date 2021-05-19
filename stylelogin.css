@@ -1,7 +1,6 @@
 *{
 	margin: 0px;
-    padding: 0px;
-         
+    padding: 0px;     
 }
 body{
 	margin:auto;
@@ -12,9 +11,10 @@ body{
 }
 .cosasuperior, .cosainferior{
 	background:#0064eb;
-	height: 30%;
+	height: 50%;
 	color:rgba(1,1,1,0);
 }
+
 .logo20login{
 	width:40%;
 	height:30%;
