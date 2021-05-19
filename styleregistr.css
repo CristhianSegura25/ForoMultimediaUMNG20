@@ -96,8 +96,12 @@ form input[type="password"]{
 	display:inline-block;
 }
 
+.botoncitoenviar{
+	margin-top: 2%;
+}
 
 .botoningreso{
+	margin-bottom: 2%;
 	width:150px;
 	height: 35px;
 	padding:3px 20px;

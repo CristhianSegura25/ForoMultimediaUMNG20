@@ -38,13 +38,13 @@
             <button class="botoningreso" onclick="window.location.href='login.php'">INGRESAR</button>
         </div>
 
-      </div>
-
-      <footer>
+        <footer>
           <p>20</p><br><br>
           <p>AÑOS</p><br><br>
           <p>MULTIMEDIA</p><br><br><br><br>
         </footer>
+
+      </div>
 
 
   </body>
