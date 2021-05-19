@@ -10,7 +10,7 @@
     <header>
         <p>20</p><br><br>
         <p>AÑOS</p><br><br>
-        <p>MULTIMEDIA</p><br><br>
+        <p>MULTIMEDIA</p>
 </header>
     <div >
     	<img class="logo20login" src=https://s3.gifyu.com/images/Login-20-anos-nuevo-720-2.gif alt="logo20años">
