@@ -7,11 +7,11 @@
     <link rel="stylesheet"  href="stylelogin.css" />
 </head>
 <body>
-    <div class="cosasuperior">
-        <p>20</p>
-        <p>AÑOS</p>
-        <p>MULTIMEDIA</p>
-    </div>
+    <header>
+        <p>20</p><br><br>
+        <p>AÑOS</p><br><br>
+        <p>MULTIMEDIA</p><br><br>
+</header>
     <div >
     	<img class="logo20login" src=https://s3.gifyu.com/images/Login-20-anos-nuevo-720-2.gif alt="logo20años">
     </div>
@@ -28,10 +28,10 @@
         <div class="registro">
             <button class="botonregistro" onclick="window.location.href='registro.php'">REGISTRARSE</button>
         </div>
-        <footer class="cosainferior">
-        <p>20</p>
-        <p>AÑOS</p>
-        <p>MULTIMEDIA</p>
+        <footer>
+        <p>20</p><br><br>
+        <p>AÑOS</p><br><br>
+        <p>MULTIMEDIA</p><br><br>
         </footer>
 	</div>
 </body>
