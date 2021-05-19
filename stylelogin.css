@@ -18,6 +18,7 @@ body{
 footer{
 	background:#0064eb;
 	color:rgba(1,1,1,0);
+	margin-top:auto; 
 }
 
 .logo20login{
