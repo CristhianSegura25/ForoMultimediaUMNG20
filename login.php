@@ -9,11 +9,11 @@
 <body>
     <div class="cosasuperior">
         <p>20</p>
-        <P>AÑOS</P>
-        <P>MULTIMEDIA</P>
+        <p>AÑOS</p>
+        <p>MULTIMEDIA</p>
     </div>
     <div >
-    	<img class="logo20login" src=images/logorojo.png alt="logo20años">
+    	<img class="logo20login" src=https://i.ibb.co/cysMCPw/Login-20-an-os-nuevo-720-2.gif alt="logo20años">
     </div>
     <div class="IngresoDatos">
     	<form  action="validar.php" method="POST">
