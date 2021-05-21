@@ -9,12 +9,6 @@
 </head>
 <body>
 
-    <div class="transition transition-2 is-active">
-        <center>
-            <img class="logo_20_mul" src="images/Ilustraciones/Logo_20.png"/><br><br>
-            <div class="loader"></div>
-        </center>
-    </div>
 
     <div class="Container">
         <div class="Zona_Botones">
