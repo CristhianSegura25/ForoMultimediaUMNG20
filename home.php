@@ -5,8 +5,17 @@
     <title> Home Foro </title>
     <meta charset="utf-8">
     <link rel="stylesheet" href ="stylehom.css"/>
+    <link rel="stylesheet" href ="transition.css"/> 
 </head>
 <body>
+
+    <div class="transition transition-2 is-active">
+        <center>
+            <img class="logo_20_umng" src="https://s3.gifyu.com/images/Login-20-anos-nuevo-720-2.gif"/><br><br>
+            <div class="loader"></div>
+        </center>
+    </div>
+
     <div class="Container">
         <div class="Zona_Botones">
            <a href="SeccionAnimacion.html"><img id="img_1" onmouseover="setNewImage_1()" onmouseout="setOldImage_1()" class="logoicono img-fluid" src="images/Ilustraciones/Logo_Animacion.png" alt="logoanimacion"/></a>
@@ -188,6 +197,6 @@
 
     <script src="homexd.js"></script>
     <script src="home2.js"></script>
-
+    <script src="main.js"></script>  
 </body>
 </html>
