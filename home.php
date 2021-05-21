@@ -30,7 +30,7 @@
     </div>
     <footer>
             <div class="Inicio">
-                <a href="#"><img class="logoinicio"src="images/logo20años2.png" alt="logoinicio"></a>
+                <a href="#"><img class="logoinicio"src="images/Ilustraciones/Logo_20.png" alt="logoinicio"></a>
                 <div class="modalcontainer">
                     <div class="modal modal-close">
                         <p class="close">X</p>

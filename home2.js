@@ -1,6 +1,6 @@
 
 function setNewImage_1(){
-	document.getElementById("img_1").src = "images/Ilustraciones/Logo_Animacion.gif"
+	document.getElementById("img_1").src = "https://im3.ezgif.com/tmp/ezgif-3-ebae780893cb.gif"
 }
 
 function setOldImage_1(){
@@ -24,7 +24,7 @@ function setOldImage_3(){
 }
 
 function setNewImage_4(){
-	document.getElementById("img_4").src = "images/Ilustraciones/Logo_Programacion.gif"
+	document.getElementById("img_4").src = "https://im3.ezgif.com/tmp/ezgif-3-aeedde09419c.gif"
 }
 
 function setOldImage_4(){
