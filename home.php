@@ -144,7 +144,7 @@
                         </div>
                         <div class="contenido-carrera">
                             <div class="zona-logo">
-                                <img src="images/logo m.png" alt="umng">
+                                <img src="https://s3.gifyu.com/images/Login-20-anos-nuevo-720-2.gif" alt="umng">
                             </div>
 
                             <div class="espaciador">
