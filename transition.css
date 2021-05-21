@@ -81,7 +81,7 @@
     animation: loader 1.2s linear infinite;    
 }
 
-@keyframes loader{
+@keyframes loader2{
     25%{
         color: #48CB70;
     }
