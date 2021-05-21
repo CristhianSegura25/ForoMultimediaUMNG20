@@ -70,3 +70,28 @@
         transform: rotate(360deg);
     }
 }
+
+.loader2{
+    width: 100px;
+    height: 100px;
+    border: 10px solid;
+    color: #5F83FF;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: loader 1.2s linear infinite;    
+}
+
+@keyframes loader{
+    25%{
+        color: #48CB70;
+    }
+    50%{
+        color: #F5CB2C;
+    }
+    75%{
+        color: #E92CF5;
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
