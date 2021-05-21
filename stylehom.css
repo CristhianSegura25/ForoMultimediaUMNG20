@@ -30,8 +30,9 @@ footer{
     height: 28%;
 }
 
-.Zona_Botones{
-
+.Zona_Animacion, .Zona_Guiones, .Zona_Modelado, .Zona_Programacion, .Zona_Render{
+    width: 320px;
+    height: 825px;
 }
 
 .Boton{
