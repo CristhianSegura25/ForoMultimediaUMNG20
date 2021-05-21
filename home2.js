@@ -8,7 +8,7 @@ function setOldImage_1(){
 }
 
 function setNewImage_2(){
-	document.getElementById("img_2").src = "images/Ilustraciones/Logo_Guiones.gif"
+	document.getElementById("img_2").src = "https://im3.ezgif.com/tmp/ezgif-3-c9150f8c557f.gif"
 }
 
 function setOldImage_2(){
@@ -16,7 +16,7 @@ function setOldImage_2(){
 }
 
 function setNewImage_3(){
-	document.getElementById("img_3").src = "images/Ilustraciones/Logo_Modelado.gif"
+	document.getElementById("img_3").src = "https://im3.ezgif.com/tmp/ezgif-3-7c2cc1196749.gif"
 }
 
 function setOldImage_3(){
@@ -32,7 +32,7 @@ function setOldImage_4(){
 }
 
 function setNewImage_5(){
-	document.getElementById("img_5").src = "images/Ilustraciones/Logo_Render.gif"
+	document.getElementById("img_5").src = "https://im3.ezgif.com/tmp/ezgif-3-0f82c54eec1e.gif"
 }
 
 function setOldImage_5(){
