@@ -27,12 +27,10 @@ footer{
     padding-top: 10%;
 }
 
-.logoicono{
-    height: 28%;
-}
 
-.Zona_Animacion, .Zona_Guiones, .Zona_Modelado, .Zona_Programacion, .Zona_Render{
-    height: 28%;
+.Zona_Animacion img, .Zona_Guiones img, .Zona_Modelado img, .Zona_Programacion img, .Zona_Render img{
+    height: 30%;
+    width: 30%;
 }
 
 .Boton{
