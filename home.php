@@ -11,7 +11,7 @@
 
     <div class="transition transition-2 is-active">
         <center>
-            <img class="logo_20_años" src="images/Ilustraciones/Logo_20.png"/><br><br>
+            <img class="logo_20_mul" src="images/Ilustraciones/Logo_20.png"/><br><br>
             <div class="loader"></div>
         </center>
     </div>
