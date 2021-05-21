@@ -9,8 +9,15 @@
     <title>Loading</title>
     <script language="JavaScript">
         function redireccionar() {
-          setTimeout("location.href='home.php'", 5000);
-        }
+            var count = 5;
+            setInterval(function(){
+                count--;
+                document.getElementById('countDown').innerHTML = count;
+                if (count == 0) {
+                    window.location = 'home.php'; 
+                }
+            },4000);
+}
     </script>
 </head>
 
