@@ -18,6 +18,11 @@ footer{
     background-color: rgb(35, 90,217);
 }
 
+.logo_20_umng{
+    width: 20%;
+    padding-top: 15%;
+}
+
 .Container{
     display: flex;
 }
