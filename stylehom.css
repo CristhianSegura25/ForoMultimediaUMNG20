@@ -298,8 +298,9 @@ footer{
 
 .zona-logo{
     display: flex;
+    padding-top: 10%;
     width: 40%;
-    height: 60%;
+    height: 65%;
     align-items: center;
     justify-content: center;
 }
