@@ -24,7 +24,7 @@ footer{
 
 .Container{
     display: flex;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 
@@ -299,7 +299,6 @@ footer{
 .zona-logo{
     display: flex;
     width: 40%;
-    height: 100%;
     align-items: center;
     justify-content: center;
 }
