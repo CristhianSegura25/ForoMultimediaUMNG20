@@ -71,7 +71,7 @@
     }
 }
 
-.loader2{
+.loader_2{
     width: 100px;
     height: 100px;
     border: 10px solid;
@@ -81,7 +81,7 @@
     animation: loader 1.2s linear infinite;    
 }
 
-@keyframes loader2{
+@keyframes loader_2{
     25%{
         color: #48CB70;
     }
