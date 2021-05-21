@@ -204,17 +204,39 @@ div.visor_trabajo_4 img, div.visor_trabajo_5 img{
 
   
 .info_trabajo{
+  
 background-color:rgb(182, 190, 204);   
 margin: 5% 20% 0% 0%;
 /*margin: 25px 50px 75px 100px;*/
 /*padding: 10%, 10%, 0%, 0%;*/
-padding: 10% 10% 0% 10%;
+padding: 10% 10% 10% 10%;
 
 height: 90%;
 border-radius: 80px 80px 80px 80px;
 position: relative;
 z-index: 8;
+/*font-size: calc(1em + 1vw)*/
 
+}
+div.info_trabajo h2{
+  font-size: 35px;
+}
+div.info_trabajo h3{
+  font-size: 30px;
+}
+div.info_trabajo h3{
+  font-size: 25px;
+}
+@media screen and (max-width:768px) {
+  div.info_trabajo h2{
+    font-size: 25px;
+  }
+  div.info_trabajo h3{
+    font-size: 20px;
+  }
+  div.info_trabajo h3{
+    font-size: 15px;
+  }
 }
 
 div .info_trabajo h2{
