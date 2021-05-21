@@ -11,23 +11,23 @@
 
 
     <div class="Container col-12 col-md-12 justify-content-around">
-        <div class="Zona_Animacion col-2 col-md-2">
+        <div class="Zona_Animacion col-10 col-md-2">
            <a href="SeccionAnimacion.html"><img id="img_1" onmouseover="setNewImage_1()" onmouseout="setOldImage_1()" class="logoicono img-fluid" src="images/Ilustraciones/Logo_Animacion.png" alt="logoanimacion"/></a>
         </div>
 
-        <div class="Zona_Guiones col-2 col-md-2">
+        <div class="Zona_Guiones col-10 col-md-2">
             <a href="seccioncortosguiones.html" ><img id="img_2" onmouseover="setNewImage_2()" onmouseout="setOldImage_2()" class="logoicono img-fluid" src="images/Ilustraciones/Logo_Guiones.png" alt="logocortosguiones"/></a>
         </div>
 
-        <div class="Zona_Modelado col-2 col-md-2">
+        <div class="Zona_Modelado col-10 col-md-2">
             <a href="SeccionModelado.html" ><img id="img_3" onmouseover="setNewImage_3()" onmouseout="setOldImage_3()" class="logoicono img-fluid" src="images/Ilustraciones/Logo_Modelado.png" alt="logomodelado"/></a>
         </div>
         
-        <div class="Zona_Programacion col-2 col-md-2">
+        <div class="Zona_Programacion col-10 col-md-2">
             <a href="seccionprogramacion.html" ><img id="img_4" onmouseover="setNewImage_4()" onmouseout="setOldImage_4()" class="logoicono img-fluid" src="images/Ilustraciones/Logo_Programacion.png" alt="logoprogramacion"/></a>
         </div>
 
-        <div class="Zona_Render col-2 col-md-2">
+        <div class="Zona_Render col-10 col-md-2">
             <a href="seccion_render.html" ><img id="img_5" onmouseover="setNewImage_5()" onmouseout="setOldImage_5()" class="logoicono img-fluid" src="images/Ilustraciones/Logo_Render.png" alt="logorender"/></a>
         </div>
     </div>
