@@ -282,7 +282,7 @@ body{
 
 .closeforo{
     position: absolute;
-    top:-12px;
+    top:0px;
     right: 0px;
     display: inline-block;
     width: 25px;
@@ -302,6 +302,8 @@ body{
     height: 20px;
     background-color: rgb(35, 90,217);
     border-top: 2px solid rgba(91, 151, 250, 1);
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
 }
 
 .contenidomodal{
