@@ -1,4 +1,6 @@
 
 function redireccionar() {
-    setTimeout("location.href='home.php'", 5000);
+    window.location.href = "http://google.com";
 }
+
+setTimeout("redireccionar", 5000);
