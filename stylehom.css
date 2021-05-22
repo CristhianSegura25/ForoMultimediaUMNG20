@@ -27,7 +27,7 @@ footer{
     padding-top: 5%;
 }
 
-.Boton_Animacion{
+.Boton_Animacion, .Boton_Guiones, .Boton_Modelado, .Boton_Programacion, .Boton_Render{
     background: none;
     border: 0;
 }
