@@ -14,12 +14,12 @@
 </head>
 <body>
 
-    <div class="transition transition-2 is-active">
+<!--     <div class="transition transition-2 is-active">
         <center>
             <img class="logo_foro" src="images/Ilustraciones/Logo_Foro.png"/><br><br><br>
             <div class="loader"></div>
         </center>
-    </div>
+    </div> -->
 
     <div class="row">
 
