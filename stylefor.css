@@ -265,7 +265,7 @@ body{
     display: flex;
     justify-content: center;
     align-items:flex-end;
-  }
+ }
 
 .modalforo{
     width: 40%;
@@ -279,6 +279,7 @@ body{
     transition: transform 1s;
     transform:translateY(-50%); 
 }
+
 .closeforo{
     position: absolute;
     top:-12px;
