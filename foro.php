@@ -122,12 +122,12 @@
                         <div class="modalcontainerforo">
                             <div class="modalforo modalcloseforo">
                                 <div class="barra-superior">
-                                <p> PLACEHOLDER1 </p>
-                                <a href="#"><img class="closeforo" src="images/boton cerrar.png" alt="cerrar"></a>
+                                    <p> PLACEHOLDER1 </p>
+                                    <a href="#"><img class="closeforo" src="images/boton cerrar.png" alt="cerrar"></a>
                                 </div>
-                            </div>
-                            <div class="contenidomodal">
-                                <a>PLACEHOLDER2</a>
+                                <div class="contenidomodal">
+                                    <a>PLACEHOLDER2</a>
+                                </div>
                             </div>
                         </div>
                     </div>

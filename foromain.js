@@ -34,9 +34,9 @@ abrirforo.addEventListener("click",function(b){
 	modalforo.classList.toggle("modalcloseforo");
 });
 
-cerrarforo.addEventListener("click",function(){
+cerrarforo.addEventListener("click",function(b){
+	b.preventDefault();
 	modalforo.classList.toggle("modalcloseforo");
-
 	setTimeout(function(){
 	modalCforo.style.visibility="hidden";
 	modalCforo.style.opacity="0";
