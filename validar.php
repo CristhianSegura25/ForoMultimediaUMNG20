@@ -8,7 +8,7 @@
 	$resultado=mysqli_query($conn,$consulta);
 	$filas=mysqli_num_rows($resultado);
 	if($filas){
-		include("loadhome.html");
+		include("load_home.html");
 		}
 	else{
 		include("login.php");
