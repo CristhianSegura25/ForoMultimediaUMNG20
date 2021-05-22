@@ -14,10 +14,8 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-#demo{
     color: white;
     font-size: 30px;
     padding-top: 5%;
 }
+
