@@ -36,9 +36,6 @@ footer{
     width: 60%;
 }
 
-.Zona_Animacion, .Zona_Guiones img, .Zona_Modelado img, .Zona_Programacion img, .Zona_Render img{
-    width: 60%;
-}
 
 .Boton{
     text-decoration: none;
