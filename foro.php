@@ -127,7 +127,7 @@
                                 </div>
                             </div>
                             <div class="contenidomodal">
-
+                                <a>PLACEHOLDER2</a>
                             </div>
                         </div>
                     </div>
