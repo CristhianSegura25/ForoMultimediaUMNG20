@@ -15,3 +15,9 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+#delayMsg{
+    color: white;
+    font-size: 30px;
+    padding-top: 5%;
+}
