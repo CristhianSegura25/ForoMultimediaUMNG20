@@ -292,6 +292,6 @@ body{
     border-radius: 50%;
     text-shadow: 2px 2px 2px white;
 }
-.modal-closeforo{
+.modalcloseforo{
     transform: translateY(200%);
 }

@@ -119,8 +119,8 @@
                         <P>Nombre usuario: Rocha</P>
                         <p>fecha: 15/05/2021</p>
                         <a href="#" class="ctaforo"> TITULO: Dinamicas. </a>
-                        <div class="modal-containerforo">
-                            <div class="modalforo modal-closeforo">
+                        <div class="modalcontainerforo">
+                            <div class="modalforo modalcloseforo">
                                 <div class="barra-superior">
                                 <p> PLACEHOLDER1 </p>
                                 <a href="#"><img class="closeforo" src="images/boton cerrar.png" alt="cerrar"></a>

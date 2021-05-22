@@ -31,11 +31,11 @@ abrirforo.addEventListener("click",function(b){
 	b.preventDefault();
 	modalCforo.style.opacity="1";
 	modalCforo.style.visibility="visible";
-	modalforo.classList.toggle("modal-closeforo");
+	modalforo.classList.toggle("modalcloseforo");
 });
 
 cerrarforo.addEventListener("click",function(){
-	modalforo.classList.toggle("modal-closeforo");
+	modalforo.classList.toggle("modalcloseforo");
 
 	setTimeout(function(){
 	modalCforo.style.visibility="hidden";
@@ -46,7 +46,7 @@ cerrarforo.addEventListener("click",function(){
 window.addEventListener("click",function(b){
 	console.log(b.target);
 	if(b.target==modalCforo){
-		modalforo.classList.toggle("modal-closeforo");
+		modalforo.classList.toggle("modalcloseforo");
 
 	setTimeout(function(){
 	modalCforo.style.visibility="hidden";
