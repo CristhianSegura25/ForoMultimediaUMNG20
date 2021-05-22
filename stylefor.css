@@ -302,8 +302,7 @@ body{
     height: 20px;
     background-color: rgb(35, 90,217);
     border-top: 2px solid rgba(91, 151, 250, 1);
-    border-top-right-radius: 10%;
-    border-top-left-radius: 10%;
+    border-radius: 20%;
 }
 
 .contenidomodal{
