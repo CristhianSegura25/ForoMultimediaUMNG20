@@ -16,6 +16,9 @@ body{
     justify-content: center;
     color: white;
     font-size: 30px;
-    padding-top: 5%;
+
 }
 
+#delayMsg{
+    padding-top: 5%;
+}
