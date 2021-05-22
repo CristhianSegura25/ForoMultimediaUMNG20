@@ -3,6 +3,7 @@ function delayRedirect(){
     var count = 18;
     setInterval(function(){
         count--;
+        document.getElementById('countDown').innerHTML = count;
         if (count == 0) {
             window.location = 'home.php'; 
         }
