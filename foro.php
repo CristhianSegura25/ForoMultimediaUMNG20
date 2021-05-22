@@ -118,7 +118,20 @@
                     <div class="post_1">
                         <P>Nombre usuario: Rocha</P>
                         <p>fecha: 15/05/2021</p>
-                        <a href="#"> TITULO: Dinamicas. </a>
+                        <a href="#" class="ctaforo"> TITULO: Dinamicas. </a>
+                        <div class="modal-containerforo">
+                            <div class="modalforo modal-closeforo">
+                                <div class="barra-superior">
+                                <p> PLACEHOLDER1 </p>
+                                <a href="#"><img class="closeforo" src="images/boton cerrar.png" alt="cerrar"></a>
+                                </div>
+                            </div>
+                            <div class="contenidomodal">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
                         <!-- <h2>TITULO: Dinamicas.</h2> -->
 
                     </div>

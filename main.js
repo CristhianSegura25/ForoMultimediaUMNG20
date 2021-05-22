@@ -21,3 +21,36 @@ window.onload = () => {
 		});
 	}
 }
+
+let cerrarforo=document.querySelectorAll(".closeforo")[0];
+let abrirforo=document.querySelectorAll(".ctaforo")[0];
+let modalforo=document.querySelectorAll(".modalforo")[0];
+let modalCforo=document.querySelectorAll(".modalcontainerforo")[0];
+
+abrirforo.addEventListener("click",function(b){
+	b.preventDefault();
+	modalCforo.style.opacity="1";
+	modalCforo.style.visibility="visible";
+	modalforo.classList.toggle("modal-closeforo");
+});
+
+cerrarforo.addEventListener("click",function(){
+	modalforo.classList.toggle("modal-closeforo");
+
+	setTimeout(function(){
+	modalCforo.style.visibility="hidden";
+	modalCforo.style.opacity="0";
+	},1000)
+});
+
+window.addEventListener("click",function(b){
+	console.log(b.target);
+	if(b.target==modalCforo){
+		modalforo.classList.toggle("modal-closeforo");
+
+	setTimeout(function(){
+	modalCforo.style.visibility="hidden";
+	modalCforo.style.opacity="0";
+	},1000);
+	}
+});
