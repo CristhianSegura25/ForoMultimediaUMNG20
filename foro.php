@@ -193,6 +193,6 @@
 
     </div>            
     
-    <script src="main.js"></script>  
+    <script src="foromain.js"></script>  
 </body>
 </html>
