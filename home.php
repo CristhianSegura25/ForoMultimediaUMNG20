@@ -14,7 +14,7 @@
 
     <div class="row Container col-12 col-md-12 justify-content-around">
         <div class="Zona_Animacion col-10 col-md-2">
-           <a href="SeccionAnimacion.html"><img id="img_1" onmouseover="setNewImage_1()" onmouseout="setOldImage_1()" class="logoicono img-fluid" src="images/Ilustraciones/Logo_Animacion.png" alt="logoanimacion"/></a>
+           <button class="Boton_Animacion" onclick="window.location='foro.php'"><img id="img_1" onmouseover="setNewImage_1()" onmouseout="setOldImage_1()" class="logoicono img-fluid" src="images/Ilustraciones/Logo_Animacion.png" alt="logoanimacion"/></button>
         </div>
 
         <div class="Zona_Guiones col-10 col-md-2">

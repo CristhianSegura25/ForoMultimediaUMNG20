@@ -27,8 +27,16 @@ footer{
     padding-top: 5%;
 }
 
+.Boton_Animacion{
+    background: none;
+    border: 0;
+}
 
 .Zona_Animacion img, .Zona_Guiones img, .Zona_Modelado img, .Zona_Programacion img, .Zona_Render img{
+    width: 60%;
+}
+
+.Zona_Animacion, .Zona_Guiones img, .Zona_Modelado img, .Zona_Programacion img, .Zona_Render img{
     width: 60%;
 }
 
