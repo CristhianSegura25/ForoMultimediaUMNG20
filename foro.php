@@ -94,6 +94,8 @@
                             <input type="radio" name="tipo" value="programacion">Programacion
                             <input type="radio" name="tipo" value="render">Render
                             <input type="radio" name="tipo" value="modelado">Modelado<br>
+                            <label for="">Titulo de la pregunta:</label><br>
+                            <input type="text" name="titulo" required><br>
                             <label for="">Escribe aqui tu post:</label><br>
                             <input type="post" name="pregunta" required><br>
                             <input type="submit"  value="enviar">
