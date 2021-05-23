@@ -128,7 +128,12 @@
                                     <a href="#"><img class="closeforo" src="images/boton cerrar.png" alt="cerrar"></a>
                                 </div>
                                 <div class="contenidomodal">
-                                    <a>PLACEHOLDER2</a>
+                                    <div class="titulomodal">
+                                        <a>PLACEHOLDERTITULO</a>
+                                    </div>
+                                    <div class="preguntamodal">
+                                        <a>Visualizacion de Pregunta</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

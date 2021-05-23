@@ -312,6 +312,13 @@ body{
     height: 95%;
     background-color: rgb(0,0,0);
     color:white;
-    text-align: center;
     vertical-align: middle;
+}
+
+.titulomodal{
+  text-align: center;
+  color:red;
+}
+.preguntamodal{
+  text-align: left;
 }
