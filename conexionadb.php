@@ -48,17 +48,18 @@ $db = "3631994_dbforo2021";
         echo "Error creating table" .$conn->error;
     }*/
     
-    // $sql = "CREATE TABLE IF NOT EXISTS Lista_Preguntas(
-    //     id INT(10) AUTO_INCREMENT PRIMARY KEY,
-    //     tipo VARCHAR(255) NOT NULL,
-    //     pregunta VARCHAR(1000) NOT NULL,
-    //     timestamp TIMESTAMP
-    // )";
-    //  if($conn->query($sql) == TRUE){
-    //     // echo "Table created";
-    // }
-    // else{
-    //     // echo "Error creating table" .$conn->error;
-    // }
+    $sql = "CREATE TABLE IF NOT EXISTS Lista_Preguntas(
+        id INT(10) AUTO_INCREMENT PRIMARY KEY,
+        tipo VARCHAR(255) NOT NULL,
+        titulo VARCHAR(255) NOT NULL,
+        pregunta VARCHAR(1000) NOT NULL,
+        timestamp TIMESTAMP
+    )";
+     if($conn->query($sql) == TRUE){
+        // echo "Table created";
+    }
+    else{
+        // echo "Error creating table" .$conn->error;
+    }
 
 ?>
