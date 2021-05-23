@@ -320,7 +320,7 @@ body{
   color:red;
 }
 .preguntamodal{
-  display: flex;
+  padding-top: 10%;
   text-align: left;
-  align-items: center;
+  padding-left: 5%;
 }
