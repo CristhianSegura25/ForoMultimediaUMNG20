@@ -12,8 +12,7 @@
 <body>
 
     
-    <div class="row col-12 col-md-12 justify-content-around">
-        <div class="Contenedor">
+    <div class="row Contenedor col-12 col-md-12 justify-content-around">
             <div class="Zona_Animacion col-10 col-md-2">
                 <button class="Boton_Animacion" onclick="window.location='SeccionAnimacion.html'" title="Ir a la Sección de Animacion 2D y 3D"><img id="img_1" onmouseover="setNewImage_1()" onmouseout="setOldImage_1()" class="logoicono img-fluid" src="images/Ilustraciones/Logo_Animacion.png" alt="logoanimacion"/></button>
             </div>
@@ -33,7 +32,6 @@
             <div class="Zona_Render col-10 col-md-2">
                 <button class="Boton_Render" onclick="window.location='seccion_render.html'" title="Ir a la Sección de Render"><img id="img_5" onmouseover="setNewImage_5()" onmouseout="setOldImage_5()" class="logoicono img-fluid" src="images/Ilustraciones/Logo_Render.png" alt="logorender"/></button>
             </div>
-        </div>
     </div>
 
     
