@@ -6,7 +6,7 @@ if(mysqli_num_rows($sql)>0){
 	while ($row=mysqli_fetch_array($sql)) { ?>
 		<div class="barra-superior">
 			<p> <a><?php echo $row["tipo"]?></a> </p>
-			<a href="#"><img class="closeforo" src="images/boton cerrar.png" alt="cerrar"></a>
+			<a href="#"><img class="closeforo2" src="images/boton cerrar.png" alt="cerrar"></a>
 		</div>
 		<div class="contenidomodal">
 			<div class="titulomodal">

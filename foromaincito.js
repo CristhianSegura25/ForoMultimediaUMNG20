@@ -88,38 +88,38 @@ window.addEventListener("click",function(b){
 	}
 });
 
-let cerrarforo2=document.querySelectorAll(".closeforo2")[0];
-let abrirforo2=document.querySelectorAll(".ctaforo2")[0];
-let modalforo2=document.querySelectorAll(".modalforo2")[0];
-let modalCforo2=document.querySelectorAll(".modalcontainerforo2")[0];
+// let cerrarforo2=document.querySelectorAll(".closeforo2")[0];
+// let abrirforo2=document.querySelectorAll(".ctaforo2")[0];
+// let modalforo2=document.querySelectorAll(".modalforo2")[0];
+// let modalCforo2=document.querySelectorAll(".modalcontainerforo2")[0];
 
-abrirforo2.addEventListener("click",function(b){
-	b.preventDefault();
-	modalCforo2.style.opacity="1";
-	modalCforo2.style.visibility="visible";
-	modalforo2.classList.toggle("modalcloseforo2");
-});
+// abrirforo2.addEventListener("click",function(b){
+// 	b.preventDefault();
+// 	modalCforo2.style.opacity="1";
+// 	modalCforo2.style.visibility="visible";
+// 	modalforo2.classList.toggle("modalcloseforo2");
+// });
 
-cerrarforo2.addEventListener("click",function(b){
-	b.preventDefault();
-	modalforo2.classList.toggle("modalcloseforo2");
-	setTimeout(function(){
-	modalCforo2.style.visibility="hidden";
-	modalCforo2.style.opacity="0";
-	},1000)
-});
+// cerrarforo2.addEventListener("click",function(b){
+// 	b.preventDefault();
+// 	modalforo2.classList.toggle("modalcloseforo2");
+// 	setTimeout(function(){
+// 	modalCforo2.style.visibility="hidden";
+// 	modalCforo2.style.opacity="0";
+// 	},1000)
+// });
 
-window.addEventListener("click",function(b){
-	console.log(b.target);
-	if(b.target==modalCforo2){
-		modalforo2.classList.toggle("modalcloseforo2");
+// window.addEventListener("click",function(b){
+// 	console.log(b.target);
+// 	if(b.target==modalCforo2){
+// 		modalforo2.classList.toggle("modalcloseforo2");
 
-	setTimeout(function(){
-	modalCforo2.style.visibility="hidden";
-	modalCforo2.style.opacity="0";
-	},1000);
-	}
-});
+// 	setTimeout(function(){
+// 	modalCforo2.style.visibility="hidden";
+// 	modalCforo2.style.opacity="0";
+// 	},1000);
+// 	}
+// });
 
 let cerrarforo3=document.querySelectorAll(".closeforo3")[0];
 let abrirforo3=document.querySelectorAll(".ctaforo3")[0];
