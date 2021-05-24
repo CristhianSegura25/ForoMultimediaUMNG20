@@ -11,25 +11,25 @@
 </head>
 <body>
 
-
-    <div class="row Container col-12 col-md-12 justify-content-around">
-        <div class="Zona_Animacion col-10 col-md-10">
+    <div class="row">
+    <div class="Container col-12 col-md-12 justify-content-around">
+        <div class="Zona_Animacion col-10 col-md-2">
             <button class="Boton_Animacion" onclick="window.location='SeccionAnimacion.html'" title="Ir a la Sección de Animacion 2D y 3D"><img id="img_1" onmouseover="setNewImage_1()" onmouseout="setOldImage_1()" class="logoicono img-fluid" src="images/Ilustraciones/Logo_Animacion.png" alt="logoanimacion"/></button>
         </div>
 
-        <div class="Zona_Guiones col-10 col-md-12">
+        <div class="Zona_Guiones col-10 col-md-2">
             <button class="Boton_Guiones" onclick="window.location='seccioncortosguiones.html'" title="Ir a la Sección de Guiones y Cortometrajes"><img id="img_2" onmouseover="setNewImage_2()" onmouseout="setOldImage_2()" class="logoicono img-fluid" src="images/Ilustraciones/Logo_Guiones.png" alt="logocortosguiones"/></button>
         </div>
 
-        <div class="Zona_Modelado col-10 col-md-12">
+        <div class="Zona_Modelado col-10 col-md-2">
             <button class="Boton_Modelado" onclick="window.location='SeccionModelado.html'" title="Ir a la Sección de Modelado 3D"><img id="img_3" onmouseover="setNewImage_3()" onmouseout="setOldImage_3()" class="logoicono img-fluid" src="images/Ilustraciones/Logo_Modelado.png" alt="logomodelado"/></button>
         </div>
         
-        <div class="Zona_Programacion col-10 col-md-12">
+        <div class="Zona_Programacion col-10 col-md-2">
             <button class="Boton_Programacion" onclick="window.location='seccionprogramacion.html'" title="Ir a la Sección de Programación"><img id="img_4" onmouseover="setNewImage_4()" onmouseout="setOldImage_4()" class="logoicono img-fluid" src="images/Ilustraciones/Logo_Programacion.png" alt="logoprogramacion"/></button>
         </div>
 
-        <div class="Zona_Render col-10 col-md-12">
+        <div class="Zona_Render col-10 col-md-2">
             <button class="Boton_Render" onclick="window.location='seccion_render.html'" title="Ir a la Sección de Render"><img id="img_5" onmouseover="setNewImage_5()" onmouseout="setOldImage_5()" class="logoicono img-fluid" src="images/Ilustraciones/Logo_Render.png" alt="logorender"/></button>
         </div>
     </div>
@@ -195,6 +195,7 @@
                 </script>
             </div>
     </footer>
+    </div>
 
     <script src="homexd.js"></script>
     <script src="home2.js"></script>
