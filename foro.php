@@ -205,6 +205,6 @@
 
     </div>            
     
-    <script src="foromain.js"></script>  
+    <script src="foromaincito.js"></script>  
 </body>
 </html>
