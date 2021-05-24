@@ -153,3 +153,36 @@ window.addEventListener("click",function(b){
 	},1000);
 	}
 });
+
+let cerrarforo4=document.querySelectorAll(".closeforo4")[0];
+let abrirforo4=document.querySelectorAll(".ctaforo4")[0];
+let modalforo4=document.querySelectorAll(".modalforo4")[0];
+let modalCforo4=document.querySelectorAll(".modalcontainerforo4")[0];
+
+abrirforo4.addEventListener("click",function(b){
+	b.preventDefault();
+	modalCforo4.style.opacity="1";
+	modalCforo4.style.visibility="visible";
+	modalforo4.classList.toggle("modalcloseforo4");
+});
+
+cerrarforo4.addEventListener("click",function(b){
+	b.preventDefault();
+	modalforo4.classList.toggle("modalcloseforo4");
+	setTimeout(function(){
+	modalCforo4.style.visibility="hidden";
+	modalCforo4.style.opacity="0";
+	},1000)
+});
+
+window.addEventListener("click",function(b){
+	console.log(b.target);
+	if(b.target==modalCforo3){
+		modalforo4.classList.toggle("modalcloseforo4");
+
+	setTimeout(function(){
+	modalCforo4.style.visibility="hidden";
+	modalCforo4.style.opacity="0";
+	},1000);
+	}
+});

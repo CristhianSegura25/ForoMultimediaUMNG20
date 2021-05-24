@@ -157,8 +157,12 @@
                     <div class="post_1">
                         <P>Nombre usuario: Karen</P>
                         <p>fecha: 14/05/2021</p>
-                        <a href="#"> TITULO: Texturas. </a>
-                        <!-- <h2>TITULO: Texturas.</h2> -->
+                        <a href="#" class="ctaforo2"> TITULO: C. </a>
+                        <div class="modalcontainerforo1">
+                            <div class="modalforo1 modalcloseforo1">
+                                <?php require_once "mostrarultimacosarender.php";?>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
@@ -170,8 +174,12 @@
                     <div class="post_1">
                         <P>Nombre usuario: Rocha</P>
                         <p>fecha: 09/05/2021</p>
-                        <a href="#"> TITULO: Errores Geometricos. </a>
-                        <!-- <h2>TITULO: Errores Geometricos.</h2> -->
+                        <a href="#" class="ctaforo3"> TITULO: D. </a>
+                        <div class="modalcontainerforo1">
+                            <div class="modalforo1 modalcloseforo1">
+                                <?php require_once "mostrarultimacosamodelado.php";?>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
@@ -183,8 +191,12 @@
                     <div class="post_1">
                         <P>Nombre usuario: Skankhunt</P>
                         <p>fecha: 02/03/2021</p>
-                        <a href="#"> TITULO: Manejo de Camaras. </a>
-                        <!-- <h2>TITULO: Manejo de Camaras.</h2> -->
+                        <a href="#" class="ctaforo4"> TITULO: E. </a>
+                        <div class="modalcontainerforo1">
+                            <div class="modalforo1 modalcloseforo1">
+                                <?php require_once "mostrarultimacosacortos.php";?>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
