@@ -252,7 +252,7 @@ body{
     background: rgba(255, 255, 255, 0.7);
   }
 
-.modalcontainerforo{
+.modalcontainerforo .modalcontainerforo1{
     opacity: 0;
     visibility: hidden;
     position: fixed;
@@ -267,7 +267,7 @@ body{
     align-items:flex-end;
  }
 
-.modalforo{
+.modalforo .modalforo1{
     width: 40%;
     height: 50%;
     background-color: white;
@@ -280,7 +280,7 @@ body{
     transform:translateY(-50%); 
 }
 
-.closeforo{
+.closeforo .closeforo1{
     position: absolute;
     top:0px;
     right: 0px;
@@ -293,7 +293,7 @@ body{
     border-radius: 50%;
     text-shadow: 2px 2px 2px white;
 }
-.modalcloseforo{
+.modalcloseforo .modalcloseforo1{
     transform: translateY(200%);
 }
 .Barra_Superior{
@@ -326,3 +326,4 @@ body{
   text-align: left;
   padding-left: 5%;
 }
+
