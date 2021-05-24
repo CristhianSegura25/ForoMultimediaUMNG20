@@ -16,5 +16,4 @@ if(mysqli_num_rows($sql)>0){
 				<a><?php echo $row["pregunta"]?></a>
 			</div>
 		</div>
-	<?php}
- } ?>
+ <?php } ?>
