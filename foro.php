@@ -140,9 +140,9 @@
                     <div class="post_1">
                         <P>Nombre usuario: Gutierrez</P>
                         <p>fecha: 11/05/2021</p>
-                        <a href="#" class="ctaforo"> TITULO: B. </a>
-                        <div class="modalcontainerforo">
-                            <div class="modalforo modalcloseforo">
+                        <a href="#" class="ctaforo1"> TITULO: B. </a>
+                        <div class="modalcontainerforo1">
+                            <div class="modalforo1 modalcloseforo1">
                                 <?php require_once "mostrarultimacosaprogramacion.php";?>
                             </div>
                         </div>
