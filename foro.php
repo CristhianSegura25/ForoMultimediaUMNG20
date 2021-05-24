@@ -135,12 +135,7 @@
                     <div class="post_1">
                         <P>Nombre usuario: Gutierrez</P>
                         <p>fecha: 11/05/2021</p>
-                        <a href="#" class="ctaforo1"> TITULO: B. </a>
-                        <div class="modalcontainerforo1">
-                            <div class="modalforo1 modalcloseforo1">
-                                <?php require_once "mostrarultimacosaprogramacion.php";?>
-                            </div>
-                        </div>
+                        <?php require_once "mostrarultimacosaprogramacion.php";?>
 
                     </div>
                 </div>
@@ -152,12 +147,7 @@
                     <div class="post_1">
                         <P>Nombre usuario: Karen</P>
                         <p>fecha: 14/05/2021</p>
-                        <a href="#" class="ctaforo2"> TITULO: C. </a>
-                        <div class="modalcontainerforo2">
-                            <div class="modalforo2 modalcloseforo2">
-                                <?php require_once "mostrarultimacosarender.php";?>
-                            </div>
-                        </div>
+                         <?php require_once "mostrarultimacosarender.php";?>
 
                     </div>
                 </div>
@@ -169,12 +159,7 @@
                     <div class="post_1">
                         <P>Nombre usuario: Rocha</P>
                         <p>fecha: 09/05/2021</p>
-                        <a href="#" class="ctaforo3"> TITULO: D. </a>
-                        <div class="modalcontainerforo3">
-                            <div class="modalforo3 modalcloseforo3">
-                                <?php require_once "mostrarultimacosamodelado.php";?>
-                            </div>
-                        </div>
+                        <?php require_once "mostrarultimacosamodelado.php";?>
 
                     </div>
                 </div>
@@ -186,12 +171,7 @@
                     <div class="post_1">
                         <P>Nombre usuario: Skankhunt</P>
                         <p>fecha: 02/03/2021</p>
-                        <a href="#" class="ctaforo4"> TITULO: E. </a>
-                        <div class="modalcontainerforo4">
-                            <div class="modalforo4 modalcloseforo4">
-                                <?php require_once "mostrarultimacosacortos.php";?>
-                            </div>
-                        </div>
+                        <?php require_once "mostrarultimacosacortos.php";?>
 
                     </div>
                 </div>
