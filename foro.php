@@ -7,19 +7,19 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href ="styleforo.css"/>
+    <link rel="stylesheet" href ="styleforisimo.css"/>
     <link rel="stylesheet" href ="transition.css"/>
 
     <script src="filtro.js"></script>
 </head>
 <body>
 
-    <div class="transition transition-2 is-active">
+<!--     <div class="transition transition-2 is-active">
         <center>
             <img class="logo_foro" src="images/Ilustraciones/Logo_Foro.png"/><br><br><br>
             <div class="loader"></div>
         </center>
-    </div>
+    </div> -->
 
     <div class="row">
 
@@ -89,11 +89,13 @@
                 <div class="zona_escritura_post">
                     <div class="input_post">
                         <form action="#" method="POST">
-                            <input type="radio" name="tipo" value="animacion">Animacion 2D y 3D
-                            <input type="radio" name="tipo" value="cortos">Cortos y guiones 
-                            <input type="radio" name="tipo" value="programacion">Programacion
-                            <input type="radio" name="tipo" value="render">Render
-                            <input type="radio" name="tipo" value="modelado">Modelado<br>
+                            <input type="radio" name="tipo" value="Animacion">Animacion 2D y 3D
+                            <input type="radio" name="tipo" value="Cortos">Cortos y guiones 
+                            <input type="radio" name="tipo" value="Programacion">Programacion
+                            <input type="radio" name="tipo" value="Render">Render
+                            <input type="radio" name="tipo" value="Modelado">Modelado<br>
+                            <label for="">Titulo de la pregunta:</label><br>
+                            <input type="text" name="titulo" required><br>
                             <label for="">Escribe aqui tu post:</label><br>
                             <input type="post" name="pregunta" required><br>
                             <input type="submit"  value="enviar">
@@ -118,7 +120,9 @@
                     <div class="post_1">
                         <P>Nombre usuario: Rocha</P>
                         <p>fecha: 15/05/2021</p>
-                        <a href="#"> TITULO: Dinamicas. </a>
+                        <?php require_once "mostrarultimacosaanimacion.php";?>
+                    </div>
+                </div>
                         <!-- <h2>TITULO: Dinamicas.</h2> -->
 
                     </div>
@@ -131,8 +135,7 @@
                     <div class="post_1">
                         <P>Nombre usuario: Gutierrez</P>
                         <p>fecha: 11/05/2021</p>
-                        <a href="#"> TITULO: Fourier. </a>
-                        <!-- <h2>TITULO: Fourier.</h2> -->
+                        <?php require_once "mostrarultimacosaprogramacion.php";?>
 
                     </div>
                 </div>
@@ -144,8 +147,7 @@
                     <div class="post_1">
                         <P>Nombre usuario: Karen</P>
                         <p>fecha: 14/05/2021</p>
-                        <a href="#"> TITULO: Texturas. </a>
-                        <!-- <h2>TITULO: Texturas.</h2> -->
+                         <?php require_once "mostrarultimacosarender.php";?>
 
                     </div>
                 </div>
@@ -157,8 +159,7 @@
                     <div class="post_1">
                         <P>Nombre usuario: Rocha</P>
                         <p>fecha: 09/05/2021</p>
-                        <a href="#"> TITULO: Errores Geometricos. </a>
-                        <!-- <h2>TITULO: Errores Geometricos.</h2> -->
+                        <?php require_once "mostrarultimacosamodelado.php";?>
 
                     </div>
                 </div>
@@ -170,8 +171,7 @@
                     <div class="post_1">
                         <P>Nombre usuario: Skankhunt</P>
                         <p>fecha: 02/03/2021</p>
-                        <a href="#"> TITULO: Manejo de Camaras. </a>
-                        <!-- <h2>TITULO: Manejo de Camaras.</h2> -->
+                        <?php require_once "mostrarultimacosacortos.php";?>
 
                     </div>
                 </div>
@@ -180,6 +180,6 @@
 
     </div>            
     
-    <script src="main.js"></script>  
+    <script src="foromaincito.js"></script>  
 </body>
 </html>
