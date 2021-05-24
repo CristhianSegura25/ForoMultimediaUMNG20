@@ -120,12 +120,7 @@
                     <div class="post_1">
                         <P>Nombre usuario: Rocha</P>
                         <p>fecha: 15/05/2021</p>
-                        <a href="#" class="ctaforo"> TITULO: A. </a>
-                        <div class="modalcontainerforo">
-                            <div class="modalforo modalcloseforo">
-                                <?php require_once "mostrarultimacosaanimacion.php";?>
-                            </div>
-                        </div>
+                        <?php require_once "mostrarultimacosaanimacion.php";?>
                     </div>
                 </div>
                         <!-- <h2>TITULO: Dinamicas.</h2> -->
