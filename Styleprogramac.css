@@ -77,6 +77,12 @@ width: 15%;
 	height: 100%;
 }
 
+.header2letra1, .header2letra2{
+    background: none;
+    border: 0;
+    color: rgb(35, 90,217);
+}
+
 .compilar{
 	padding-top: 15px;
 	border: 2px solid rgb(44,44,42);
