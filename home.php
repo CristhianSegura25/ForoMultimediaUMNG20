@@ -33,6 +33,7 @@
             <button class="Boton_Render" onclick="window.location='seccion_render.html'" title="Ir a la Sección de Render"><img id="img_5" onmouseover="setNewImage_5()" onmouseout="setOldImage_5()" class="logoicono img-fluid" src="images/Ilustraciones/Logo_Render.png" alt="logorender"/></button>
         </div>
     </div>
+    
     <footer>
             <div class="Inicio">
                 <a href="#"><img class="logoinicio"src="images/Ilustraciones/Logo_20.png" alt="logoinicio"></a>

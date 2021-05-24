@@ -35,34 +35,8 @@ window.addEventListener("click",function(e){
 	}
 });
 
-abrirmodelado1.addEventListener("click",function(b){
-	b.preventDefault();
-	modalCmodelado1.style.opacity="1";
-	modalCmodelado1.style.visibility="visible";
-	modalmodelado1.classList.toggle("modal-closemodelado1");
-});
-cerrarmodelado1.addEventListener("click",function(){
-	modalmodelado1.classList.toggle("modal-closemodelado1");
-
-	setTimeout(function(){
-	modalCmodelado1.style.visibility="hidden";
-	modalCmodelado1.style.opacity="0";
-	},1000)
-});
-
 //
 
-window.addEventListener("click",function(b){
-	console.log(b.target);
-	if(b.target==modalCmodelado1){
-		modalmodelado1.classList.toggle("modal-closemodelado1");
-
-	setTimeout(function(){
-	modalCmodelado1.style.visibility="hidden";
-	modalCmodelado1.style.opacity="0";
-	},1000);
-	}
-});
 
 $('#modal1').on('hidden.bs.modal', function (e) {
 	// do something...

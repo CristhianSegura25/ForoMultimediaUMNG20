@@ -19,10 +19,6 @@ body{
     padding-top: 15%;
 }
 
-.container_cortosguiones{
-
-}
-
 
 
 .boton_cerrar{
@@ -106,6 +102,7 @@ body{
     transition: transform 1s;
     transform:translateY(-50%); 
 }
+
 .closecortos{
     position: absolute;
     top:0px;
