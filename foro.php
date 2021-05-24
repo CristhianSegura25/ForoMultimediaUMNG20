@@ -123,13 +123,7 @@
                         <a href="#" class="ctaforo"> TITULO: Dinamicas. </a>
                         <div class="modalcontainerforo">
                             <div class="modalforo modalcloseforo">
-                                <div class="barra-superior">
-                                    <p> PLACEHOLDER1 </p>
-                                    <a href="#"><img class="closeforo" src="images/boton cerrar.png" alt="cerrar"></a>
-                                </div>
-                                <div class="contenidomodal">
-                                    <?php require_once "mostrarultimacosa.php";?>
-                                </div>
+                                <?php require_once "mostrarultimacosa.php";?>
                             </div>
                         </div>
                     </div>
