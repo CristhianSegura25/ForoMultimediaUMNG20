@@ -22,9 +22,8 @@ footer{
     padding-top: 8%;
 }
 
-.Contenedor{
+.Container{
     display: flex;
-    flex-direction: row;
     padding-top: 5%;
 }
 
