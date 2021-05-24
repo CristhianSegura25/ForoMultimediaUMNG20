@@ -89,11 +89,11 @@
                 <div class="zona_escritura_post">
                     <div class="input_post">
                         <form action="#" method="POST">
-                            <input type="radio" name="tipo" value="animacion">Animacion 2D y 3D
-                            <input type="radio" name="tipo" value="cortos">Cortos y guiones 
-                            <input type="radio" name="tipo" value="programacion">Programacion
-                            <input type="radio" name="tipo" value="render">Render
-                            <input type="radio" name="tipo" value="modelado">Modelado<br>
+                            <input type="radio" name="tipo" value="Animacion">Animacion 2D y 3D
+                            <input type="radio" name="tipo" value="Cortos">Cortos y guiones 
+                            <input type="radio" name="tipo" value="Programacion">Programacion
+                            <input type="radio" name="tipo" value="Render">Render
+                            <input type="radio" name="tipo" value="Modelado">Modelado<br>
                             <label for="">Titulo de la pregunta:</label><br>
                             <input type="text" name="titulo" required><br>
                             <label for="">Escribe aqui tu post:</label><br>
@@ -128,12 +128,7 @@
                                     <a href="#"><img class="closeforo" src="images/boton cerrar.png" alt="cerrar"></a>
                                 </div>
                                 <div class="contenidomodal">
-                                    <div class="titulomodal">
-                                        <a>PLACEHOLDERTITULO</a>
-                                    </div>
-                                    <div class="preguntamodal">
-                                        <a>Visualizacion de Pregunta</a>
-                                    </div>
+                                    <?php require_once "mostrarultimacosa.php";?>
                                 </div>
                             </div>
                         </div>

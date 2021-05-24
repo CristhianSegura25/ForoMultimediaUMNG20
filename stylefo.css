@@ -314,7 +314,9 @@ body{
     color:white;
     vertical-align: middle;
 }
-
+.seccionmodal{
+  color:white;
+}
 .titulomodal{
   text-align: center;
   color:red;
