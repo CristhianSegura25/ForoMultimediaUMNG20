@@ -1,7 +1,7 @@
 <?php
 require_once "conexionadb.php";
 
-$sql=$conn->query("SELECT * FROM Lista_Preguntas order by id asc limit 1 WHERE  tipo=Animacion");
+$sql=$conn->query("SELECT * FROM Lista_Preguntas  order by id asc limit 1 AND WHERE  tipo=Animacion");
 if(mysqli_num_rows($sql)>0){ 
 	while ($row=mysqli_fetch_array($sql)) { ?>
 		<div class="barra-superior">
