@@ -88,67 +88,68 @@ window.addEventListener("click",function(b){
 	}
 });
 
-// let cerrarforo=document.querySelectorAll(".closeforo")[0];
-// let abrirforo=document.querySelectorAll(".ctaforo")[0];
-// let modalforo=document.querySelectorAll(".modalforo")[0];
-// let modalCforo=document.querySelectorAll(".modalcontainerforo")[0];
+let cerrarforo2=document.querySelectorAll(".closeforo2")[0];
+let abrirforo2=document.querySelectorAll(".ctaforo2")[0];
+let modalforo2=document.querySelectorAll(".modalforo2")[0];
+let modalCforo2=document.querySelectorAll(".modalcontainerforo2")[0];
 
-// abrirforo.addEventListener("click",function(b){
-// 	b.preventDefault();
-// 	modalCforo.style.opacity="1";
-// 	modalCforo.style.visibility="visible";
-// 	modalforo.classList.toggle("modalcloseforo");
-// });
+abrirforo2.addEventListener("click",function(b){
+	b.preventDefault();
+	modalCforo2.style.opacity="1";
+	modalCforo2.style.visibility="visible";
+	modalforo2.classList.toggle("modalcloseforo2");
+});
 
-// cerrarforo.addEventListener("click",function(b){
-// 	b.preventDefault();
-// 	modalforo.classList.toggle("modalcloseforo");
-// 	setTimeout(function(){
-// 	modalCforo.style.visibility="hidden";
-// 	modalCforo.style.opacity="0";
-// 	},1000)
-// });
+cerrarforo2.addEventListener("click",function(b){
+	b.preventDefault();
+	modalforo2.classList.toggle("modalcloseforo2");
+	setTimeout(function(){
+	modalCforo2.style.visibility="hidden";
+	modalCforo2.style.opacity="0";
+	},1000)
+});
 
-// window.addEventListener("click",function(b){
-// 	console.log(b.target);
-// 	if(b.target==modalCforo){
-// 		modalforo.classList.toggle("modalcloseforo");
+window.addEventListener("click",function(b){
+	console.log(b.target);
+	if(b.target==modalCforo2){
+		modalforo2.classList.toggle("modalcloseforo2");
 
-// 	setTimeout(function(){
-// 	modalCforo.style.visibility="hidden";
-// 	modalCforo.style.opacity="0";
-// 	},1000);
-// 	}
-// });
-// let cerrarforo=document.querySelectorAll(".closeforo")[0];
-// let abrirforo=document.querySelectorAll(".ctaforo")[0];
-// let modalforo=document.querySelectorAll(".modalforo")[0];
-// let modalCforo=document.querySelectorAll(".modalcontainerforo")[0];
+	setTimeout(function(){
+	modalCforo2.style.visibility="hidden";
+	modalCforo2.style.opacity="0";
+	},1000);
+	}
+});
 
-// abrirforo.addEventListener("click",function(b){
-// 	b.preventDefault();
-// 	modalCforo.style.opacity="1";
-// 	modalCforo.style.visibility="visible";
-// 	modalforo.classList.toggle("modalcloseforo");
-// });
+let cerrarforo3=document.querySelectorAll(".closeforo3")[0];
+let abrirforo3=document.querySelectorAll(".ctaforo3")[0];
+let modalforo3=document.querySelectorAll(".modalforo3")[0];
+let modalCforo3=document.querySelectorAll(".modalcontainerforo3")[0];
 
-// cerrarforo.addEventListener("click",function(b){
-// 	b.preventDefault();
-// 	modalforo.classList.toggle("modalcloseforo");
-// 	setTimeout(function(){
-// 	modalCforo.style.visibility="hidden";
-// 	modalCforo.style.opacity="0";
-// 	},1000)
-// });
+abrirforo3.addEventListener("click",function(b){
+	b.preventDefault();
+	modalCforo3.style.opacity="1";
+	modalCforo3.style.visibility="visible";
+	modalforo3.classList.toggle("modalcloseforo3");
+});
 
-// window.addEventListener("click",function(b){
-// 	console.log(b.target);
-// 	if(b.target==modalCforo){
-// 		modalforo.classList.toggle("modalcloseforo");
+cerrarforo3.addEventListener("click",function(b){
+	b.preventDefault();
+	modalforo3.classList.toggle("modalcloseforo3");
+	setTimeout(function(){
+	modalCforo3.style.visibility="hidden";
+	modalCforo3.style.opacity="0";
+	},1000)
+});
 
-// 	setTimeout(function(){
-// 	modalCforo.style.visibility="hidden";
-// 	modalCforo.style.opacity="0";
-// 	},1000);
-// 	}
-// });
+window.addEventListener("click",function(b){
+	console.log(b.target);
+	if(b.target==modalCforo3){
+		modalforo3.classList.toggle("modalcloseforo3");
+
+	setTimeout(function(){
+	modalCforo3.style.visibility="hidden";
+	modalCforo3.style.opacity="0";
+	},1000);
+	}
+});
