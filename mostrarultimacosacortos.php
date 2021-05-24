@@ -4,7 +4,7 @@ require_once "conexionadb.php";
 $sql=$conn->query("SELECT * FROM Lista_Preguntas WHERE tipo='Cortos' order by id asc limit 1");
 if(mysqli_num_rows($sql)>0){ 
 	while ($row=mysqli_fetch_array($sql)) { ?>
-		<a href="#" class="ctaforo4"> TITULO: E. </a>
+		<a href="#" class="ctaforo4"> <?php echo $row["titulo"]?> </a>
                         <div class="modalcontainerforo4">
                             <div class="modalforo4 modalcloseforo4">
                             	<div class="barra-superior">
