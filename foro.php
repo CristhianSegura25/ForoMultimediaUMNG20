@@ -123,7 +123,7 @@
                         <a href="#" class="ctaforo"> TITULO: Dinamicas. </a>
                         <div class="modalcontainerforo">
                             <div class="modalforo modalcloseforo">
-                                <?php require_once "mostrarultimacosa.php";?>
+                                <?php require_once "mostrarultimacosaanimacion.php";?>
                             </div>
                         </div>
                     </div>
