@@ -52,7 +52,7 @@ $(document).ready(function() {
     },
     loop: true,
     autoplay: {
-        delay: 800,
+        delay: 1500,
         disableOnInteraction: false,
       },
    
