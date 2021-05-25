@@ -1,6 +1,6 @@
 body{
-    background-image: url(https://fondosmil.com/fondo/9728.jpg);
-
+    background-image: url(https://s3.gifyu.com/images/video-background.gif);
+    margin: 0;
     padding: 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,9 +36,7 @@ body{
     border: 0;
 }
 
-.Boton_Info img{
-    width: 120%;
-}
+
 
 .logo_animacion{
     width: 20%;
@@ -49,88 +47,21 @@ body{
     display: flex;
 }
 
-.Container_Carpeta{
-    width: 99.9%;
-    height: 99.8%;
-    border-radius: 5px;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    background-color: rgb(255, 255, 255);
-    border:1px solid rgb(0, 0, 0);
-}
 
-.Barra_Lateral{
-    width: 10%;
-    height: 100%;
-    position: absolute;
-    top: 0%;
-    left: 0;
-}
 
 .Zona_Trabajo{
-    width: 90%;
-    height: 100%;
-    position: absolute;
-    top: 0%;
-    right: 0%;
-
+    padding-top: 2%;
 }
 
-.Cinta_Trabajos{
-    width: 80%;
-    height: 15%;
-    position: absolute;
-    top: 2%;
-    left: 5%;
-    background-color: rgb(255, 255, 255);
-}
-
-.Cinta_Animacion{
-    width: 80%;
-    height: 80%;
-    position: absolute;
-    bottom: 0;
-    left: 5%;
-    background-color:rgb(0, 0, 0);
-}
-
-.Cinta_Vertical_1{
-    width: 10%;
-    height: 90%;
-    position: absolute;
-    top: 5%;
-    left: 2%;
-    background-color: rgb(255, 255, 255);
-}
-
-.Cinta_Vertical_2{
-    width: 10%;
-    height: 90%;
-    position: absolute;
-    top: 5%;
-    right: 2%;
-    background-color: rgb(255, 255, 255);
-}
 
 .Zona_Animacion{
-    width: 70%;
-    height: 90%;
-    position: absolute;
-    top: 5%;
-    left: 15%;
-    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 80%;
+    padding-top: 5%;
     border-radius: 5px;
 }
 
-.Zona_Video{
-    width: 90%;
-    height: 70%;
-    position: absolute;
-    top: 2%;
-    right: 5%;
-    border-radius: 5px;
-}
+
 
 video{
     width: 100%;
@@ -149,50 +80,18 @@ video{
     height: 100%;
 }
 
-.Logo_20_Años{
-    width: 5%;
-    height: 13%;
-    position: absolute;
-    top: 5%;
-    right: 10%;
-    margin-bottom: 2%;
+.Foro_Multimedia, .Info_Materia, .Logo_20_AÃ±os{
+    padding-top: 5%;
 }
 
-.img_20_Años{
-    width: 180px;
-    height:180px;
-    padding-left: 15%;
-    
+.Info_Materia img{
+    width: 70%;
 }
 
-.Foro_Multimedia{
-    width: 6%;
-    height: 10%;
-    position: absolute;
-    top: 22%;
-    right: 5%;
-}
-
-.Foro{
-    width: 120px;
-    height: 120px;
-}
-
-.Info_Materia{
-    width: 4%;
-    position: absolute;
-    top: 40%;
-    right: 6%;
-}
-
-.Info{
-    width: 130%;
-    height: 130%;
-}
 
 .Zona_Frames{
     width: 90%;
-    position: absolute;
+
     bottom: 2%;
     right: 5%;
 }
@@ -205,95 +104,14 @@ video{
 .Cinta{
     width: 100%;
     height: 100%;
-    position: absolute;
+
 }
 
 .Cuadrados{
     width: 100%;
     height: 100%;
-    position: absolute;
-}
 
-.Semi_Circulo2{
-    width: 25px; 
-    height: 50px; 
-    border: 2px solid #3172DB;
-    background: #4382FF;
-    -moz-border-radius: 0 100px 100px 0;
-    -webkit-border-radius: 0 100px 100px 0;
-    border-radius: 0 100px 100px 0;
 }
-
-.Circulo2_1{
-    position: absolute;
-    top: 12.2%;
-}
-
-.Circulo2_2{
-    position: absolute;
-    top: 29.2%;
-}
-
-.Circulo2_3{
-    position: absolute;
-    top: 46.4%;
-}
-
-.Circulo2_4{
-    position: absolute;
-    top: 63.4%;
-}
-
-.Circulo2_5{
-    position: absolute;
-    top: 80.6%;
-}
-
-.pag_animacion{
-    text-decoration:none;
-    font-size: 80%;
-    color:rgb(255, 255, 255);
-    position: absolute;
-    top: 14%;
-    left: 20%;
-}
-
-.pag_cortos_guiones{
-    text-decoration:none;
-    font-size: 80%;
-    color:rgb(255, 255, 255);
-    position: absolute;
-    top: 30%;
-    left: 20%;
-}
-
-.pag_modelado{
-    text-decoration:none;
-    font-size: 80%;
-    color:rgb(255, 255, 255);
-    position: absolute;
-    top: 48%;
-    left: 20%;
-}
-
-.pag_programacion{
-    text-decoration:none;
-    font-size: 80%;
-    color:rgb(255, 255, 255);
-    position: absolute;
-    top: 64%;
-    left: 20%;
-}
-
-.pag_render{
-    text-decoration:none;
-    font-size: 80%;
-    color:rgb(255, 255, 255);
-    position: absolute;
-    top: 82%;
-    left: 20%;
-}
-
 .modal-container{
     opacity: 0;
     visibility: hidden;
@@ -838,9 +656,7 @@ video{
     display: none;
 }
 .lbl-modal_1{
-    position: absolute;
-    top: 15.2%;
-    left: 1.1%;
+
     width: 18.3%;
     height: 69.7%;
     cursor: pointer;
@@ -855,9 +671,7 @@ video{
     display: none;
 }
 .lbl-modal_2{
-    position: absolute;
-    top: 15.2%;
-    left: 21%;
+
     width: 18.3%;
     height: 69.7%;
     cursor: pointer;
@@ -872,9 +686,7 @@ video{
     display: none;
 }
 .lbl-modal_3{
-    position: absolute;
-    top: 15.2%;
-    left: 40.9%;
+
     width: 18.3%;
     height: 69.7%;
     cursor: pointer;
@@ -889,9 +701,7 @@ video{
     display: none;
 }
 .lbl-modal_4{
-    position: absolute;
-    top: 15.2%;
-    left: 60.8%;
+
     width: 18.3%;
     height: 69.7%;
     cursor: pointer;
@@ -906,9 +716,7 @@ video{
     display: none;
 }
 .lbl-modal_5{
-    position: absolute;
-    top: 15.2%;
-    left: 80.6%;
+
     width: 18.3%;
     height: 69.7%;
     cursor: pointer;
