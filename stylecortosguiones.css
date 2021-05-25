@@ -35,10 +35,7 @@ body{
     justify-content: center;
 }
 .zonavideo{
-	width: 60%;
-	height: 60%;
-
-    z-index: 100;
+    padding-top: 5%;
 }
 .zonaguion{
 	width: 60%;
