@@ -84,7 +84,7 @@
                             </ul>
                         </div>
                         <div class="barraiconos2">
-                            <img src="images/iconoforo.png" href="#" alt="iconoforo">
+                            <img src="images/Ilustraciones/Logo_Foro.png" href="#" alt="iconoforo">
                             <button class="textoforo"  onclick="window.location='foro.php'"  >Foro</button>
                         </div>
                         <div class="footercerrar">
