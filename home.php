@@ -11,6 +11,13 @@
 </head>
 <body>
 
+    <div class="transition transition-home is-active">
+        <center>
+            <img class="logo_20_animado" src="https://s3.gifyu.com/images/Login-20-anos-nuevo-720-2.gif"/>
+            <div class="loader"></div>
+        </center>
+    </div>
+
     <div class="row Container justify-content-around">
     <!-- <div class="row  col-12 col-md-12 ">-->
         <div class="Zona_Animacion col-10 col-lg-2">               
