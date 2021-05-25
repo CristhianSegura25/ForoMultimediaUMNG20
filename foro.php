@@ -25,22 +25,22 @@
 
         <div class="botones_laterales col-1 col-sm-1">
             <div class="Seccion_Animacion">
-                <button class="Boton_animacion" onclick="window.location='SeccionAnimacion.html'"><img class="img-fluid" src="images/Iconos_botones/Boton_animacion.png"/></button>
+                <button class="Boton_animacion" onclick="window.location='SeccionAnimacion.html'"title="Ir a la Sección de Animacion 2D y 3D"><img class="img-fluid" src="images/Iconos_botones/Boton_animacion.png"/></button>
             </div>
             <div class="Seccion_Guiones">
-                <button class="Boton_guiones" onclick="window.location='seccioncortosguiones.html'"><img class="img-fluid" src="images/Iconos_botones/Boton_guiones.png"/></button>
+                <button class="Boton_guiones" onclick="window.location='seccioncortosguiones.html'"title="Ir a la Sección de Guiones y Cortometrajes"><img class="img-fluid" src="images/Iconos_botones/Boton_guiones.png"/></button>
             </div>
 
             <div class="Seccion_Modelado">
-                <button class="Boton_modelado" onclick="window.location='SeccionModelado.html'"><img class="img-fluid" src="images/Iconos_botones/Boton_modelado.png"/></button>
+                <button class="Boton_modelado" onclick="window.location='SeccionModelado.html'"title="Ir a la Sección de Modelado 3D"><img class="img-fluid" src="images/Iconos_botones/Boton_modelado.png"/></button>
             </div>
 
             <div class="Seccion_Programacion">
-                <button class="Boton_programacion" onclick="window.location='seccionprogramacion.html'"><img class="img-fluid" src="images/Iconos_botones/Boton_programacion.png"/></button>
+                <button class="Boton_programacion" onclick="window.location='seccionprogramacion.html'"title="Ir a la Sección de Programacion"><img class="img-fluid" src="images/Iconos_botones/Boton_programacion.png"/></button>
             </div>
 
             <div class="Seccion_Render">
-                <button class="Boton_render" onclick="window.location='seccion_render.html'"><img class="img-fluid" src="images/Iconos_botones/Boton_render.png"/></button>
+                <button class="Boton_render" onclick="window.location='seccion_render.html'"title="Ir a la Sección de Render"><img class="img-fluid" src="images/Iconos_botones/Boton_render.png"/></button>
             </div>
     </div>
       
@@ -55,11 +55,11 @@
                     </div>
                 </div> 
                 <div class="img_20_Años col-1 col-sm-1 ">               
-                    <button class=" Boton_20" onclick="window.location='home.php'" ><img  id="logo_20" onmouseover="setNewImage_logo_20()" onmouseout="setOldImage_logo_20()"  class="img_20_Años img-fluid" src="images/Ilustraciones/Logo_20.png" alt="logo20años" /></button>
+                    <button class=" Boton_20" onclick="window.location='home.php'" title="Ir al Inicio"><img  id="logo_20" onmouseover="setNewImage_logo_20()" onmouseout="setOldImage_logo_20()"  class="img_20_Años img-fluid" src="images/Ilustraciones/Logo_20.png" alt="logo20años" /></button>
                    
                 </div>
                 <div class="Foro col-1 col-sm-1">               
-                    <button class="Boton_Foro" onclick="window.location='foro.html'" ><img id="foro" onmouseover="setNewImage_foro()" onmouseout="setOldImage_foro()" class="Foro img-fluid" src="images/Ilustraciones/Logo_Foro.png" alt="foromultimedia"/></button>
+                    <button class="Boton_Foro" onclick="window.location='foro.html'"title="Ir al Foro" ><img id="foro" onmouseover="setNewImage_foro()" onmouseout="setOldImage_foro()" class="Foro img-fluid" src="images/Ilustraciones/Logo_Foro.png" alt="foromultimedia"/></button>
                 </div>
             
         <div>
