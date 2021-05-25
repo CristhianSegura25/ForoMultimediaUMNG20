@@ -22,7 +22,7 @@ footer{
     padding-bottom: 5%;
 }
 
-.Boton_Inicio, .textoanimacion , .textocortos, .textomodelado, .textoprogramacion, .textorender, .textoforo, .textocerrar{
+.Boton_Inicio, .textoanimacion , .textocortos, .textomodelado, .textoprogramacion, .textorender, .textoforo, .textocerrar, .Boton_cerrar_1, .Boton_cerrar_2{
     background: none;
     border: 0;
     text-decoration: none;
