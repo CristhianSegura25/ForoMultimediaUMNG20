@@ -111,13 +111,13 @@
                                 </div>
                                 <div class="zonatextod">
                                     <h2>Cristian Segura</h2>
-                                    <h3>Soy estudiante de Séptimo Semestre de Ingeniería en Multimedia. Me gusta la creación de motion graphics y la animación en general.</h3>
+                                    <h3>Soy estudiante de Séptimo Semestre de Ingeniería en Multimedia. Me gusta la creación de Motion Graphics, la animación desde programas como After y Photoshop, además la edición de videos.</h3>
                                 </div>
                             </div>
                             <div class="zonadiseñador1">
                                 <div class="zonatextoi">
                                     <h2>Juan Fajardo</h2>
-                                    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum repellendus sunt perspiciatis tenetur laudantium dolorum, possimus ut iusto nemo sapiente. Rem, saepe dolore aspernatur reiciendis possimus omnis rerum doloremque nesciunt!</h3>
+                                    <h3>Soy estudiante de Séptimo Semestre de Ingeniería en Multimedia. Me atrae el ambito del Modelado 3D y Animación, y quisiera especializarme en el desarrollo de videojuegos.</h3>
                                 </div>
                                 <div class="zonaimagend">
                                     <img class="diseñadorlogod"src="images/juan.jpg"alt="foto">
@@ -129,7 +129,7 @@
                                 </div>
                                 <div class="zonatextod">
                                     <h2>Jessica Arias</h2>
-                                    <h3>Soy una estudiante de Séptimo Semestre de Ingeniería en Multimedia. Dentro de mis intereses estan la edicion y la ilustracion.  </h3>
+                                    <h3>Soy una estudiante de Séptimo Semestre de Ingeniería en Multimedia. Dentro de mis intereses estan la edición y la ilustracion.  </h3>
                                 </div>
                             </div>
                             <div class="zonadiseñador1">
