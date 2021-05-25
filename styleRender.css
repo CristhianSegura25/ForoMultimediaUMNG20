@@ -237,6 +237,31 @@ div.info_trabajo h3{
   div.info_trabajo h3{
     font-size: 15px;
   }
+
+  .img_20_Años{
+    width: 85px;
+    height: 85px;
+  }
+  
+  .Foro{
+    width: 65px;
+    height: 65px;
+    filter: invert(100%);
+  }
+  
+  .logoinfo{
+    width: 50px;
+    height: 50px;
+    
+  }
+  .boton_camara {
+    width: 60px;
+    
+  }
+  .botones_etapasrender{
+    width: 200px;
+  }
+ 
 }
 
 div .info_trabajo h2{

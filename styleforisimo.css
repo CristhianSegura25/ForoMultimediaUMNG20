@@ -55,7 +55,8 @@ body{
 .Seccion_Animacion button, .Seccion_Guiones button, .Seccion_Modelado button, .Seccion_Programacion button, .Seccion_Render button{
  width: 200%; 
  height: 80%; 
- background: #999999;
+ background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,7,164,1) 35%, rgba(0,212,255,1) 100%);
  -moz-border-radius: 0 100px 100px 0;
  -webkit-border-radius: 0 100px 100px 0;
  border-radius: 0 100px 100px 0;
@@ -98,8 +99,8 @@ body{
     justify-content: flex-end;
 }*/
 .botones_header{
-    background-color: rgb(89, 89, 89);
-    padding: 1%;
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(7,7,164,0.85) 35%, rgba(0,212,255,0.50) 100%); padding: 1%;
     display: flex;
     justify-content:space-between ;
   }
@@ -137,6 +138,7 @@ body{
      7px 7px 0 rgb(22, 160, 133)*/
     ;
   }
+ 
   
   .field>input[type=text],
   .field>button {
@@ -161,10 +163,12 @@ body{
     display: flex;
     justify-content: space-evenly;
     padding: 1%;
+    
 
   }
-  div.botones_secciones button{
-    background-color:rgb(170, 170, 170);
+  div.botones_secciones a{
+    background: rgb(1, 0, 8);
+    
     padding: 10px;
     border-radius: 20px  20px 20px 20px ;
     width:15%;
@@ -174,7 +178,8 @@ body{
   .zona_escritura_post{
     padding: 1%;
     margin: 0% 0% 2% 0% ;
-    background-color:rgb(142, 142, 142);
+    background: rgb(153,165,255);
+
         
     border-radius: 20px 20px 20px 20px;
 
@@ -210,9 +215,10 @@ body{
   
     -webkit-appearance: none;
     
+    
   }
   .ultimos_post{
-    background-color: rgb(142, 142, 142);
+    background: rgb(153,165,255);
     border-radius: 20px 20px 20px 20px;
     
   }
@@ -222,14 +228,14 @@ body{
     margin: 2% 0% 1% 0%;
   }
   .post{
-    background-color: rgb(170, 170, 170);
+    background: rgb(153,165,255);
     border-radius: 20px 20px 20px 20px;
     padding: 1%;
     
   }
   .post_1{
     
-    background-color: rgb(193, 193, 193);
+    background-color: rgb(196, 200, 226);
     border-radius: 20px 20px 20px 20px;
     padding: 1%;
     margin: 1%;
@@ -246,7 +252,7 @@ body{
     width: 15%;
     padding: 15px 0;
     margin-bottom: 20px;
-    background: rgba(150, 150, 150, 0.7);
+    background: rgb(153,165,255);
     border-radius: 10px;
     text-align: center;
     text-decoration: none;
@@ -254,7 +260,8 @@ body{
   }
 
   .botones_secciones .ct_section_active{
-    background: rgba(255, 255, 255, 0.7);
+    background-color: rgb(2, 1, 1);
+
   }
 
 .modalcontainerforo {
