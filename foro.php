@@ -119,7 +119,6 @@
                         <p>Animacion</p>
                     </div>
                     <div class="post_1">
-                        <P>Nombre usuario: Rocha</P>
                         <?php require_once "mostrarultimacosaanimacion.php";?>
                     </div>
                 </div>
@@ -132,8 +131,7 @@
                     <div>
                         <p>Programacion</p>
                     </div>
-                    <div class="post_1">
-                        <P>Nombre usuario: Gutierrez</P>                       
+                    <div class="post_1">              
                         <?php require_once "mostrarultimacosaprogramacion.php";?>
 
                     </div>
@@ -144,7 +142,6 @@
                         <p>Render</p>
                     </div>
                     <div class="post_1">
-                        <P>Nombre usuario: Karen</P>
                          <?php require_once "mostrarultimacosarender.php";?>
 
                     </div>
@@ -155,7 +152,6 @@
                         <p>Modelado</p>
                     </div>
                     <div class="post_1">
-                        <P>Nombre usuario: Rocha</P>
                         <?php require_once "mostrarultimacosamodelado.php";?>
 
                     </div>
@@ -166,7 +162,6 @@
                         <p>Cortos y Guiones</p>
                     </div>
                     <div class="post_1">
-                        <P>Nombre usuario: Skankhunt</P>
                         <?php require_once "mostrarultimacosacortos.php";?>
 
                     </div>
