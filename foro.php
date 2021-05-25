@@ -51,7 +51,7 @@
                  <div class=" col-12 col-sm-8">               
                     <div class="field" id="searchform">
                         <input type="text" id="searchterm" placeholder="what are you searching for?" />
-                        <button type="button" id="search">Find!</button>
+                        <button type="button" id="search">Buscar!</button>
                     </div>
                 </div> 
                 <div class="img_20_Años col-1 col-sm-1 ">               
