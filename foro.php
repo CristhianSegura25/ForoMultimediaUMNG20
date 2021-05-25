@@ -95,6 +95,8 @@
                             <input type="radio" name="tipo" value="Modelado">Modelado<br>
                             <label for="">Titulo de la pregunta:</label><br>
                             <input type="text" name="titulo" required><br>
+                            <label for="">Autor de la pregunta:</label><br>
+                            <input type="text" name="autor" required><br>
                             <label for="">Escribe aqui tu post:</label><br>
                             <input type="post" name="pregunta" required><br>
                             <input type="submit"  value="enviar">
@@ -118,7 +120,6 @@
                     </div>
                     <div class="post_1">
                         <P>Nombre usuario: Rocha</P>
-                        <p>fecha: 15/05/2021</p>
                         <?php require_once "mostrarultimacosaanimacion.php";?>
                     </div>
                 </div>
@@ -132,8 +133,7 @@
                         <p>Programacion</p>
                     </div>
                     <div class="post_1">
-                        <P>Nombre usuario: Gutierrez</P>
-                        <p>fecha: 11/05/2021</p>
+                        <P>Nombre usuario: Gutierrez</P>                       
                         <?php require_once "mostrarultimacosaprogramacion.php";?>
 
                     </div>
@@ -145,7 +145,6 @@
                     </div>
                     <div class="post_1">
                         <P>Nombre usuario: Karen</P>
-                        <p>fecha: 14/05/2021</p>
                          <?php require_once "mostrarultimacosarender.php";?>
 
                     </div>
@@ -157,7 +156,6 @@
                     </div>
                     <div class="post_1">
                         <P>Nombre usuario: Rocha</P>
-                        <p>fecha: 09/05/2021</p>
                         <?php require_once "mostrarultimacosamodelado.php";?>
 
                     </div>
@@ -169,7 +167,6 @@
                     </div>
                     <div class="post_1">
                         <P>Nombre usuario: Skankhunt</P>
-                        <p>fecha: 02/03/2021</p>
                         <?php require_once "mostrarultimacosacortos.php";?>
 
                     </div>

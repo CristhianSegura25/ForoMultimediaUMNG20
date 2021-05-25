@@ -4,6 +4,7 @@ require_once "conexionadb.php";
 $sql=$conn->query("SELECT * FROM Lista_Preguntas WHERE tipo='Render' order by id asc limit 1");
 if(mysqli_num_rows($sql)>0){ 
 	while ($row=mysqli_fetch_array($sql)) { ?>
+		<p>Fecha y hora de publicacion: <?php echo $row["timestamp"] ?></p>
 		<a href="#" class="ctaforo2"> <?php echo $row["titulo"]?> </a>
                         <div class="modalcontainerforo2">
                             <div class="modalforo2 modalcloseforo2">

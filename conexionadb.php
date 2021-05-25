@@ -53,6 +53,7 @@ $db = "3631994_dbforo2021";
         tipo VARCHAR(255) NOT NULL,
         titulo VARCHAR(255) NOT NULL,
         pregunta VARCHAR(1000) NOT NULL,
+        autor VARCHAR(255) NOT NULL,
         timestamp TIMESTAMP
     )";
      if($conn->query($sql) == TRUE){
