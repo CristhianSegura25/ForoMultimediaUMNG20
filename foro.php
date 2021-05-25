@@ -45,25 +45,24 @@
     </div>
       
       <div class="col-10 col-sm-10">
-            
-        <div class="botones_header">
-            <div class="col-9 col-sm-9">
-
-                <div class="field" id="searchform">
-                    <input type="text" id="searchterm" placeholder="what are you searching for?" />
-                    <button type="button" id="search">Find!</button>
+       
+            <div class="row botones_header justify-content-around">
+                    
+                 <div class=" col-12 col-sm-8">               
+                    <div class="field" id="searchform">
+                        <input type="text" id="searchterm" placeholder="what are you searching for?" />
+                        <button type="button" id="search">Find!</button>
+                    </div>
+                </div> 
+                <div class="img_20_Años col-1 col-sm-1 ">               
+                    <button class=" Boton_20" onclick="window.location='home.php'" ><img  id="logo_20" onmouseover="setNewImage_logo_20()" onmouseout="setOldImage_logo_20()"  class="img_20_Años img-fluid" src="images/Ilustraciones/Logo_20.png" alt="logo20años" /></button>
+                   
                 </div>
-            </div>
-            
-                <div class="img_20_Años">
-                    <button class="Boton_20" onclick="window.location='home.php'" ><img id="logo_20" onmouseover="setNewImage_logo_20()" onmouseout="setOldImage_logo_20()"  class="img_20_Años img-fluid" src="images/Ilustraciones/Logo_20.png" alt="logo20años" /></button>
-                </div>
-                <div class="Foro">
+                <div class="Foro col-1 col-sm-1">               
                     <button class="Boton_Foro" onclick="window.location='foro.html'" ><img id="foro" onmouseover="setNewImage_foro()" onmouseout="setOldImage_foro()" class="Foro img-fluid" src="images/Ilustraciones/Logo_Foro.png" alt="foromultimedia"/></button>
                 </div>
             
-        </div> 
-            
+        <div>
      
         <div class="row">    
             <div class="col-12 col-sm-12">

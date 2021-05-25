@@ -13,10 +13,10 @@ body{
   border: 0;
 }
 
-.logo_foro{
+/*.logo_foro{
   width: 20%;
   padding-top: 15%;
-}
+}*/
   
 @media screen and (min-width: 1521px) {
   .Seccion_Modelado img{
@@ -101,25 +101,30 @@ body{
     background-color: rgb(89, 89, 89);
     padding: 1%;
     display: flex;
-    justify-content: flex-end;
+    justify-content:space-between ;
   }
+  /*.barra_busqueda{
+    padding: 5%;
+    margin: 5%;
+  }*/
   
   .img_20_Años{
-    width: 75px;
-    height: 42.8px;
+    width: 150px;
+    height: 100px;
   }
   
   .Foro{
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     filter: invert(100%);
   }
 
   .field {
     display:flex;
     /*position:realtive;*/
-    /*justify-content: center;*/
-    padding-right: 2%; 
+    justify-content: center;
+    text-align: center;
+    padding: 5%,2%,1%,0%; 
     width:70%;
     flex-direction:row;
     /*box-shadow:
