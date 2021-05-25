@@ -22,6 +22,13 @@ footer{
     padding-bottom: 5%;
 }
 
+.Boton_Inicio, .textoanimacion , .textocortos, .textomodelado, .textoprogramacion, .textorender, .textoforo, .textocerrar{
+    background: none;
+    border: 0;
+    text-decoration: none;
+    color: black;
+}
+
 .logo_20_mul{
     width: 30%;
     padding-top: 8%;
@@ -486,30 +493,7 @@ footer{
     list-style: none;
 }
 
-.textoanimacion{
-    text-decoration: none;
-    color: black;
-}
-.textocortos{
-    text-decoration: none;
-    color: black;
-}
-.textomodelado{
-    text-decoration: none;
-    color: black;
-}
-.textoprogramacion{
-    text-decoration: none;
-    color: black;
-}
-.textorender{
-    text-decoration: none;
-    color: black;
-}
-.textoforo{
-    text-decoration: none;
-    color:black;
-}
+
 .footercerrar>img{
     padding-left: 80%;
     width: 5%;

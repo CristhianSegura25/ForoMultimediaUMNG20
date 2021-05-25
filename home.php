@@ -48,7 +48,7 @@
 
      <footer>
             <div class="Inicio">
-                <a href="#"><img class="logoinicio"src="images/Ilustraciones/Logo_20.png" alt="logoinicio"></a>
+                <button class="Boton_Inicio" href="#"><img class="logoinicio"src="images/Ilustraciones/Logo_20.png" alt="logoinicio"></button>
                 <div class="modalcontainer">
                     <div class="modal modal-close">
                         <p class="close">X</p>
@@ -63,33 +63,33 @@
                             <ul>
                                 <li class="iconoanimacion">
                                     <img src="images/Ilustraciones/Logo_Animacion.png" alt="iconoanimacion">
-                                    <a class="textoanimacion" href="SeccionAnimacion.html" >Animacion 2D/3D</a>
+                                    <button class="textoanimacion" onclick="window.location='SeccionAnimacion.html'" >Animacion 2D/3D</button>
                                 </li>
                                  <li class="iconocortos">
                                     <img src="images/Ilustraciones/Logo_Guiones.png" alt="iconocortosguiones">
-                                    <a class="textocortos"href="seccioncortosguiones.html" >Cortos/Guiones</a>
+                                    <button class="textocortos" onclick="window.location='seccioncortosguiones.html'" >Cortos/Guiones</button>
                                 </li>
                                  <li class="iconomodelado">
                                     <img src="images/Ilustraciones/Logo_Modelado.png" alt="iconomodelado">
-                                    <a class="textomodelado"href="SeccionModelado.html" >Modelado 3D</a>
+                                    <button class="textomodelado" onclick="window.location='SeccionModelado.html'" >Modelado 3D</button>
                                 </li>
                                  <li class="iconoprogramacion">
                                     <img src="images/Ilustraciones/Logo_Programacion.png" alt="iconoprogramacion">
-                                    <a class="textoprogramacion" href="seccionprogramacion.html" >Programacion</a>
+                                    <button class="textoprogramacion" onclick="window.location='seccionprogramacion.html'">Programacion</button>
                                 </li>
                                  <li class="iconorender">
                                     <img src="images/Ilustraciones/Logo_Render.png" alt="iconorender">
-                                    <a class="textorender"href="seccion_render.html" >Render</a>
+                                    <button class="textorender" onclick="window.location='seccion_render.html'"  >Render</button>
                                 </li>
                             </ul>
                         </div>
                         <div class="barraiconos2">
                             <img src="images/iconoforo.png" href="#" alt="iconoforo">
-                            <a class="textoforo" href="foro.php" >Foro</a>
+                            <button class="textoforo"  onclick="window.location='foro.php'"  >Foro</button>
                         </div>
                         <div class="footercerrar">
                             <img src="images/cerrar.png" alt="cerrarsesion">
-                            <a class="textocerrar" href="login.php">Cerrar Sesion</a>
+                            <button class="textocerrar"  onclick="window.location='login.php'" >Cerrar Sesion</button>
                         </div>
 <!--                         <a><img src="images/logo20años2.png" height="400px" alt="logo20años"></a> -->
                     </div>
