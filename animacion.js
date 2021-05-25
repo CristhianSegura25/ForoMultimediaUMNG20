@@ -38,7 +38,6 @@ window.addEventListener("click",function(b){
 });
 
 
-
 abriranimacion1.addEventListener("click",function(b){
 	b.preventDefault();
 	modalCanimacion1.style.opacity="1";
