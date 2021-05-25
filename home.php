@@ -5,40 +5,41 @@
     <title> Home Foro </title>
     <meta charset="utf-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <link rel="stylesheet" href ="stylehom.css"/>
     <link rel="stylesheet" href ="transition.css"/> 
 </head>
 <body>
 
-    
-    <div class="row Container col-12 col-md-12 justify-content-around">
-            <div class="Zona_Animacion col-10 col-md-2">
-                <button class="Boton_Animacion" onclick="window.location='SeccionAnimacion.html'" title="Ir a la Sección de Animacion 2D y 3D"><img id="img_1" onmouseover="setNewImage_1()" onmouseout="setOldImage_1()" class="logoicono img-fluid" src="images/Ilustraciones/Logo_Animacion.png" alt="logoanimacion"/></button>
-            </div>
-
-            <div class="Zona_Guiones col-10 col-md-2">
-                <button class="Boton_Guiones" onclick="window.location='seccioncortosguiones.html'" title="Ir a la Sección de Guiones y Cortometrajes"><img id="img_2" onmouseover="setNewImage_2()" onmouseout="setOldImage_2()" class="logoicono img-fluid" src="images/Ilustraciones/Logo_Guiones.png" alt="logocortosguiones"/></button>
-            </div>
-
-            <div class="Zona_Modelado col-10 col-md-2">
-                <button class="Boton_Modelado" onclick="window.location='SeccionModelado.html'" title="Ir a la Sección de Modelado 3D"><img id="img_3" onmouseover="setNewImage_3()" onmouseout="setOldImage_3()" class="logoicono img-fluid" src="images/Ilustraciones/Logo_Modelado.png" alt="logomodelado"/></button>
-            </div>
+    <div class="row Container justify-content-around">
+    <!-- <div class="row  col-12 col-md-12 ">-->
+        <div class="Zona_Animacion col-10 col-lg-2">               
+                <button class="Boton_Animacion" onclick="window.location='SeccionAnimacion.html'" title="Ir a la Sección de Animacion 2D y 3D"><img id="img_1" onmouseover="setNewImage_1()" onmouseout="setOldImage_1()" class="logoicono img-fluid" src="images/Ilustraciones/Logo_Animacion.png" alt="logoanimacion"/></button>                           
             
-            <div class="Zona_Programacion col-10 col-md-2">
-                <button class="Boton_Programacion" onclick="window.location='seccionprogramacion.html'" title="Ir a la Sección de Programación"><img id="img_4" onmouseover="setNewImage_4()" onmouseout="setOldImage_4()" class="logoicono img-fluid" src="images/Ilustraciones/Logo_Programacion.png" alt="logoprogramacion"/></button>
+        </div> 
+        <div class="Zona_Guiones col-10 col-lg-2">               
+            <button class="Boton_Guiones" onclick="window.location='seccioncortosguiones.html'" title="Ir a la Sección de Guiones y Cortometrajes"><img id="img_2" onmouseover="setNewImage_2()" onmouseout="setOldImage_2()" class="logoicono img-fluid" src="images/Ilustraciones/Logo_Guiones.png" alt="logocortosguiones"/></button>
+            
+        </div>
+        <div class="Zona_Modelado col-10 col-lg-2">               
+            <button class="Boton_Modelado" onclick="window.location='SeccionModelado.html'" title="Ir a la Sección de Modelado 3D"><img id="img_3" onmouseover="setNewImage_3()" onmouseout="setOldImage_3()" class="logoicono img-fluid" src="images/Ilustraciones/Logo_Modelado.png" alt="logomodelado"/></button>
+        </div>
+        <div class="Zona_Programacion col-10 col-lg-2">               
+            <button class="Boton_Programacion" onclick="window.location='seccionprogramacion.html'" title="Ir a la Sección de Programación"><img id="img_4" onmouseover="setNewImage_4()" onmouseout="setOldImage_4()" class="logoicono img-fluid" src="images/Ilustraciones/Logo_Programacion.png" alt="logoprogramacion"/></button>
+        </div>
+        <div class="Zona_Render col-10 col-lg-2">               
+            <button class="Boton_Render" onclick="window.location='seccion_render.html'" title="Ir a la Sección de Render"><img id="img_5" onmouseover="setNewImage_5()" onmouseout="setOldImage_5()" class="logoicono img-fluid" src="images/Ilustraciones/Logo_Render.png" alt="logorender"/></button>
             </div>
 
-            <div class="Zona_Render col-10 col-md-2">
-                <button class="Boton_Render" onclick="window.location='seccion_render.html'" title="Ir a la Sección de Render"><img id="img_5" onmouseover="setNewImage_5()" onmouseout="setOldImage_5()" class="logoicono img-fluid" src="images/Ilustraciones/Logo_Render.png" alt="logorender"/></button>
-            </div>
+            
+    <!-- </div>-->
     </div>
 
     
 
 
 
-    <footer>
+     <footer>
             <div class="Inicio">
                 <a href="#"><img class="logoinicio"src="images/Ilustraciones/Logo_20.png" alt="logoinicio"></a>
                 <div class="modalcontainer">
