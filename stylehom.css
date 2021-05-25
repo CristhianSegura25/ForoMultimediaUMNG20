@@ -56,6 +56,8 @@ footer{
 }
 
 .cta{
+    background: none;
+    border: 0;
     text-decoration: none;
     color: white;
     text-shadow: 2px 2px 2px black;
@@ -422,6 +424,8 @@ footer{
 }
 
 .cta2{
+    background: none;
+    border: 0;
     text-decoration: none;
     color: white;
     text-shadow: 2px 2px 2px black;

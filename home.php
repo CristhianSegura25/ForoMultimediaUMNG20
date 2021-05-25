@@ -97,12 +97,12 @@
             </div>
 
             <div class="Acerca1">
-                <a href="#" class="cta2"> Acerca de Nosotros </a>
+                <button href="#" class="cta2"> Acerca de Nosotros </button>
                 <div class="modal-container2">
                     <div class="modal2 modal-close2">
                         <div class="barra-superior">
                             <p> Explorador de Archivos </p>
-                            <a href="#"><img class="close2" src="images/boton cerrar.png" alt="cerrar"></a>
+                            <button class="Boton_cerrar_1" href="#"><img class="close2" src="images/boton cerrar.png" alt="cerrar"></button>
                         </div>
                         <div class="contenido-carreranosotros">
                             <div class="zonadiseñador">
@@ -148,12 +148,12 @@
             </div>
 
             <div class="Acerca">
-                <a href="#" class="cta"> Acerca de la Carrera </a>
+                <button href="#" class="cta"> Acerca de la Carrera </button>
                 <div class="modal-container1">
                     <div class="modal1 modal-close1">
                         <div class="barra-superior">
                             <p> Explorador de Archivos </p>
-                            <a href="#"><img class="close1" src="images/boton cerrar.png" alt="cerrar"></a>
+                            <button class="Boton_cerrar_2" href="#"><img class="close1" src="images/boton cerrar.png" alt="cerrar"></button>
                         </div>
                         <div class="contenido-carrera">
                             <div class="zona-logo">
