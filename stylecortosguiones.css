@@ -205,9 +205,8 @@ body{
     width: 90%;
     height: 60%;
     background: #D3D3D3;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+    margin:0;
+    padding: 0;
 }
 
 .foto-retrato{
