@@ -56,7 +56,7 @@
     animation: loader 1.2s linear infinite;    
 }
 
-.transition-home{
+.transition-4{
     position: fixed;
     top:0;
     bottom: 0;
@@ -67,7 +67,7 @@
     transition: 0.5s ease-out;
 }
 
-.transition-home.is-active {
+.transition-4.is-active {
     left: 0px;
 }
 

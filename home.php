@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    <div class="transition transition-2 is-active">
+    <div class="transition transition-4 is-active">
         <center>
             <img class="logo_20_animado" src="https://s3.gifyu.com/images/Login-20-anos-nuevo-720-2.gif"/>
             <div class="loader"></div>
