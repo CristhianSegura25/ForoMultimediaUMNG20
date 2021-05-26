@@ -281,6 +281,7 @@ video{
    height: 10%;
    margin-top: 45%;
    margin-bottom: 45%;
+      color: white;
  }
 
 
@@ -303,6 +304,7 @@ video{
 .Boton_animacion, .Boton_guiones, .Boton_modelado, .Boton_programacion, .Boton_render{
    transition: transform 1s ease-in-out;
    transform: translateX(-50%);
+   color: white;
 }
 
 .Seccion_Animacion:hover .Boton_animacion{
