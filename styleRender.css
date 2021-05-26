@@ -14,6 +14,16 @@ body {
 .Boton_Foro, .Boton_Info, .Boton_20, .Boton_galeria ,.boton_modelado, .boton_texturas, .boton_render, .boton_post{
   background: none;
   border: 0;
+  font-size: 25px;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-mas{
+  font-size: 25px;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
 .logo_render{
@@ -139,7 +149,6 @@ body {
 .Foro{
   width: 125px;
   height: 125px;
-  filter: invert(100%);
 }
 
 .logoinfo{
@@ -454,6 +463,11 @@ height: 35%;
   margin-top: 5%;
   /*padding-bottom: 10%;*/
   background: transparent;
+  font-size: 30px;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+
 }
 .swiper-slide {
   background-position: center;

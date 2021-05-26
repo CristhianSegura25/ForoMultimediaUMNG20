@@ -12,6 +12,14 @@ body{
 .Boton_Foro, .Boton_20, .Boton_info, .Boton_info_2, .Boton_galeria ,.Boton_Obras{
     background: none;
     border: 0;
+    font-size: 25px;
+    color:black;
+    font-family: 'Courier Prime', monospace;
+}
+
+.Boton_info_2, .Boton_Foro{
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .logo_guiones{
@@ -37,6 +45,7 @@ body{
     align-items: center;
     text-align: center;
     justify-content: center;
+    font-family: 'Courier Prime', monospace;
 }
 .zonavideo{
     padding-top: 5%;
@@ -192,6 +201,7 @@ body{
 
 .zona-autores{
     flex-direction: column;
+    font-family: 'Courier Prime', monospace;
 }
 
 .zona_1, .zona_2{
