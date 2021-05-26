@@ -37,16 +37,21 @@ footer{
 .Container{
     display: flex;
     padding-top: 5%;
+    margin-bottom: 10%;
 }
 
 .Boton_Animacion, .Boton_Guiones, .Boton_Modelado, .Boton_Programacion, .Boton_Render{
     background: none;
     border: 0;
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .Zona_Animacion img, .Zona_Guiones img, .Zona_Modelado img, .Zona_Programacion img, .Zona_Render img{
     width: 60%;
 }
+
 
 
 .Boton{
@@ -313,6 +318,7 @@ footer{
     bottom: 0%;
     width: 100%;
     height: 97%;
+    overflow-y: scroll;
 }
 
 .zona-logo{
@@ -342,32 +348,27 @@ footer{
 }
 
 .contexto-carrera{
-    width: 55%;
+    margin-top: 4%;
     height: 100%;
-    position: absolute;
-    right: 2%;
 }
 
-.nuestro-proposito{
+.nuestro-proposito, .perfil-de-egresado{
     width: 100%;
-    height: 25%;
     text-align: left;
     justify-content: left;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
-.perfil-de-aspirante{
+.perfil-de-aspirante, .sobre-los-20{
     width: 100%;
-    height: 25%;
     text-align: right;
     justify-content: right;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
-.perfil-de-egresado{
-    width: 100%;
-    height: 50%;
-    text-align: left;
-    justify-content: left;
-}
+
 .modal-container2{
     opacity: 0;
     visibility: hidden;
