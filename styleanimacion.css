@@ -34,6 +34,9 @@ body{
 .Boton_Foro, .cta, .Boton_20, .Boton_info_2{
     background: none;
     border: 0;
+    margin: 10%;
+    font-size: 25px;
+    color:black;
 }
 
 .logo_animacion{
@@ -78,7 +81,7 @@ video{
     height: 100%;
 }
 
-.Foro_Multimedia, .Info_Materia, .Logo_20_AÃ±os{
+.Foro_Multimedia, .Info_Materia, .Logo_20_Anios{
     padding-top: 5%;
 }
 

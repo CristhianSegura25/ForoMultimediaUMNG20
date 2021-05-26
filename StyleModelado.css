@@ -16,6 +16,9 @@ body{
 .Boton_Foro, .Boton_Info, .Boton_20{
     background: none;
     border: 0;
+    font-size: 25px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -102,10 +105,14 @@ body{
     height: 100%;
 }
 
+#img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8{
+    cursor: pointer;
+}
 
 .Imagen_1, .Imagen_2 {
     padding-top: 15%;
     padding-bottom: 25%;
+
 }
 
 .Imagen_3, .Imagen_4 {
@@ -174,6 +181,7 @@ body{
     display:block;
     margin: auto;
     color: white;
+    cursor:pointer
 }
 
 .info_modelo, .info_modelo_3{
@@ -189,6 +197,7 @@ body{
     display:block;
     margin: auto;
     color: white;
+    cursor:pointer
 }
 
 .info_modelo_2, .info_modelo_4{
