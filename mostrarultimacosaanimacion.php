@@ -23,6 +23,7 @@ if(mysqli_num_rows($sql)>0){
 									</div>
 									<div class="respuestamodal">
 										<a style="color: white;">LA RESPUESTA:</a><br>
+										<a><?php echo $row["respuesta"]?></a>
 									</div>
 								</div>
 								<div class="parteinferior">

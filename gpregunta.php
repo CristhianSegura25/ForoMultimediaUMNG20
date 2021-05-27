@@ -8,9 +8,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 		$pregunta=$_POST['pregunta'];
 		$autor=$_POST['autor'];
 
-		// $pincript=password_hash($contrasena,PASSWORD_DEFAULT);
-
-		$sql="INSERT INTO Lista_Preguntas(tipo,titulo,pregunta,autor,respuesta) VALUES ('$tipo','$titulo','$pregunta','$autor','Aun no han respondido esta pregunta')";
+		$sql="INSERT INTO Lista_Preguntas(tipo,titulo,pregunta,autor) VALUES ('$tipo','$titulo','$pregunta','$autor')";
+		if($conn->query($sql)===false){			
+			die($conn->error);
+		}
+		$sql="UPDATE `Lista_Preguntas` SET `respuesta` = 'Aun no se ha respondio esta pregunta' WHERE id order by id desc limit 1";
 		if($conn->query($sql)===false){			
 			die($conn->error);
 		}
