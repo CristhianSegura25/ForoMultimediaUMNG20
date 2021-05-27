@@ -121,7 +121,7 @@
                             <input type="submit"  value="Editar">
                         </form>
                         <form action="Epreguntaanimacion.php" method="POST">
-                            <input type="submit"  value="Eliminar">
+                            <input type="submit" name="Eliminaranimacion" value="Eliminar">
                         </form>
                     </div>
                     <div class="post_1">
@@ -140,7 +140,7 @@
                             <input type="submit"  value="Editar">
                         </form>
                         <form action="Epreguntaprogramacion.php" method="POST">
-                            <input type="submit" name="Eliminaranimacion"  value="Eliminar">
+                            <input type="submit" name="Eliminarprogramacion"  value="Eliminar">
                         </form>
                     </div>
                     <div class="post_1">              
@@ -156,7 +156,7 @@
                             <input type="submit"  value="Editar">
                         </form>
                         <form action="Epreguntarender.php" method="POST">
-                            <input type="submit"  value="Eliminar">
+                            <input type="submit" name="Eliminarrender" value="Eliminar">
                         </form>
                     </div>
                     <div class="post_1">
@@ -172,7 +172,7 @@
                             <input type="submit"  value="Editar">
                         </form>
                         <form action="Epreguntamodelado.php" method="POST">
-                            <input type="submit"  value="Eliminar">
+                            <input type="submit" name="Eliminarmodelado"  value="Eliminar">
                         </form>
                     </div>
                     <div class="post_1">
@@ -188,7 +188,7 @@
                             <input type="submit"  value="Editar">
                         </form>
                         <form action="Epreguntacortos.php" method="POST">
-                            <input type="submit"  value="Eliminar">
+                            <input type="submit" name="Eliminarcortos" value="Eliminar">
                         </form>
                     </div>
                     <div class="post_1">
