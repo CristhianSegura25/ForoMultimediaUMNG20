@@ -28,9 +28,9 @@
         <form method="get" action="home.php">
             <button type="submit"><a>ENTRAR SIN REGISTRO<a></button>
         </form>
-        <div class="registro">
-            <button class="botonregistro" onclick="window.location.href='registro.php'">REGISTRARSE</button>
-        </div>
+        <form method="get" action="registro.php">
+            <button class="botonregistro">REGISTRARSE</button>
+        </form>
         <footer>
         <p>20</p><br><br>
         <p>AÑOS</p><br><br>
