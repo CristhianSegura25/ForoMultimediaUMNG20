@@ -20,6 +20,19 @@ if(mysqli_num_rows($sql)>0){
 									<div class="preguntamodal">
 										<a><?php echo $row["pregunta"]?></a>
 									</div>
+									<div class="respuestamodal">
+										<a style="color: white;">LA RESPUESTA:</a><br>
+										<a><?php echo $row["respuesta"]?></a>
+									</div>
+								</div>
+								<div class="parteinferior">
+									<form action="#" method="POST">
+										<label for="">Escribe aqui la respuesta al post:</label><br>
+                            			<input type="post" name="respuesta" required><br>
+			                            <input type="submit"  value="Responder">
+			                            <?php require_once 'grespuestaanimacion.php'?>
+			                        </form>
+								</div>
 								</div>
                             </div>
                         </div>
