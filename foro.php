@@ -118,7 +118,7 @@
                     <div class="partesuperior">
                         <p>Animacion</p>
                         <form action="Edipreguntaanimacion.php" method="POST">
-                            <input type="submit"  value="Editar">
+                            <input type="submit" name="Editaranimacion" value="Editar">
                         </form>
                         <form action="Epreguntaanimacion.php" method="POST">
                             <input type="submit" name="Eliminaranimacion" value="Eliminar">

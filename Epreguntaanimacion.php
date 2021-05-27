@@ -7,6 +7,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST" && $_POST['Eliminaranimacion']=="Elimina
 		if($conn->query($sql)===false){
 			die($conn->error);
 		}
-	echo "<script> window.location='foro.php'; </script>";
+	echo "<script> window.location='foro.php'; </script>"
 }
 ?>
