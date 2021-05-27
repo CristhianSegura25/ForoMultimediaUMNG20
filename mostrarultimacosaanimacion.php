@@ -21,6 +21,14 @@ if(mysqli_num_rows($sql)>0){
 										<a><?php echo $row["pregunta"]?></a>
 									</div>
 								</div>
+								<div class="parteinferior">
+									<form action="#" method="POST">
+										<label for="">Escribe aqui tu post:</label><br>
+                            			<input type="post" name="respuesta" required><br>
+			                            <input type="submit"  value="Responder">
+			                            <!-- <?php require_once 'grespuesta.php'?> -->
+			                        </form>
+								</div>
                                 
                             </div>
                         </div>
