@@ -151,7 +151,7 @@ width: 15%;
     border-left: 3px solid rgb(81, 81, 81);
     border-right: 3px solid rgb(81, 81, 81);
     background-color: rgb(53, 53, 53);
-    height: 1310px;
+    height: 1800px;
     overflow-y: auto;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -193,6 +193,7 @@ width: 15%;
     border-right:12px solid rgb(81,81,81); 
     border-bottom: 12px solid rgb(81,81,81); 
     color: white;
+    text-align: left;
 }
 .contenidozonaderecha>ul{
     font-size: large;
@@ -278,21 +279,21 @@ width: 15%;
 
 @media screen and (min-width: 1521px) {
     .Seccion_Modelado img{
-     height: 60%;
+     height: 50%;
    }
 
    .Seccion_Animacion img, .Seccion_Programacion img, .Seccion_Render img{
-       height: 65%;
+       height: 55%;
      }
 
      .Seccion_Guiones img{
-       height: 75%;
+       height: 65%;
      }
  }
 
  @media screen and (max-width: 1520px) {
    .Seccion_Animacion img, .Seccion_Guiones img, .Seccion_Modelado img, .Seccion_Programacion img, .Seccion_Render img{
-       height: 50%;
+       height: 40%;
    }
  }
 
