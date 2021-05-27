@@ -62,6 +62,8 @@
                     <button class="Boton_Foro" onclick="window.location='foro.html'"title="Ir al Foro" ><img id="foro" onmouseover="setNewImage_foro()" onmouseout="setOldImage_foro()" class="Foro img-fluid" src="images/Ilustraciones/Logo_Foro.png" alt="foromultimedia"/></button>
                 </div>
             
+        <div>
+     
         <div class="row">    
             <div class="col-12 col-sm-12">
               
