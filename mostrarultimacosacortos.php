@@ -18,6 +18,7 @@ if(mysqli_num_rows($sql)>0){
 										<a><?php echo $row["titulo"]?></a>
 									</div>
 									<div class="preguntamodal">
+										<a style="color: white;">LA PREGUNTA:</a><br>
 										<a><?php echo $row["pregunta"]?></a>
 									</div>
 									<div class="respuestamodal">
@@ -30,7 +31,7 @@ if(mysqli_num_rows($sql)>0){
 										<label for="">Escribe aqui la respuesta al post:</label><br>
                             			<input type="post" name="respuesta" required><br>
 			                            <input type="submit"  value="Responder">
-			                            <?php require_once 'grespuestaanimacion.php'?>
+			                            <?php require_once 'grespuestacortos.php'?>
 			                        </form>
 								</div>
 								</div>
