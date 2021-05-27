@@ -23,10 +23,10 @@ if(mysqli_num_rows($sql)>0){
 								</div>
 								<div class="parteinferior">
 									<form action="#" method="POST">
-										<label for="">Escribe aqui tu post:</label><br>
+										<label for="">Escribe aqui la respuesta al post:</label><br>
                             			<input type="post" name="respuesta" required><br>
 			                            <input type="submit"  value="Responder">
-			                            <!-- <?php require_once 'grespuesta.php'?> -->
+			                            <?php require_once 'grespuestaanimacion.php'?>
 			                        </form>
 								</div>
                                 
