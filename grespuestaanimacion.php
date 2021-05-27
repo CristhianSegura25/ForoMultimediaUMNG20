@@ -1,7 +1,7 @@
 <?php
 require_once "conexionadb.php";
 
-if($_SERVER["REQUEST_METHOD"] == "POST"){
+if($_SERVER["REQUEST_METHOD"] == "POST"&& $_POST['Responderanimacion']=="Responder"){
 	if(empty(trim($_POST["respuesta"]))){
 		$respuesta=$_POST['respuesta'];
 

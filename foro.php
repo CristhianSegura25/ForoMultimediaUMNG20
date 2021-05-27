@@ -140,7 +140,7 @@
                             <input type="submit"  value="Editar">
                         </form>
                         <form action="Epreguntaprogramacion.php" method="POST">
-                            <input type="submit"  value="Eliminar">
+                            <input type="submit" name="Eliminaranimacion"  value="Eliminar">
                         </form>
                     </div>
                     <div class="post_1">              
