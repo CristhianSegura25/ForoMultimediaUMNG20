@@ -537,3 +537,6 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,7,164,1) 35%, rgba(
 .modalcloseforo4{
     transform: translateY(200%);
 }
+.partesuperior{
+    display: flex;
+}
