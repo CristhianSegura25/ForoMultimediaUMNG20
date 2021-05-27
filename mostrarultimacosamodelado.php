@@ -30,7 +30,7 @@ if(mysqli_num_rows($sql)>0){
 									<form action="#" method="POST">
 										<label for="">Escribe aqui la respuesta al post:</label><br>
                             			<input type="post" name="respuesta" required><br>
-			                            <input type="submit"  value="Responder">
+			                            <input type="submit" name="Respondermodelado" value="Responder">
 			                            <?php require_once 'grespuestamodelado.php'?>
 			                        </form>
 								</div>
