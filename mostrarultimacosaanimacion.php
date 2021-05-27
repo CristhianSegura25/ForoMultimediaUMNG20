@@ -18,7 +18,11 @@ if(mysqli_num_rows($sql)>0){
 										<a><?php echo $row["titulo"]?></a>
 									</div>
 									<div class="preguntamodal">
+										<a class="titulopregunta">LA PREGUNTA:</a>
 										<a><?php echo $row["pregunta"]?></a>
+									</div>
+									<div class="respuestamodal">
+										<a class="titulorespuesta">LA RESPUESTA:</a>
 									</div>
 								</div>
 								<div class="parteinferior">

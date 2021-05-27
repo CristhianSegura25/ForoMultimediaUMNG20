@@ -346,10 +346,24 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,7,164,1) 35%, rgba(
 .preguntamodal{
   padding-top: 10%;
   text-align: left;
-  width: 50%;
+  position: absolute;
+  width: 40%;
   height: 80%;
-  margin-left: 5%;
-  margin-right: 5%;
+  left: 5%;
+}
+.titulopregunta{
+  text-align: center;
+}
+.respuestamodal{
+  padding-top: 10%;
+  text-align: left;
+  position: absolute;
+  width: 40%;
+  height: 80%;
+  left: 55%;
+}
+.titulorespuesta{
+  text-align: center;
 }
 
 .modalcontainerforo1 {
