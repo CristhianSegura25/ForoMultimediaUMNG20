@@ -170,6 +170,6 @@
 
     </div>            
     
-    <script src="foromaincito.js"></script>  
+    <script src="formain.js"></script>  
 </body>
 </html>
