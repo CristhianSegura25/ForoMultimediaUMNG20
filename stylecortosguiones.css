@@ -190,13 +190,11 @@ body{
 }
 
 
-.zona_autores{
-    /*flex-direction: column;*/
-    display: flex;
-    justify-content: space-between;
+.zona-autores{
+    flex-direction: column;
 }
 
-.primera_zona, .segunda_zona{
+.zona_1, .zona_2{
     padding-top: 10%;
     display: flex;
     flex-direction: row;
@@ -223,7 +221,7 @@ body{
     justify-content: center;
 }
 
-.zona_1, .zona_2, .zona_3, .zona_4, .zona_5, .zona_6{
+.zona-1, .zona-2, .zona-3, .zona-4, .zona-5, .zona-6{
     width: 28%;
     height: 40%;
     background: #f0f0f0;
