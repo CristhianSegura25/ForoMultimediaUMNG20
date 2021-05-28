@@ -32,6 +32,12 @@ if(mysqli_num_rows($sql)>0){
 			                            <input type="submit" name="Responderanimacion" value="Responder">
 			                            <?php require_once 'grespuestaanimacion.php'?>
 			                        </form>
+			                        <form action="#" method="POST">
+										<label for="">Escribe aqui la respuesta al post:</label><br>
+                            			<input type="post" name="respuesta" required><br>
+			                            <input type="submit" name="Editaranimacion" value="Editar">
+			                            <?php require_once 'Edipreguntaanimacion.php'?>
+			                        </form>
 								</div>
                                 
                             </div>

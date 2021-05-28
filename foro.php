@@ -115,8 +115,10 @@
             </div>
             <div class="col-12 col-sm-12">
                 <div class="post" category="animacion_2d_3d">
-                    <div class="partesuperior">
+                    <div>
                         <p>Animacion</p><br>
+                    </div> 
+                    <div class="partesuperior">
                         <form action="Edipreguntaanimacion.php" method="POST">
                             <input type="submit" name="Editaranimacion" value="Editar">
                         </form>
@@ -136,6 +138,8 @@
                 <div class="post" category="programacion">
                     <div>
                         <p>Programacion</p>
+                    </div> 
+                    <div class="partesuperior">
                         <form action="Edipreguntaprogramacion.php" method="POST">
                             <input type="submit"  value="Editar">
                         </form>
@@ -152,6 +156,8 @@
                 <div class="post" category="render">
                     <div>
                         <p>Render</p>
+                         </div> 
+                    <div class="partesuperior">
                         <form action="Edipreguntarender.php" method="POST">
                             <input type="submit"  value="Editar">
                         </form>
@@ -168,6 +174,8 @@
                 <div class="post" category="modelado">
                     <div>
                         <p>Modelado</p>
+                         </div> 
+                    <div class="partesuperior">
                         <form action="Edipreguntamodelado.php" method="POST">
                             <input type="submit"  value="Editar">
                         </form>
@@ -184,6 +192,8 @@
                 <div class="post" category="cortos_guiones">
                     <div>
                         <p>Cortos y Guiones</p>
+                         </div> 
+                    <div class="partesuperior">
                         <form action="Edipreguntacortos.php" method="POST">
                             <input type="submit"  value="Editar">
                         </form>
