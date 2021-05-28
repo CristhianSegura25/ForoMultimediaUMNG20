@@ -214,8 +214,22 @@ width: 15%;
     align-items:flex-end;
 }
 
+@media screen and (max-width:768px) {
+    .modalpro{
+        width: 80%;
+        height: 50%;
+        background-color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: relative;
+        transition: transform 1s;
+        transform:translateY(-50%); 
+    } 
+}
 .modalpro{
-    width: 40%;
+    width: 60%;
     height: 50%;
     background-color: white;
     text-align: center;
