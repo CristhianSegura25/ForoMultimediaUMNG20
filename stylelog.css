@@ -143,6 +143,19 @@ form>button:hover{
 	display:inline-block;
 }
 
+.Boton_preguntas{
+    margin-top: 4%;
+    width: 15%;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    background: rgb(153,165,255);
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+
 .botonregistro{
 	width:200px;
 	height: 35px;
