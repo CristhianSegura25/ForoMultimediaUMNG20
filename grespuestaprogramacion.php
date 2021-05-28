@@ -2,7 +2,7 @@
 require_once "conexionadb.php";
 
 if($_SERVER["REQUEST_METHOD"] == "POST"&& $_POST['Responderprogramacion']=="Responder"){
-	if(empty(trim($_POST["respuesta"]))){
+	if(!empty(trim($_POST["respuesta"]))){
 		$respuesta=$_POST['respuesta'];
 
 

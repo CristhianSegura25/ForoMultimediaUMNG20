@@ -3,7 +3,7 @@ require_once "conexionadb.php";
 
 $sql=$conn->query("SELECT * FROM Lista_Preguntas WHERE tipo='Modelado' order by id desc limit 1");
 if(mysqli_num_rows($sql)>0){ 
-	while ($row=mysqli_fetch_array($sql)) { ?>
+	if ($row=mysqli_fetch_array($sql)) { ?>
 		<P>Nombre: <?php echo $row["autor"] ?></P>
 		<p>Fecha y hora de publicacion: <?php echo $row["timestamp"] ?></p>
 		<a href="#" class="ctaforo3"> <?php echo $row["titulo"]?> </a>

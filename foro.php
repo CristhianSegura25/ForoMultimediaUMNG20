@@ -115,11 +115,10 @@
             </div>
             <div class="col-12 col-sm-12">
                 <div class="post" category="animacion_2d_3d">
+                    <div>
+                        <p>Animacion</p><br>
+                    </div> 
                     <div class="partesuperior">
-                        <p>Animacion</p>
-                        <form action="Edipreguntaanimacion.php" method="POST">
-                            <input type="submit" name="Editaranimacion" value="Editar">
-                        </form>
                         <form action="Epreguntaanimacion.php" method="POST">
                             <input type="submit" name="Eliminaranimacion" value="Eliminar">
                         </form>
@@ -136,9 +135,8 @@
                 <div class="post" category="programacion">
                     <div>
                         <p>Programacion</p>
-                        <form action="Edipreguntaprogramacion.php" method="POST">
-                            <input type="submit"  value="Editar">
-                        </form>
+                    </div> 
+                    <div class="partesuperior">
                         <form action="Epreguntaprogramacion.php" method="POST">
                             <input type="submit" name="Eliminarprogramacion"  value="Eliminar">
                         </form>
@@ -152,9 +150,8 @@
                 <div class="post" category="render">
                     <div>
                         <p>Render</p>
-                        <form action="Edipreguntarender.php" method="POST">
-                            <input type="submit"  value="Editar">
-                        </form>
+                         </div> 
+                    <div class="partesuperior">
                         <form action="Epreguntarender.php" method="POST">
                             <input type="submit" name="Eliminarrender" value="Eliminar">
                         </form>
@@ -168,9 +165,8 @@
                 <div class="post" category="modelado">
                     <div>
                         <p>Modelado</p>
-                        <form action="Edipreguntamodelado.php" method="POST">
-                            <input type="submit"  value="Editar">
-                        </form>
+                         </div> 
+                    <div class="partesuperior">
                         <form action="Epreguntamodelado.php" method="POST">
                             <input type="submit" name="Eliminarmodelado"  value="Eliminar">
                         </form>
@@ -184,9 +180,8 @@
                 <div class="post" category="cortos_guiones">
                     <div>
                         <p>Cortos y Guiones</p>
-                        <form action="Edipreguntacortos.php" method="POST">
-                            <input type="submit"  value="Editar">
-                        </form>
+                         </div> 
+                    <div class="partesuperior">
                         <form action="Epreguntacortos.php" method="POST">
                             <input type="submit" name="Eliminarcortos" value="Eliminar">
                         </form>

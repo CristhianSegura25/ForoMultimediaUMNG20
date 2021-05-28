@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href ="styleregistr.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
     <title>Registrate</title>
     </head>
 <body>
@@ -35,7 +37,8 @@
           <?php require_once 'guardar.php'?>
         </form> 
          <div class="ingreso">
-            <button class="botoningreso" onclick="window.location.href='login.php'">INGRESAR</button>
+            <button class="botoningreso" id="botonregistroid" onclick="window.location.href='login.php'">INGRESAR</button>
+
         </div>
 
         <footer>
@@ -45,7 +48,6 @@
         </footer>
 
       </div>
-
 
   </body>
 </html>
