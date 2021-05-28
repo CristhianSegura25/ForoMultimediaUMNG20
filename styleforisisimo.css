@@ -561,3 +561,16 @@ input[type="submit" i] {
   border-image: initial;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.Boton_preguntas{
+  margin-top: 4%;
+  width: 15%;
+  padding: 15px 0;
+  margin-bottom: 20px;
+  background: rgb(153,165,255);
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
