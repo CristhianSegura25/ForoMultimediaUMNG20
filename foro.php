@@ -116,7 +116,7 @@
             <div class="col-12 col-sm-12">
                 <div class="post" category="animacion_2d_3d">
                     <div class="partesuperior">
-                        <p>Animacion</p>
+                        <p>Animacion</p><br>
                         <form action="Edipreguntaanimacion.php" method="POST">
                             <input type="submit" name="Editaranimacion" value="Editar">
                         </form>
