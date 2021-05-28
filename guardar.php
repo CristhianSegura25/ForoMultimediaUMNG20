@@ -7,8 +7,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 		$correo=$_POST['correo'];
 		$contrasena=$_POST['contrasena'];
 
-		// $pincript=password_hash($contrasena,PASSWORD_DEFAULT);
-
 		$sql="SELECT usuario,correo from Lista_Usuarios where usuario='$usuario'AND correo='$correo'";
 		$repetido=$conn->query($sql);
 		if(mysqli_num_rows($repetido)>0){
@@ -17,7 +15,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 		}
 
 		$sql="INSERT INTO Lista_Usuarios(usuario,correo,contrasena,tipo) VALUES ('$usuario','$correo','$contrasena','0')";
-
+?>
+		<script>
+		window.alert(Se registro Correctamente);
+		</script>
+		<?php
 		if($conn->query($sql)===false){
 			die($conn->error);
 		}
