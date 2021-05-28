@@ -33,6 +33,12 @@ if(mysqli_num_rows($sql)>0){
 			                            <input type="submit" name="Responderrender" value="Responder">
 			                            <?php require_once 'grespuestarender.php'?>
 			                        </form>
+			                        <form action="#" method="POST">
+										<label for="">Si quieres editar la pregunta hazlo aqui:</label><br>
+                            			<input type="post" name="Edicion" required><br>
+			                            <input type="submit" name="Editarrender" value="Editar">
+			                            <?php require_once 'Edipreguntarender.php'?>
+			                        </form>
 								</div>
 								</div>
                             </div>

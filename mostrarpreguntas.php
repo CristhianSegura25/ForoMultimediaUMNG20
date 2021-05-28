@@ -26,7 +26,7 @@
             </div>
             <div class="tablita">
             <?php
-                require_once "conexionparcial.php";
+                require_once "conexionadb.php";
                 $sql=$conexion->query("SELECT * FROM Lista_Preguntas");
                 if(mysqli_num_rows($sql)>0){ 
                     ?>

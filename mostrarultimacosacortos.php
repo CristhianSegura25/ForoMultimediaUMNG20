@@ -32,6 +32,12 @@ if(mysqli_num_rows($sql)>0){
 			                            <input type="submit" name="Respondercortos" value="Responder">
 			                            <?php require_once 'grespuestacortos.php'?>
 			                        </form>
+			                        <form action="#" method="POST">
+										<label for="">Si quieres editar la pregunta hazlo aqui:</label><br>
+                            			<input type="post" name="Edicion" required><br>
+			                            <input type="submit" name="Editarcortos" value="Editar">
+			                            <?php require_once 'Edipreguntacortos.php'?>
+			                        </form>
 								</div>
 								</div>
                             </div>

@@ -33,6 +33,12 @@ if(mysqli_num_rows($sql)>0){
 			                            <input type="submit" name="Respondermodelado" value="Responder">
 			                            <?php require_once 'grespuestamodelado.php'?>
 			                        </form>
+			                        <form action="#" method="POST">
+										<label for="">Si quieres editar la pregunta hazlo aqui:</label><br>
+                            			<input type="post" name="Edicion" required><br>
+			                            <input type="submit" name="Editarmodelado" value="Editar">
+			                            <?php require_once 'Edipreguntamodelado.php'?>
+			                        </form>
 								</div>
 								</div>
                             </div>
