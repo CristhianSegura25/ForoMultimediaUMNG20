@@ -17,7 +17,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 		$sql="INSERT INTO Lista_Usuarios(usuario,correo,contrasena,tipo) VALUES ('$usuario','$correo','$contrasena','0')";
 ?>
 		<script>
+		$("botonregistroid").click(function(){
 		window.alert(Se registro Correctamente);
+	}
 		</script>
 		<?php
 		if($conn->query($sql)===false){
