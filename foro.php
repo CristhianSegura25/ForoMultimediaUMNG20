@@ -119,9 +119,6 @@
                         <p>Animacion</p><br>
                     </div> 
                     <div class="partesuperior">
-                        <form action="Edipreguntaanimacion.php" method="POST">
-                            <input type="submit" name="Editaranimacion" value="Editar">
-                        </form>
                         <form action="Epreguntaanimacion.php" method="POST">
                             <input type="submit" name="Eliminaranimacion" value="Eliminar">
                         </form>
@@ -140,9 +137,6 @@
                         <p>Programacion</p>
                     </div> 
                     <div class="partesuperior">
-                        <form action="Edipreguntaprogramacion.php" method="POST">
-                            <input type="submit"  value="Editar">
-                        </form>
                         <form action="Epreguntaprogramacion.php" method="POST">
                             <input type="submit" name="Eliminarprogramacion"  value="Eliminar">
                         </form>
@@ -158,9 +152,6 @@
                         <p>Render</p>
                          </div> 
                     <div class="partesuperior">
-                        <form action="Edipreguntarender.php" method="POST">
-                            <input type="submit"  value="Editar">
-                        </form>
                         <form action="Epreguntarender.php" method="POST">
                             <input type="submit" name="Eliminarrender" value="Eliminar">
                         </form>
@@ -176,9 +167,6 @@
                         <p>Modelado</p>
                          </div> 
                     <div class="partesuperior">
-                        <form action="Edipreguntamodelado.php" method="POST">
-                            <input type="submit"  value="Editar">
-                        </form>
                         <form action="Epreguntamodelado.php" method="POST">
                             <input type="submit" name="Eliminarmodelado"  value="Eliminar">
                         </form>
@@ -194,9 +182,6 @@
                         <p>Cortos y Guiones</p>
                          </div> 
                     <div class="partesuperior">
-                        <form action="Edipreguntacortos.php" method="POST">
-                            <input type="submit"  value="Editar">
-                        </form>
                         <form action="Epreguntacortos.php" method="POST">
                             <input type="submit" name="Eliminarcortos" value="Eliminar">
                         </form>

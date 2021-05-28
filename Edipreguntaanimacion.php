@@ -11,4 +11,5 @@ if($_SERVER["REQUEST_METHOD"] == "POST" && $_POST['Editaranimacion']=="Editar"){
 		}
 	echo "<script> window.location='foro.php'; </script>";
 }
+}
 ?>
