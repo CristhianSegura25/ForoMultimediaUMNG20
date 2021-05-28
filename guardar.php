@@ -13,14 +13,15 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 			echo "ERROR:USUARIO/CORREO YA EN USO";
 			die;
 		}
-
+		else{
+		?><script>
+        	window.alert("Se registro Correctamente");
+      	</script>
+      	<?php
+		}
 		$sql="INSERT INTO Lista_Usuarios(usuario,correo,contrasena,tipo) VALUES ('$usuario','$correo','$contrasena','0')";
-?>
-		<script>
-		$("botonregistroid").click(function(){
-		window.alert(Se registro Correctamente);
-	}
-		</script>
+		?>
+		
 		<?php
 		if($conn->query($sql)===false){
 			die($conn->error);

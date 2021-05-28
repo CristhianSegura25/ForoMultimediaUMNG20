@@ -38,6 +38,7 @@
         </form> 
          <div class="ingreso">
             <button class="botoningreso" id="botonregistroid" onclick="window.location.href='login.php'">INGRESAR</button>
+
         </div>
 
         <footer>
@@ -47,7 +48,6 @@
         </footer>
 
       </div>
-
 
   </body>
 </html>
