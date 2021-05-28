@@ -100,7 +100,7 @@ $('#showhide_16').on('click', function(e){
 
 
 function setNewImage_1(){
-	document.getElementById("img1").src = "https://i.ibb.co/HCrz06d/Primer-Modelo-2.gif"
+	document.getElementById("img1").src = "images/Modelos/Primer_Modelo_2.gif"
 }
 
 function setOldImage_1(){
@@ -108,7 +108,7 @@ function setOldImage_1(){
 }
 
 function setNewImage_2(){
-	document.getElementById("img2").src = "https://i.ibb.co/f1Sf2hr/Segundo-Modelo.gif"
+	document.getElementById("img2").src = "images/Modelos/Segundo_Modelo.gif"
 }
 
 function setOldImage_2(){
@@ -116,7 +116,7 @@ function setOldImage_2(){
 }
 
 function setNewImage_3(){
-	document.getElementById("img3").src = "https://i.ibb.co/JmP15jX/Tercer-Modelo.gif"
+	document.getElementById("img3").src = "images/Modelos/Tercer_Modelo.gif"
 }
 
 function setOldImage_3(){
@@ -124,7 +124,7 @@ function setOldImage_3(){
 }
 
 function setNewImage_4(){
-	document.getElementById("img4").src = "https://i.ibb.co/B2XTdtS/Cuarto-Modelo.gif"
+	document.getElementById("img4").src = "images/Modelos/Cuarto_Modelo.gif"
 }
 
 function setOldImage_4(){
@@ -132,7 +132,7 @@ function setOldImage_4(){
 }
 
 function setNewImage_5(){
-	document.getElementById("img5").src = "https://i.ibb.co/G3Y9JXz/Quinto-Modelo.gif"
+	document.getElementById("img5").src = "images/Modelos/Quinto_Modelo.gif"
 }
 
 function setOldImage_5(){
@@ -140,7 +140,7 @@ function setOldImage_5(){
 }
 
 function setNewImage_6(){
-	document.getElementById("img6").src = "https://i.ibb.co/sV51ptS/Sexto-Modelo.gif"
+	document.getElementById("img6").src = "images/Modelos/Sexto_Modelo.gif"
 }
 
 function setOldImage_6(){
@@ -148,7 +148,7 @@ function setOldImage_6(){
 }
 
 function setNewImage_7(){
-	document.getElementById("img7").src = "https://i.ibb.co/XXPtvXn/Septimo-Modelo.gif"
+	document.getElementById("img7").src = "images/Modelos/Septimo_Modelo.gif"
 }
 
 function setOldImage_7(){
@@ -156,7 +156,7 @@ function setOldImage_7(){
 }
 
 function setNewImage_8(){
-	document.getElementById("img8").src = "https://i.ibb.co/55wGnRD/Octavo-Modelo.gif"
+	document.getElementById("img8").src = "images/Modelos/Octavo_Modelo.gif"
 }
 
 function setOldImage_8(){

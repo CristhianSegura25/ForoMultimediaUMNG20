@@ -233,7 +233,6 @@
 
 
 	<script src="modelado.js"></script>
-    <script src="modelado2.js"></script>
     <script src="main.js"></script>  
     <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>  
 
