@@ -19,7 +19,7 @@
                 </div>
 
                 <div class="botones-bs">
-                <a class="boton p-2" href="Foro.php"> Foro </a>
+                <a class="boton p-2" href="foro.php"> Foro </a>
                 <a class="boton" href="home.php"> Home </a>
                 <a class="boton" href="login.php">Login</a>
                 </div>
