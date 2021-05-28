@@ -27,7 +27,7 @@
             <div class="tablita">
             <?php
                 require_once "conexionadb.php";
-                $sql=$conexion->query("SELECT * FROM Lista_Preguntas");
+                $sql=$conn->query("SELECT * FROM Lista_Preguntas");
                 if(mysqli_num_rows($sql)>0){ 
                     ?>
                     <table>
@@ -54,7 +54,7 @@
             ?> 
             </div>
             <div class="footer">
-             <?php require_once 'footer.php'?>   
+             PREGUNTAS DE LA BASE DE DATOS 
             </div>
         </div>
     </body>
