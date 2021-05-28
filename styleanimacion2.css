@@ -1,5 +1,5 @@
 body{
-    background-image: url('images/video-background.gif');
+    background-image: url('https://s3.gifyu.com/images/video-background.gif');
     margin: 0;
     padding: 0;
     background-repeat: no-repeat;
@@ -7,7 +7,6 @@ body{
     background-attachment: fixed;
     font-family: 'New Tegomin', serif;
 }
-
 
 .Boton_Foro, .cta, .Boton_20, .Boton_info_2{
     background: none;
