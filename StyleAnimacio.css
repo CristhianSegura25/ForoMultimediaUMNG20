@@ -160,6 +160,7 @@ video{
     justify-content: space-evenly;
     text-align: center;
     position: relative;
+    Overflow-y:scroll;
 }
 
 .close{
@@ -182,9 +183,18 @@ video{
     transform: translateY(-200%);
 }
 
+.Botones_info{
+    /*  background-color: darkmagenta;*/
+     padding: 1%;
+     
+     position: relative;
+     z-index: 10;
+     Overflow-y:scroll;
+    
+   }
 .modal-1 > img{
     position: absolute;
-    top: 0%;
+    top: 50%;
     left: -1.2%;
     width: 101%;
     height: 100%;
@@ -217,8 +227,8 @@ video{
 
 .fondo-gifs{
     position: absolute;
-    top: 0%;
-    right: 10%;
+    top: 50%;
+    right: 50%;
     width: 40%;
     height: 50%;
 }
@@ -766,6 +776,7 @@ video{
     position: relative;
     transition: transform 1s;
     transform:translateY(-50%); 
+    Overflow-y:scroll;
 }
 .closeanimacion1{
     position: absolute;
