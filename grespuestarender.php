@@ -1,8 +1,8 @@
 <?php
 require_once "conexionadb.php";
 
-if($_SERVER["REQUEST_METHOD"] == "POST"){
-	if(empty(trim($_POST["respuesta"]))){
+if($_SERVER["REQUEST_METHOD"] == "POST"&& $_POST['Responderrender']=="Responder"){
+	if(!empty(trim($_POST["respuesta"]))){
 		$respuesta=$_POST['respuesta'];
 
 

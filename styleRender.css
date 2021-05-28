@@ -270,7 +270,21 @@ div.info_trabajo h3{
   .botones_etapasrender{
     width: 200px;
   }
- 
+  .modalrender1{
+    width: 90%;
+    height: 50%;
+    background-image: url("images/ventanarender.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: transform 1s;
+    transform:translateY(-50%); 
+    Overflow-y:scroll;
+  }
 }
 
 div .info_trabajo h2{
@@ -398,7 +412,7 @@ div.botones_deslizantes {
   Overflow-y:scroll;
 }
 .modalrender1{
-  width: 40%;
+  width: 60%;
   height: 50%;
   background-image: url("images/ventanarender.jpg") ;
   background-repeat: no-repeat;

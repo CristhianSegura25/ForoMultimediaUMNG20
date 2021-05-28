@@ -3,7 +3,7 @@ require_once "conexionadb.php";
 
 $sql=$conn->query("SELECT * FROM Lista_Preguntas WHERE tipo='Render' order by id desc limit 1");
 if(mysqli_num_rows($sql)>0){ 
-	while ($row=mysqli_fetch_array($sql)) { ?>
+	if ($row=mysqli_fetch_array($sql)) { ?>
 		<P>Nombre: <?php echo $row["autor"] ?></P>
 		<p>Fecha y hora de publicacion: <?php echo $row["timestamp"] ?></p>
 		<a href="#" class="ctaforo2"> <?php echo $row["titulo"]?> </a>
@@ -30,7 +30,7 @@ if(mysqli_num_rows($sql)>0){
 									<form action="#" method="POST">
 										<label for="">Escribe aqui la respuesta al post:</label><br>
                             			<input type="post" name="respuesta" required><br>
-			                            <input type="submit"  value="Responder">
+			                            <input type="submit" name="Responderrender" value="Responder">
 			                            <?php require_once 'grespuestarender.php'?>
 			                        </form>
 								</div>
